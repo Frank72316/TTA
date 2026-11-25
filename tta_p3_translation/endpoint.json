@@ -1,0 +1,83 @@
+{
+  "n": 256,
+  "bt_minus_bc_pp": -0.146484375,
+  "ci_pp": [
+    -1.46484375,
+    1.26953125
+  ],
+  "net_expected_correct": -0.375,
+  "ci_expected_correct": [
+    -3.75,
+    3.25
+  ],
+  "source_contrasts": {
+    "correct_to_correct": {
+      "expected_pairs": -1.625,
+      "ci_expected_pairs": [
+        -3.75,
+        0.0
+      ]
+    },
+    "correct_to_wrong": {
+      "expected_pairs": 1.75,
+      "ci_expected_pairs": [
+        0.0,
+        3.9375
+      ]
+    },
+    "correct_to_tie": {
+      "expected_pairs": -0.125,
+      "ci_expected_pairs": [
+        -0.3125,
+        0.0
+      ]
+    },
+    "wrong_to_correct": {
+      "expected_pairs": 1.25,
+      "ci_expected_pairs": [
+        -1.4375,
+        4.4375
+      ]
+    },
+    "wrong_to_wrong": {
+      "expected_pairs": -1.25,
+      "ci_expected_pairs": [
+        -4.4375,
+        1.4375
+      ]
+    },
+    "wrong_to_tie": {
+      "expected_pairs": 0.0,
+      "ci_expected_pairs": [
+        -0.1875,
+        0.1875
+      ]
+    },
+    "tie_to_correct": {
+      "expected_pairs": 0.0,
+      "ci_expected_pairs": [
+        0.0,
+        0.0
+      ]
+    },
+    "tie_to_wrong": {
+      "expected_pairs": 0.0,
+      "ci_expected_pairs": [
+        0.0,
+        0.0
+      ]
+    },
+    "tie_to_tie": {
+      "expected_pairs": 0.0,
+      "ci_expected_pairs": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "combinations": 12800,
+  "raw_scores": 6656,
+  "bootstrap_seed": 2026,
+  "bootstrap_resamples": 10000,
+  "identity_checks": 12800
+}

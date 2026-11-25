@@ -1,0 +1,11 @@
+{
+  "prompts_sha256": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429",
+  "pairs_sha256": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
+  "old_scores_sha256": "545438e8911ee8a1006c3278c826cfefe079be142cc376961fe71ad7b51a2d1a",
+  "draft_sha256": "2a04a25c2f99814a1c1fb9fa3fd9bccc5a45d9e4efc36814bf322c7993581ea4",
+  "old_lighting_sha256": "5073018bfd810771b7154c7c4c0ae38b016c4e753950311bafce2fcbcdf0c111",
+  "primary": "median of within-pair G",
+  "bootstrap": "percentile; numpy default_rng(42); 10000 complete pairs resamples",
+  "cases": "sort abs(I) descending, ID ascending; random.Random(42).sample(sorted remaining IDs,3)",
+  "blind": "random.Random(42): sample 16 sorted IDs before seeing scores, shuffle 64 conditions, randomize left/right"
+}

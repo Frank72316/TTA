@@ -1,0 +1,21 @@
+# Linux / Python 3.10. Install CUDA torch 2.5.1 and torchvision 0.20.1 first.
+# Install the upstream HPS source at the pinned commit with --no-deps (README).
+Pillow==12.2.0
+pyarrow==25.0.1
+numpy==1.26.4
+huggingface-hub==0.36.2
+transformers==4.46.0
+timm==0.9.16
+regex==2026.5.9
+ftfy==6.3.1
+einops==0.8.2
+clint==0.5.1
+pandas==2.3.3
+fsspec==2025.3.0
+tqdm==4.68.2
+requests==2.34.2
+braceexpand==0.1.7
+sentencepiece==0.2.3
+protobuf==3.20.3
+webdataset==0.2.111
+

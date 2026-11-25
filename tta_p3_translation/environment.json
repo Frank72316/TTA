@@ -1,0 +1,56 @@
+{
+  "hps_version": "v2.1",
+  "code_rev": "866735ecaae999fa714bd9edfa05aa2672669ee3",
+  "weights": [
+    [
+      "xswu/HPSv2",
+      "697403c78157020a1ae59d23f111aa58ced35b0a",
+      "HPS_v2.1_compressed.pt",
+      "c57a38fb4a2f7e7c15bf00da2ea377cdf165448b4dd1052a484c215a998c9837"
+    ],
+    [
+      "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
+      "open_clip_pytorch_model.bin",
+      "9a78ef8e8c73fd0df621682e7a8e8eb36c6916cb3c16b291a082ecd52ab79cc4"
+    ]
+  ],
+  "software": {
+    "hpsv2": "1.2.0",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "pillow": "12.2.0",
+    "numpy": "1.26.4",
+    "pyarrow": "25.0.1",
+    "huggingface-hub": "0.36.2",
+    "transformers": "4.46.0",
+    "timm": "0.9.16",
+    "ftfy": "6.3.1",
+    "regex": "2026.5.9",
+    "pandas": "2.3.3",
+    "einops": "0.8.2",
+    "clint": "0.5.1",
+    "webdataset": "0.2.111",
+    "fsspec": "2025.3.0",
+    "tqdm": "4.68.2",
+    "requests": "2.34.2",
+    "braceexpand": "0.1.7",
+    "sentencepiece": "0.2.3",
+    "protobuf": "3.20.3"
+  },
+  "cuda": "12.4",
+  "torch_build": "2.5.1+cu124",
+  "device": "NVIDIA GeForce RTX 4080 SUPER",
+  "driver": "570.133.20",
+  "host": "Keqing",
+  "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+  "return_dtype": "float16",
+  "method": "Official normalized singleton image/text features and CUDA AMP dot product",
+  "p2_views_sha": "204da2f9e126a5ba8b7cf1b3be7310033a4bb80499ad9600f06900839540000b",
+  "sources": {
+    "common.py": "55a0f9f43ca51da4eff4fbe8b118d39c17844e3936520730bf3ea9f1eba0b8cf",
+    "score_p3.py": "113c30c7de9743d0618ed4002df86824b4735ef4c806b3d50e9078ca5c66f7f3"
+  },
+  "pairs_sha": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
+  "protocol_sha": "960b0d4395b2a85feb231b1dd8599aa5d3ad5302d5c4630abe2d42b69d491bfa"
+}

@@ -1,0 +1,1 @@
+PASS: 2 x 512 scores; IDs, A/B, conditions, margins, disjoint partitions, paired bootstrap, 64 checkpoints, 128 blinded image placements, 0 human answers, report links, and unchanged pilot inputs.

@@ -1,0 +1,70 @@
+/home/data/users/shenc/zhangyc/tta_pilot/.venv/lib/python3.10/site-packages/hpsv2/src/open_clip/factory.py:88: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=map_location)
+001 34
+002 68
+/home/data/users/shenc/zhangyc/tta_pilot/.venv/lib/python3.10/site-packages/hpsv2/img_score.py:54: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(cp, map_location=device)
+/home/data/users/shenc/zhangyc/tta_pilot/.venv/lib/python3.10/site-packages/hpsv2/img_score.py:76: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+003 102
+004 136
+005 170
+006 204
+007 238
+008 272
+009 306
+010 340
+011 374
+012 408
+013 442
+014 476
+015 510
+016 544
+017 578
+018 612
+019 646
+020 680
+021 714
+022 748
+023 782
+024 816
+025 850
+026 884
+027 918
+028 952
+029 986
+030 1020
+031 1054
+032 1088
+033 1122
+034 1156
+035 1190
+036 1224
+037 1258
+038 1292
+039 1326
+040 1360
+041 1394
+042 1428
+043 1462
+044 1496
+045 1530
+046 1564
+047 1598
+048 1632
+049 1666
+050 1700
+051 1734
+052 1768
+053 1802
+054 1836
+055 1870
+056 1904
+057 1938
+058 1972
+059 2006
+060 2040
+061 2074
+062 2108
+063 2142
+064 2176

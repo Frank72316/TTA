@@ -1,0 +1,276 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>P3 平移案例</title><style>body{max-width:940px;margin:32px auto;padding:0 18px;font:16px/1.55 system-ui;color:#173247}section{margin:40px 0 64px}table{border-collapse:collapse;margin:12px 0 24px}td,th{border:1px solid #c3cdd2;padding:6px 10px;text-align:center}img{max-width:100%;height:auto;vertical-align:middle}.correct{background:#d9ece5}.wrong{background:#f4dcce}.tie{background:#ececec}a{color:#176865}code{font-size:1em}p{overflow-wrap:anywhere}</style><h1>平移如何改变旧案例的选择</h1><p>旧 64 对中，至少一个原三次策略改变选择的全部 5 对。下表分差均为 A 减 B；绿为选对，橙为选错，灰为同分。方向指画面移动方向。</p><nav><a href="#c003">003</a> · <a href="#c008">008</a> · <a href="#c053">053</a> · <a href="#c005">005</a> · <a href="#c031">031</a></nav>
+<section id="c003"><h2>图对 003</h2><p lang="en">A large-format portrait of a handsome man behind a white backdrop, spot-lighting, depth of field, high contrast, black and white, grainy</p><p>人工赢家 <b>B</b>，原图分差 +0.0053710938，原图选择 A。BT 选对 4/16；TT 选对 4/6。</p>
+<a href="assets/003-A.webp">打开 A 原始 WebP</a>　
+<a href="assets/003-B.webp">打开 B 原始 WebP</a>　
+<h3>模型输入 · 224 × 224</h3><table><tr><th>视图</th><th>A</th><th>B</th></tr>
+<tr><th>原图</th>
+<td><img src="assets/003-A-O.png" width="224" height="224" alt="A 原图"></td>
+<td><img src="assets/003-B-O.png" width="224" height="224" alt="B 原图"></td>
+</tr>
+<tr><th>左移</th>
+<td><img src="assets/003-A-Tleft.png" width="224" height="224" alt="A 左移"></td>
+<td><img src="assets/003-B-Tleft.png" width="224" height="224" alt="B 左移"></td>
+</tr>
+<tr><th>右移</th>
+<td><img src="assets/003-A-Tright.png" width="224" height="224" alt="A 右移"></td>
+<td><img src="assets/003-B-Tright.png" width="224" height="224" alt="B 右移"></td>
+</tr>
+<tr><th>上移</th>
+<td><img src="assets/003-A-Tup.png" width="224" height="224" alt="A 上移"></td>
+<td><img src="assets/003-B-Tup.png" width="224" height="224" alt="B 上移"></td>
+</tr>
+<tr><th>下移</th>
+<td><img src="assets/003-A-Tdown.png" width="224" height="224" alt="A 下移"></td>
+<td><img src="assets/003-B-Tdown.png" width="224" height="224" alt="B 下移"></td>
+</tr>
+</table><h3>BT 三次评分 · 行为亮度，列为平移</h3><table><tr><th>系数</th><th>左</th><th>右</th><th>上</th><th>下</th></tr>
+<tr><th>0.90</th>
+<td class="wrong">+0.006917318<br>选错 · A</td>
+<td class="wrong">+0.003824870<br>选错 · A</td>
+<td class="wrong">+0.001708984<br>选错 · A</td>
+<td class="correct">-0.001953125<br>选对 · B</td>
+</tr>
+<tr><th>0.95</th>
+<td class="wrong">+0.006835938<br>选错 · A</td>
+<td class="wrong">+0.003743490<br>选错 · A</td>
+<td class="wrong">+0.001627604<br>选错 · A</td>
+<td class="correct">-0.002034505<br>选对 · B</td>
+</tr>
+<tr><th>1.05</th>
+<td class="wrong">+0.006103516<br>选错 · A</td>
+<td class="wrong">+0.003011068<br>选错 · A</td>
+<td class="wrong">+0.000895182<br>选错 · A</td>
+<td class="correct">-0.002766927<br>选对 · B</td>
+</tr>
+<tr><th>1.10</th>
+<td class="wrong">+0.006022135<br>选错 · A</td>
+<td class="wrong">+0.002929688<br>选错 · A</td>
+<td class="wrong">+0.000813802<br>选错 · A</td>
+<td class="correct">-0.002848307<br>选对 · B</td>
+</tr>
+</table><h3>仅原图与单个平移等权平均</h3><table><tr><th>左</th><th>右</th><th>上</th><th>下</th></tr><tr>
+<td class="wrong">+0.006958008<br>选错 · A</td>
+<td class="wrong">+0.002319336<br>选错 · A</td>
+<td class="correct">-0.000854492<br>选对 · B</td>
+<td class="correct">-0.006347656<br>选对 · B</td>
+</tr></table></section>
+<section id="c008"><h2>图对 008</h2><p lang="en">a dinosaur with the head of a cat, lightly furry, in a forest</p><p>人工赢家 <b>A</b>，原图分差 +0.0008544922，原图选择 A。BT 选对 0/16；TT 选对 0/6。</p>
+<a href="assets/008-A.webp">打开 A 原始 WebP</a>　
+<a href="assets/008-B.webp">打开 B 原始 WebP</a>　
+<h3>模型输入 · 224 × 224</h3><table><tr><th>视图</th><th>A</th><th>B</th></tr>
+<tr><th>原图</th>
+<td><img src="assets/008-A-O.png" width="224" height="224" alt="A 原图"></td>
+<td><img src="assets/008-B-O.png" width="224" height="224" alt="B 原图"></td>
+</tr>
+<tr><th>左移</th>
+<td><img src="assets/008-A-Tleft.png" width="224" height="224" alt="A 左移"></td>
+<td><img src="assets/008-B-Tleft.png" width="224" height="224" alt="B 左移"></td>
+</tr>
+<tr><th>右移</th>
+<td><img src="assets/008-A-Tright.png" width="224" height="224" alt="A 右移"></td>
+<td><img src="assets/008-B-Tright.png" width="224" height="224" alt="B 右移"></td>
+</tr>
+<tr><th>上移</th>
+<td><img src="assets/008-A-Tup.png" width="224" height="224" alt="A 上移"></td>
+<td><img src="assets/008-B-Tup.png" width="224" height="224" alt="B 上移"></td>
+</tr>
+<tr><th>下移</th>
+<td><img src="assets/008-A-Tdown.png" width="224" height="224" alt="A 下移"></td>
+<td><img src="assets/008-B-Tdown.png" width="224" height="224" alt="B 下移"></td>
+</tr>
+</table><h3>BT 三次评分 · 行为亮度，列为平移</h3><table><tr><th>系数</th><th>左</th><th>右</th><th>上</th><th>下</th></tr>
+<tr><th>0.90</th>
+<td class="wrong">-0.001302083<br>选错 · B</td>
+<td class="wrong">-0.001831055<br>选错 · B</td>
+<td class="wrong">-0.001953125<br>选错 · B</td>
+<td class="wrong">-0.002278646<br>选错 · B</td>
+</tr>
+<tr><th>0.95</th>
+<td class="wrong">-0.001261393<br>选错 · B</td>
+<td class="wrong">-0.001790365<br>选错 · B</td>
+<td class="wrong">-0.001912435<br>选错 · B</td>
+<td class="wrong">-0.002237956<br>选错 · B</td>
+</tr>
+<tr><th>1.05</th>
+<td class="wrong">-0.001586914<br>选错 · B</td>
+<td class="wrong">-0.002115885<br>选错 · B</td>
+<td class="wrong">-0.002237956<br>选错 · B</td>
+<td class="wrong">-0.002563477<br>选错 · B</td>
+</tr>
+<tr><th>1.10</th>
+<td class="wrong">-0.001180013<br>选错 · B</td>
+<td class="wrong">-0.001708984<br>选错 · B</td>
+<td class="wrong">-0.001831055<br>选错 · B</td>
+<td class="wrong">-0.002156576<br>选错 · B</td>
+</tr>
+</table><h3>仅原图与单个平移等权平均</h3><table><tr><th>左</th><th>右</th><th>上</th><th>下</th></tr><tr>
+<td class="wrong">-0.002563477<br>选错 · B</td>
+<td class="wrong">-0.003356934<br>选错 · B</td>
+<td class="wrong">-0.003540039<br>选错 · B</td>
+<td class="wrong">-0.004028320<br>选错 · B</td>
+</tr></table></section>
+<section id="c053"><h2>图对 053</h2><p lang="en">a cat and chicken hybrid</p><p>人工赢家 <b>B</b>，原图分差 +0.0021972656，原图选择 A。BT 选对 0/16；TT 选对 0/6。</p>
+<a href="assets/053-A.webp">打开 A 原始 WebP</a>　
+<a href="assets/053-B.webp">打开 B 原始 WebP</a>　
+<h3>模型输入 · 224 × 224</h3><table><tr><th>视图</th><th>A</th><th>B</th></tr>
+<tr><th>原图</th>
+<td><img src="assets/053-A-O.png" width="224" height="224" alt="A 原图"></td>
+<td><img src="assets/053-B-O.png" width="224" height="224" alt="B 原图"></td>
+</tr>
+<tr><th>左移</th>
+<td><img src="assets/053-A-Tleft.png" width="224" height="224" alt="A 左移"></td>
+<td><img src="assets/053-B-Tleft.png" width="224" height="224" alt="B 左移"></td>
+</tr>
+<tr><th>右移</th>
+<td><img src="assets/053-A-Tright.png" width="224" height="224" alt="A 右移"></td>
+<td><img src="assets/053-B-Tright.png" width="224" height="224" alt="B 右移"></td>
+</tr>
+<tr><th>上移</th>
+<td><img src="assets/053-A-Tup.png" width="224" height="224" alt="A 上移"></td>
+<td><img src="assets/053-B-Tup.png" width="224" height="224" alt="B 上移"></td>
+</tr>
+<tr><th>下移</th>
+<td><img src="assets/053-A-Tdown.png" width="224" height="224" alt="A 下移"></td>
+<td><img src="assets/053-B-Tdown.png" width="224" height="224" alt="B 下移"></td>
+</tr>
+</table><h3>BT 三次评分 · 行为亮度，列为平移</h3><table><tr><th>系数</th><th>左</th><th>右</th><th>上</th><th>下</th></tr>
+<tr><th>0.90</th>
+<td class="wrong">+0.001586914<br>选错 · A</td>
+<td class="wrong">+0.000569661<br>选错 · A</td>
+<td class="wrong">+0.001302083<br>选错 · A</td>
+<td class="wrong">+0.001871745<br>选错 · A</td>
+</tr>
+<tr><th>0.95</th>
+<td class="wrong">+0.002278646<br>选错 · A</td>
+<td class="wrong">+0.001261393<br>选错 · A</td>
+<td class="wrong">+0.001993815<br>选错 · A</td>
+<td class="wrong">+0.002563477<br>选错 · A</td>
+</tr>
+<tr><th>1.05</th>
+<td class="wrong">+0.002319336<br>选错 · A</td>
+<td class="wrong">+0.001302083<br>选错 · A</td>
+<td class="wrong">+0.002034505<br>选错 · A</td>
+<td class="wrong">+0.002604167<br>选错 · A</td>
+</tr>
+<tr><th>1.10</th>
+<td class="wrong">+0.001668294<br>选错 · A</td>
+<td class="wrong">+0.000651042<br>选错 · A</td>
+<td class="wrong">+0.001383464<br>选错 · A</td>
+<td class="wrong">+0.001953125<br>选错 · A</td>
+</tr>
+</table><h3>仅原图与单个平移等权平均</h3><table><tr><th>左</th><th>右</th><th>上</th><th>下</th></tr><tr>
+<td class="wrong">+0.002929688<br>选错 · A</td>
+<td class="wrong">+0.001403809<br>选错 · A</td>
+<td class="wrong">+0.002502441<br>选错 · A</td>
+<td class="wrong">+0.003356934<br>选错 · A</td>
+</tr></table></section>
+<section id="c005"><h2>图对 005</h2><p lang="en">ancient magical ruins, surrounded by mystical green grassy meadows, by sylvain sarrailh, rossdraws, ambient light, ultra detailed, fantasy artwork, 8 k, volumetric lighting, trending on artstation, award winning, very beautiful. </p><p>人工赢家 <b>A</b>，原图分差 +0.0004882812，原图选择 A。BT 选对 8/16；TT 选对 2/6。</p>
+<a href="assets/005-A.webp">打开 A 原始 WebP</a>　
+<a href="assets/005-B.webp">打开 B 原始 WebP</a>　
+<h3>模型输入 · 224 × 224</h3><table><tr><th>视图</th><th>A</th><th>B</th></tr>
+<tr><th>原图</th>
+<td><img src="assets/005-A-O.png" width="224" height="224" alt="A 原图"></td>
+<td><img src="assets/005-B-O.png" width="224" height="224" alt="B 原图"></td>
+</tr>
+<tr><th>左移</th>
+<td><img src="assets/005-A-Tleft.png" width="224" height="224" alt="A 左移"></td>
+<td><img src="assets/005-B-Tleft.png" width="224" height="224" alt="B 左移"></td>
+</tr>
+<tr><th>右移</th>
+<td><img src="assets/005-A-Tright.png" width="224" height="224" alt="A 右移"></td>
+<td><img src="assets/005-B-Tright.png" width="224" height="224" alt="B 右移"></td>
+</tr>
+<tr><th>上移</th>
+<td><img src="assets/005-A-Tup.png" width="224" height="224" alt="A 上移"></td>
+<td><img src="assets/005-B-Tup.png" width="224" height="224" alt="B 上移"></td>
+</tr>
+<tr><th>下移</th>
+<td><img src="assets/005-A-Tdown.png" width="224" height="224" alt="A 下移"></td>
+<td><img src="assets/005-B-Tdown.png" width="224" height="224" alt="B 下移"></td>
+</tr>
+</table><h3>BT 三次评分 · 行为亮度，列为平移</h3><table><tr><th>系数</th><th>左</th><th>右</th><th>上</th><th>下</th></tr>
+<tr><th>0.90</th>
+<td class="correct">+0.001017253<br>选对 · A</td>
+<td class="correct">+0.001017253<br>选对 · A</td>
+<td class="correct">+0.002075195<br>选对 · A</td>
+<td class="wrong">-0.000284831<br>选错 · B</td>
+</tr>
+<tr><th>0.95</th>
+<td class="correct">+0.000651042<br>选对 · A</td>
+<td class="correct">+0.000651042<br>选对 · A</td>
+<td class="correct">+0.001708984<br>选对 · A</td>
+<td class="wrong">-0.000651042<br>选错 · B</td>
+</tr>
+<tr><th>1.05</th>
+<td class="wrong">-0.000162760<br>选错 · B</td>
+<td class="wrong">-0.000162760<br>选错 · B</td>
+<td class="correct">+0.000895182<br>选对 · A</td>
+<td class="wrong">-0.001464844<br>选错 · B</td>
+</tr>
+<tr><th>1.10</th>
+<td class="wrong">-0.000162760<br>选错 · B</td>
+<td class="wrong">-0.000162760<br>选错 · B</td>
+<td class="correct">+0.000895182<br>选对 · A</td>
+<td class="wrong">-0.001464844<br>选错 · B</td>
+</tr>
+</table><h3>仅原图与单个平移等权平均</h3><table><tr><th>左</th><th>右</th><th>上</th><th>下</th></tr><tr>
+<td class="tie">+0.000000000<br>同分 · tie</td>
+<td class="tie">+0.000000000<br>同分 · tie</td>
+<td class="correct">+0.001586914<br>选对 · A</td>
+<td class="wrong">-0.001953125<br>选错 · B</td>
+</tr></table></section>
+<section id="c031"><h2>图对 031</h2><p lang="en">game asset of pokemon toys and plushies, in gouache detailed paintings, props, stylized, 2 d sprites, kitbash, arcane, overwatch, blue and pink color scheme, 8 k, close up </p><p>人工赢家 <b>B</b>，原图分差 -0.0012207031，原图选择 B。BT 选对 8/16；TT 选对 4/6。</p>
+<a href="assets/031-A.webp">打开 A 原始 WebP</a>　
+<a href="assets/031-B.webp">打开 B 原始 WebP</a>　
+<h3>模型输入 · 224 × 224</h3><table><tr><th>视图</th><th>A</th><th>B</th></tr>
+<tr><th>原图</th>
+<td><img src="assets/031-A-O.png" width="224" height="224" alt="A 原图"></td>
+<td><img src="assets/031-B-O.png" width="224" height="224" alt="B 原图"></td>
+</tr>
+<tr><th>左移</th>
+<td><img src="assets/031-A-Tleft.png" width="224" height="224" alt="A 左移"></td>
+<td><img src="assets/031-B-Tleft.png" width="224" height="224" alt="B 左移"></td>
+</tr>
+<tr><th>右移</th>
+<td><img src="assets/031-A-Tright.png" width="224" height="224" alt="A 右移"></td>
+<td><img src="assets/031-B-Tright.png" width="224" height="224" alt="B 右移"></td>
+</tr>
+<tr><th>上移</th>
+<td><img src="assets/031-A-Tup.png" width="224" height="224" alt="A 上移"></td>
+<td><img src="assets/031-B-Tup.png" width="224" height="224" alt="B 上移"></td>
+</tr>
+<tr><th>下移</th>
+<td><img src="assets/031-A-Tdown.png" width="224" height="224" alt="A 下移"></td>
+<td><img src="assets/031-B-Tdown.png" width="224" height="224" alt="B 下移"></td>
+</tr>
+</table><h3>BT 三次评分 · 行为亮度，列为平移</h3><table><tr><th>系数</th><th>左</th><th>右</th><th>上</th><th>下</th></tr>
+<tr><th>0.90</th>
+<td class="wrong">+0.000569661<br>选错 · A</td>
+<td class="wrong">+0.001871745<br>选错 · A</td>
+<td class="correct">-0.004516602<br>选对 · B</td>
+<td class="correct">-0.005289714<br>选对 · B</td>
+</tr>
+<tr><th>0.95</th>
+<td class="wrong">+0.001139323<br>选错 · A</td>
+<td class="wrong">+0.002441406<br>选错 · A</td>
+<td class="correct">-0.003946940<br>选对 · B</td>
+<td class="correct">-0.004720052<br>选对 · B</td>
+</tr>
+<tr><th>1.05</th>
+<td class="wrong">+0.001627604<br>选错 · A</td>
+<td class="wrong">+0.002929688<br>选错 · A</td>
+<td class="correct">-0.003458659<br>选对 · B</td>
+<td class="correct">-0.004231771<br>选对 · B</td>
+</tr>
+<tr><th>1.10</th>
+<td class="wrong">+0.001790365<br>选错 · A</td>
+<td class="wrong">+0.003092448<br>选错 · A</td>
+<td class="correct">-0.003295898<br>选对 · B</td>
+<td class="correct">-0.004069010<br>选对 · B</td>
+</tr>
+</table><h3>仅原图与单个平移等权平均</h3><table><tr><th>左</th><th>右</th><th>上</th><th>下</th></tr><tr>
+<td class="wrong">+0.002807617<br>选错 · A</td>
+<td class="wrong">+0.004760742<br>选错 · A</td>
+<td class="correct">-0.004821777<br>选对 · B</td>
+<td class="correct">-0.005981445<br>选对 · B</td>
+</tr></table></section></html>

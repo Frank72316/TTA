@@ -1,0 +1,59 @@
+{
+  "software": {
+    "hpsv2": "1.2.0",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "pillow": "12.2.0",
+    "numpy": "1.26.4",
+    "pyarrow": "25.0.1",
+    "huggingface-hub": "0.36.2",
+    "transformers": "4.46.0",
+    "timm": "0.9.16",
+    "ftfy": "6.3.1",
+    "regex": "2026.5.9",
+    "pandas": "2.3.3",
+    "einops": "0.8.2",
+    "clint": "0.5.1",
+    "webdataset": "0.2.111",
+    "fsspec": "2025.3.0",
+    "tqdm": "4.68.2",
+    "requests": "2.34.2",
+    "braceexpand": "0.1.7",
+    "sentencepiece": "0.2.3",
+    "protobuf": "3.20.3"
+  },
+  "python": "3.10.20",
+  "host": "Keqing",
+  "torch_build": "2.5.1+cu124",
+  "cuda": "12.4",
+  "cudnn": 90100,
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "driver": "570.133.20",
+  "code_rev": "866735ecaae999fa714bd9edfa05aa2672669ee3",
+  "installed_scorer_sha256": "82262f03a50eb9118634a36a4a6bb7760d0aaf93fcaf1c0962e0814d29d61ec7",
+  "weights": [
+    [
+      "xswu/HPSv2",
+      "697403c78157020a1ae59d23f111aa58ced35b0a",
+      "HPS_v2.1_compressed.pt",
+      "c57a38fb4a2f7e7c15bf00da2ea377cdf165448b4dd1052a484c215a998c9837"
+    ],
+    [
+      "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
+      "open_clip_pytorch_model.bin",
+      "9a78ef8e8c73fd0df621682e7a8e8eb36c6916cb3c16b291a082ecd52ab79cc4"
+    ]
+  ],
+  "archives": {
+    "validation_1.zip": "8eb57656d6c424b9451240d5f401462107889f2c4781fb3e5f827f7e73a197ea",
+    "validation_2.zip": "5349f894b1b1571fbe1aed6a3288bdf9f8e4dbf2d8a6fbe00274477f276da48c"
+  },
+  "data_revision": "c493721e19e296eb615420036f2a2eed08412bb4",
+  "brightness": 1.1,
+  "precision": "official CUDA AMP fp16 output; FP64 analysis",
+  "hps_version": "v2.1",
+  "prompts_sha": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429",
+  "core_sha": "8a0b34c28f9487715f2971840ef7f6a764d209433e4a6fd78a6f3bd14fcbc380",
+  "script_sha": "f35498e71332d1eabc571d0c574411c04e9c48e27c315300c2a89169ca97174f"
+}

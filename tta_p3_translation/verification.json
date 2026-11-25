@@ -1,0 +1,14 @@
+{
+  "independent_pairs": 256,
+  "unique_images": 512,
+  "raw_scores": 6656,
+  "unique_strategy_combinations": 12800,
+  "score_checkpoints": 256,
+  "exact_integer_decisions": true,
+  "bootstrap_reproduced": true,
+  "transitions_reconcile": true,
+  "old_input_hashes_unchanged": 29,
+  "original_case_views_verified": 50,
+  "original_webps_verified": 10,
+  "statistical_figures": 2
+}

@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "tta_round3_analysis/pair_decomposition.csv": "605beb2d032c228afdc3a0904ccc982a44e3bc156ee572c491f051d8a694b9e8",
+    "tta_round2/prompts_round2.csv": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429"
+  },
+  "seed": 42,
+  "draws_per_scope_design": 1000000,
+  "numpy": "1.26.4",
+  "bit_generator": "PCG64",
+  "batch": 4096
+}

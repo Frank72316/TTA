@@ -1,0 +1,58 @@
+[
+  {
+    "pair_id": "001",
+    "side": "A",
+    "shape": [
+      3,
+      224,
+      224
+    ],
+    "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba at 0x7c58f91e2290>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+    "pixel_sha": [
+      "b508cbb8c0f44d55ec11ffd32e9f0aae67baad8b1fb8cd33783619a0ed39f5ec",
+      "2d54d5164359e5fbe1247c565ea6493dda3f1fe344c9e90821d817f3f3c26067"
+    ]
+  },
+  {
+    "pair_id": "001",
+    "side": "B",
+    "shape": [
+      3,
+      224,
+      224
+    ],
+    "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba at 0x7c58f91e2290>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+    "pixel_sha": [
+      "baf3ec74c16bc8917d5931ce423625dcb5ea1eb059e31a9f269d4c1ca4b003ec",
+      "a6cec46c26c5bba21f8020fac58ea09ed19dbd6f895ca11b51f67e6e266d5083"
+    ]
+  },
+  {
+    "pair_id": "002",
+    "side": "A",
+    "shape": [
+      3,
+      224,
+      224
+    ],
+    "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba at 0x7c58f91e2290>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+    "pixel_sha": [
+      "652152fbfb6eeab2f251b4166811517a967f5d51b34ef313556ed6ee9c395ba0",
+      "901fded3649e2a178903862c2f6c2fdc3f86b8e99c5a5b1e8262a7b3666170d8"
+    ]
+  },
+  {
+    "pair_id": "002",
+    "side": "B",
+    "shape": [
+      3,
+      224,
+      224
+    ],
+    "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba at 0x7c58f91e2290>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+    "pixel_sha": [
+      "7f0597c874b681191f7d6dd6f76e29ad0c44505d9019b07876286b6092dc2c24",
+      "877e5d417e5cde8bb7c2bfa30ae84b403e73af52195b92fa9e7a11bdb6dcd26b"
+    ]
+  }
+]

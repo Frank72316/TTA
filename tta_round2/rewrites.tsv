@@ -1,0 +1,66 @@
+pair_id	Q0	removed_light_or_tone	conflict_reason
+001	A close-up Polaroid portrait of Emma Watson as a winged fairy in a forest.	—	—
+002	A portrait of a Black man with short curly hair and a black leather jacket, holding a large futuristic cinema camera.	light blue led's; cinematic lighting	—
+003	A grainy large-format portrait of a handsome man behind a white backdrop.	spot-lighting; high contrast; black and white	—
+004	Surreal digital art of the universe collapsing.	colorful lights	—
+005	Ancient magical ruins surrounded by grassy meadows.	ambient light; volumetric lighting	—
+006	An alchemical rendering of albedo and dark enlightenment.	volumetric dark natural light	—
+007	A symmetrical portrait painting of a contemplative goddess, Kristina Pimenova, wearing lace in a Western dress against a scenic background.	—	—
+008	A lightly furry dinosaur with a cat's head in a forest.	—	—
+009	The pope smoking weed.	—	—
+010	An imaginary landscape with trees, wisps of cloud in the sky and reflections in water.	illuminated; night	夜景及受光云丝是原景观的显著内容，删去后弱化了景观主题；追加夜景与余下主体相容。
+011	Robert Pattinson wearing a Wehrmacht general's uniform.	—	—
+012	A view down a road in a miniature town with car lights.	mid night; dark	—
+013	A huge spaceship in another dimension at the end of the galaxy, in a cyberpunk science-fiction illustration.	—	—
+014	An old picture of Tupac Shakur and Elon Musk smoking.	—	—
+015	A robed fantasy hero with a staff performing magical incantations in a dungeon.	—	—
+016	A fisheye comic-book painting of an alien planet with creatures and bouquets from an alien culture.	dynamic lighting	—
+017	A cultist in white robes and a golden god.	in the darkness	—
+018	An 1890s photograph of mountains and nature.	—	—
+019	A still frame of Robert Lewandowski during a large KFC chicken mukbang.	—	—
+020	A witcher with cloth armor and a sword.	—	—
+021	An anime-style humanoid robot soldier with a large gun on its shoulder in a football stadium.	—	—
+022	A painting in the styles of Ivan Bilibin, Michael Kaluta, Tamara de Lempicka, Greg Hildebrandt and Artgerm.	—	—
+023	A liminal space.	—	—
+024	A mechanical futuristic city in the style of Akira.	—	—
+025	A rat riding on the back of a falcon.	—	—
+026	A symmetrical close-up of an anime cyborg girl.	dramatic lighting	—
+027	A portrait of a friendly, peaceful cyberpunk robot face in anime style.	realistic shaded lighting	—
+028	A digital painting of a space fantasy castle.	atmospheric lighting	—
+029	An Art Nouveau portrait of a witch in a cloak, with a star, gemstones and royal decorations.	shinny [shiny]	—
+030	A still of Walter White as Batman.	—	—
+031	A close-up gouache painting of Pokémon toys and plushies as a game asset.	—	—
+032	An oil painting of a medieval village with tall rocky mountains and storm clouds.	in dawn; incredible lighting; shadows; beautiful cinematic light; sun rays; sunshine; bright sunny summer day	原文将村庄明确设在黎明和晴朗夏日，夜景会替换原场景的时段。
+033	An anime portrait of a rugged male barbarian in the wilderness, with simple black armor, curly hair and an unkempt beard.	—	—
+034	A 1978 TV image of twin women at a store in leotards and inflatable smiley masks with a long nose and googly eyes, holding a hand puppet.	technicolor	—
+035	A surreal, lifelike painting of unconventional beauty as an emotionally evocative symbolic metaphor.	dramatic lighting	—
+036	A huge sphere in a desert.	—	—
+037	An anime silhouette of a mutant lizard man.	—	—
+038	A gothic film still of a séance in Are You Afraid of the Dark?, in a foggy atmosphere.	—	—
+039	A small family cabin with modern architecture, an open ceiling and abundant vegetation in a foggy setting.	golden hour sunset; triadic color scheme	金色日落是原场景的明确内容，夜景与保留日落这一要求不相容。
+040	A lone knight in the Baroque era in the style of Hearthstone fantasy art.	—	—
+041	A close-up of a worn military science-fiction soldier posing with a futuristic rifle in an alien technology temple.	—	—
+042	A cherry blossom forest by a river.	—	—
+043	Tall pines in the woods, pollen in the air and a lake on the horizon.	god light rays; sparkling	—
+044	A beautiful actress in front of a cracked mirror, with elegant furniture.	—	—
+045	A biomechanical female cyborg with a porcelain face in profile, red hair and a pearl earring amid leaves, stems, roots and mechanical cables.	beautiful natural soft rim light; volumetric lighting; cinematic lights	—
+046	A fantasy shopping environment with classical favela sculpture, an industrial factory, cliffs and the Milky Way.	sunny	原文同时指定晴天与银河，夜景保留银河但与原来的晴天描述冲突。
+047	An inked painting illustration.	—	—
+048	A full-body studio photo of Emma Watson in a white dress and open-toe heels in a white room.	—	—
+049	The interior of temple ruins with waterfall walls and incense.	light of god; light shafts; cinematic lighting	—
+050	An abstract pop-surrealist digital poster about beauty and mystery, fragments, the future and the past.	—	—
+051	A side view of a girl in uniform with steampunk weapons, with grass and sky.	sunny	—
+052	Josh Hutcherson in a pita bread.	—	—
+053	A hybrid of a cat and a chicken.	—	—
+054	A desert landscape painted in watercolor, pen and ink.	at twilight	原画题材是暮色中的沙漠，删除暮色改变了景观的时段主题。
+055	Arcane sages in their séance cave with floating metallic objects, flames and crystals.	blue flames [色彩]; low light; glowing green crystals [颜色与发光]	—
+056	A macro nature photograph of a Sonic the Hedgehog stinkbug with dew.	morning [dew]	—
+057	A fantasy digital painting of an autumn landscape.	twilight lighting	暮色是原文秋景的明确时段主题，夜景会替换该条件。
+058	A photographic portrait of a beautiful twenty-year-old model.	—	—
+059	A photo of a fluffy, hairy frog.	—	—
+060	A Fumo plush of a catgirl in a onesie.	—	—
+061	Mr. Rogers in the 1997 Pokémon animated series.	—	—
+062	A full-body portrait of a young Asian girl with long hair wearing Monster Hunter armor and hunting in a horror scene, with a slight smile.	dramatic cinematic lighting	—
+063	The Speed Racer Mach 5 and the Maserati Tipo 151 in a cinematic science-fiction film still.	—	—
+064	A dystopian cyberpunk realm with ancient technology, a jellyfish phoenix dragon, a butterfly squid and a burning halo.	vibrant colors; smooth gradients; high contrast	—
+

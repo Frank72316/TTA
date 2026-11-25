@@ -1,0 +1,1 @@
+PASS: 64 frozen P0 pairs, 128 images, 2176 unique scores; baseline 43/21/0; 7680 strict 3-view decisions; 640 strategy/pair rows plus 64 baseline; 18 paired CI checks. Input files unchanged.

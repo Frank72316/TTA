@@ -1,0 +1,3 @@
+event,case_type,pair_id,strategy,P0,human,view1,view2,d0,d_aug,base_pick,pick,image,A0,A1,A2,B0,B1,B2,BB_count,CC_count,JJ_count,TT_count,BC_count,BJ_count,BT_count,CJ_count,CT_count,JT_count
+纠正,该混合独有（其余九种均无）,053,BC,a cat and chicken hybrid,B,B090,C090,0.002197265625,-8.138020833333333e-05,A,B,figures/case_纠正_053.png,0.2498779296875,0.2486572265625,0.246826171875,0.2476806640625,0.249755859375,0.2481689453125,0/6,0/6,0/6,0/6,1/16,0/16,0/16,0/16,0/16,0/16
+改错,光度策略均无,008,BT,"a dinosaur with the head of a cat, lightly furry, in a forest",A,B090,Tright,0.0008544921875,-0.0018310546875,A,B,figures/case_改错_008.png,0.247802734375,0.24560546875,0.24560546875,0.2469482421875,0.244384765625,0.253173828125,0/6,0/6,5/6,6/6,0/16,6/16,16/16,8/16,16/16,16/16

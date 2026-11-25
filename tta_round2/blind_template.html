@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>图文匹配盲评</title><style>
+*{box-sizing:border-box}body{font:17px/1.5 "Segoe UI",sans-serif;max-width:1150px;margin:auto;padding:2vw;color:#172632;background:#fafbfb}main{margin:auto}h1{font-size:clamp(18px,2.2vw,28px);font-weight:550;line-height:1.35;margin:.6em 0}figure{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0}img{width:100%;height:min(50vh,480px);object-fit:contain;background:#ededed}fieldset,nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.6rem;margin:1rem 0;border:0}button{font:inherit;background:white;color:#17324a;border:1px solid #89959d;border-radius:5px;padding:.4em 1em;cursor:pointer}button[aria-pressed=true]{background:#173d57;color:white}button:disabled{opacity:.4}small{color:#4e5e6a}button:focus-visible{outline:3px solid #177cca}
+</style><main><small id="progress"></small><h1 id="prompt" lang="en"></h1>
+<figure><img id="left" alt="左图"><img id="right" alt="右图"></figure>
+<fieldset aria-label="判断哪张图更符合提示词"><button data-choice="left">左更好</button><button data-choice="right">右更好</button><button data-choice="tie">难以区分</button></fieldset>
+<nav><button id="prev">上一题</button><button id="next">下一题</button><button id="save">导出标注 CSV</button></nav><small id="status" aria-live="polite"></small></main>
+<script>
+const tasks=__DATA__, key="__STORAGE__"; let pos=0, answers={};
+const el=id=>document.getElementById(id);
+try{answers=JSON.parse(localStorage.getItem(key)||"{}")}catch{}
+function show(){const q=tasks[pos];el("progress").textContent=(pos+1)+" / "+tasks.length;el("prompt").textContent=q.prompt;
+el("left").src=q.left;el("right").src=q.right;el("prev").disabled=pos===0;el("next").disabled=pos===tasks.length-1;
+for(const b of document.querySelectorAll("[data-choice]")) b.setAttribute("aria-pressed",String(answers[q.id]===b.dataset.choice))}
+for(const b of document.querySelectorAll("[data-choice]"))b.onclick=()=>{answers[tasks[pos].id]=b.dataset.choice;try{localStorage.setItem(key,JSON.stringify(answers))}catch{el("status").textContent="本地存储不可用，请导出 CSV 保存标注。"} show()};
+el("prev").onclick=()=>{pos--;show()};el("next").onclick=()=>{pos++;show()};
+el("save").onclick=()=>{const csv="question_id,choice\r\n"+tasks.map(q=>q.id+","+(answers[q.id]||"")).join("\r\n")+"\r\n";
+const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));a.download="annotations.csv";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+show();
+</script></html>
+

@@ -1,0 +1,13 @@
+strategy,event,component_a,component_b,support_a,support_b,support_mix,component_intersection,jaccard_components,unique_vs_components,unique_vs_all_pure,unique_vs_photo,unique_vs_all_other_strategies
+BC,fix,BB,CC,—,—,053,—,NA,053,053,—,053
+BC,harm,BB,CC,005,—,—,—,NA,—,—,—,—
+BJ,fix,BB,JJ,—,—,—,—,NA,—,—,—,—
+BJ,harm,BB,JJ,005,005 008,005 008,005,0.5,—,—,008,—
+BT,fix,BB,TT,—,003,003,—,NA,—,—,003,—
+BT,harm,BB,TT,005,005 008 031,005 008 031,005,0.3333333333333333,—,—,008 031,—
+CJ,fix,CC,JJ,—,—,—,—,NA,—,—,—,—
+CJ,harm,CC,JJ,—,005 008,005 008,—,NA,—,—,008,—
+CT,fix,CC,TT,—,003,003,—,NA,—,—,003,—
+CT,harm,CC,TT,—,005 008 031,005 008 031,—,NA,—,—,008 031,—
+JT,fix,JJ,TT,—,003,003,—,NA,—,—,003,—
+JT,harm,JJ,TT,005 008,005 008 031,005 008 031,005 008,0.6666666666666666,—,—,008 031,—

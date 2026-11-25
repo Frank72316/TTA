@@ -1,0 +1,42 @@
+[
+  {
+    "limit": 2,
+    "started_utc": "2026-11-25T17:35:05.565246+00:00",
+    "gpu": {
+      "index": 0,
+      "uuid": "GPU-07092a1e-5259-3130-cfbe-ce1f83a94886",
+      "name": "NVIDIA GeForce RTX 4080 SUPER",
+      "initial_MiB": 15,
+      "total_MiB": 16376,
+      "initial_util": 0,
+      "driver": "570.133.20"
+    },
+    "new_inferences": 68,
+    "old_hits": 0,
+    "p2_hits": 0,
+    "records": 68,
+    "wall_seconds": 31.22904322296381,
+    "api_seconds": 6.9719843490747735,
+    "gpu_forward_seconds": 4.410484024047852
+  },
+  {
+    "limit": 64,
+    "started_utc": "2026-11-25T17:35:37.877992+00:00",
+    "gpu": {
+      "index": 0,
+      "uuid": "GPU-07092a1e-5259-3130-cfbe-ce1f83a94886",
+      "name": "NVIDIA GeForce RTX 4080 SUPER",
+      "initial_MiB": 15,
+      "total_MiB": 16376,
+      "initial_util": 0,
+      "driver": "570.133.20"
+    },
+    "new_inferences": 1860,
+    "old_hits": 248,
+    "p2_hits": 68,
+    "records": 2176,
+    "wall_seconds": 224.78688462800346,
+    "api_seconds": 181.55050298699643,
+    "gpu_forward_seconds": 103.89299106597902
+  }
+]

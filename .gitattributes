@@ -1,0 +1,2 @@
+# Frozen CSV files, scripts and manifests are verified by byte-level hashes.
+* -text

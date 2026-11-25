@@ -1,0 +1,24 @@
+{
+  "dataset": "zai-org/ImageRewardDB",
+  "revision": "c493721e19e296eb615420036f2a2eed08412bb4",
+  "split": "validation",
+  "metadata_sha256": "c022eff66ce7241c8f5eaf8a1314b9fdbf36a562655b1a69a3c8668452c6d3db",
+  "fields": [
+    "image_path",
+    "prompt_id",
+    "prompt",
+    "classification",
+    "image_amount_in_total",
+    "rank",
+    "overall_rating",
+    "image_text_alignment_rating",
+    "fidelity_rating"
+  ],
+  "image_rows": 2584,
+  "prompt_ids": 412,
+  "distinct_texts": 409,
+  "eligible_texts": 409,
+  "rank_evidence": "Official ImageRewardDB.py, _generate_examples: rank[idx] < rank[idy] gives img_better=idx",
+  "seed": 42,
+  "pairs_sha256": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e"
+}

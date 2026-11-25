@@ -1,0 +1,97 @@
+{
+  "pages": 8,
+  "detached_pdf_rendered": true,
+  "renderer": "Poppler 130 dpi",
+  "fonts": [
+    "/AAAAAA+MicrosoftYaHei",
+    "/BAAAAA+MicrosoftYaHei-Bold",
+    "/CAAAAA+MicrosoftYaHei-Bold",
+    "/DAAAAA+MicrosoftYaHei-Bold",
+    "/EAAAAA+Consolas"
+  ],
+  "pdf_sha256": "2f370fd70ad5a33e8855171890c133dc2f2cdeff033eb1c54cfaecd09f2ff5c1",
+  "details": [
+    {
+      "page": 1,
+      "case_images": [
+        "003-A-O.png",
+        "003-B-O.png"
+      ],
+      "rms_max": 0.0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 2,
+      "case_images": [],
+      "rms_max": 0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 3,
+      "case_images": [],
+      "rms_max": 0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 4,
+      "case_images": [],
+      "rms_max": 0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 5,
+      "case_images": [
+        "003-A-O.png",
+        "003-A-B090.png",
+        "003-A-Tdown.png",
+        "003-B-O.png",
+        "003-B-B090.png",
+        "003-B-Tdown.png",
+        "008-A-O.png",
+        "008-A-B090.png",
+        "008-A-Tleft.png",
+        "008-B-O.png",
+        "008-B-B090.png",
+        "008-B-Tleft.png"
+      ],
+      "rms_max": 0.0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 6,
+      "case_images": [
+        "N032-A-O.png",
+        "N032-A-B090.png",
+        "N032-A-Tup.png",
+        "N032-A-Tdown.png",
+        "N032-B-O.png",
+        "N032-B-B090.png",
+        "N032-B-Tup.png",
+        "N032-B-Tdown.png"
+      ],
+      "rms_max": 0.0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 7,
+      "case_images": [
+        "N141-A-O.png",
+        "N141-A-B090.png",
+        "N141-A-Tleft.png",
+        "N141-A-Tright.png",
+        "N141-B-O.png",
+        "N141-B-B090.png",
+        "N141-B-Tleft.png",
+        "N141-B-Tright.png"
+      ],
+      "rms_max": 0.0,
+      "embedded_fonts_verified": true
+    },
+    {
+      "page": 8,
+      "case_images": [],
+      "rms_max": 0,
+      "embedded_fonts_verified": true
+    }
+  ]
+}

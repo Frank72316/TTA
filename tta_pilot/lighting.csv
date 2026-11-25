@@ -1,0 +1,25 @@
+pair_id,category,evidence
+002,lighting_style,light blue led's / cinematic lighting
+003,lighting_style,spot-lighting
+004,lighting_style,colorful lights
+005,lighting_style,ambient light / volumetric lighting
+006,low_light,volumetric dark natural light
+010,night,night
+012,night,"mid night, dark, car lights"
+016,lighting_style,dynamic lighting
+017,low_light,in the darkness
+027,lighting_style,realistic shaded lighting
+028,lighting_style,atmospheric lighting
+032,day_or_bright,dawn / sun rays / bright sunny summer day
+035,lighting_style,dramatic lighting
+039,twilight,golden hour sunset
+043,lighting_style,god light rays / sparkling lake horizon
+045,lighting_style,volumetric lighting
+046,day_or_bright,sunny
+049,lighting_style,light shafts / cinematic lighting
+051,day_or_bright,sunny
+054,twilight,at twilight
+055,low_light,low light
+057,twilight,twilight lighting
+062,lighting_style,dramatic cinematic lighting
+

@@ -1,0 +1,103 @@
+{
+  "protocol": "1ea8cc2b3d7a1df33a9b78d86b350f1ca4449625160d459ee95f6999a3caa412",
+  "rows": [
+    {
+      "pair_id": "011",
+      "side": "A",
+      "prompt_condition": "Q0",
+      "light": "L0",
+      "image_id": "images/validation/validation_2/63d125d0-0fdd-4e48-9067-c580469bdca4.webp",
+      "score": 0.21533203125,
+      "native_dtype": "float16",
+      "text_token_sha": "10dfa9122370772cc1f7457eea4a7bccb23ba8be7c5c3cefae8a0436464e0c9b",
+      "factor": 1.0,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "A",
+      "prompt_condition": "Q0",
+      "light": "L1",
+      "image_id": "images/validation/validation_2/63d125d0-0fdd-4e48-9067-c580469bdca4.webp",
+      "score": 0.2139892578125,
+      "native_dtype": "float16",
+      "text_token_sha": "10dfa9122370772cc1f7457eea4a7bccb23ba8be7c5c3cefae8a0436464e0c9b",
+      "factor": 1.1,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "B",
+      "prompt_condition": "Q0",
+      "light": "L0",
+      "image_id": "images/validation/validation_2/25f51b4f-eada-4aa7-9238-79c85f19dd87.webp",
+      "score": 0.2337646484375,
+      "native_dtype": "float16",
+      "text_token_sha": "10dfa9122370772cc1f7457eea4a7bccb23ba8be7c5c3cefae8a0436464e0c9b",
+      "factor": 1.0,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "B",
+      "prompt_condition": "Q0",
+      "light": "L1",
+      "image_id": "images/validation/validation_2/25f51b4f-eada-4aa7-9238-79c85f19dd87.webp",
+      "score": 0.234130859375,
+      "native_dtype": "float16",
+      "text_token_sha": "10dfa9122370772cc1f7457eea4a7bccb23ba8be7c5c3cefae8a0436464e0c9b",
+      "factor": 1.1,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "A",
+      "prompt_condition": "Q1",
+      "light": "L0",
+      "image_id": "images/validation/validation_2/63d125d0-0fdd-4e48-9067-c580469bdca4.webp",
+      "score": 0.2099609375,
+      "native_dtype": "float16",
+      "text_token_sha": "1de38eebc29f18a58c589e5597c57e277c9bcfec2c40005b9f1de4b28a9d50e9",
+      "factor": 1.0,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "A",
+      "prompt_condition": "Q1",
+      "light": "L1",
+      "image_id": "images/validation/validation_2/63d125d0-0fdd-4e48-9067-c580469bdca4.webp",
+      "score": 0.2080078125,
+      "native_dtype": "float16",
+      "text_token_sha": "1de38eebc29f18a58c589e5597c57e277c9bcfec2c40005b9f1de4b28a9d50e9",
+      "factor": 1.1,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "B",
+      "prompt_condition": "Q1",
+      "light": "L0",
+      "image_id": "images/validation/validation_2/25f51b4f-eada-4aa7-9238-79c85f19dd87.webp",
+      "score": 0.2244873046875,
+      "native_dtype": "float16",
+      "text_token_sha": "1de38eebc29f18a58c589e5597c57e277c9bcfec2c40005b9f1de4b28a9d50e9",
+      "factor": 1.0,
+      "source": "round2_fresh"
+    },
+    {
+      "pair_id": "011",
+      "side": "B",
+      "prompt_condition": "Q1",
+      "light": "L1",
+      "image_id": "images/validation/validation_2/25f51b4f-eada-4aa7-9238-79c85f19dd87.webp",
+      "score": 0.2227783203125,
+      "native_dtype": "float16",
+      "text_token_sha": "1de38eebc29f18a58c589e5597c57e277c9bcfec2c40005b9f1de4b28a9d50e9",
+      "factor": 1.1,
+      "source": "round2_fresh"
+    }
+  ],
+  "forward_ms": 459.577693939209,
+  "api_seconds": 1.620862465002574
+}
