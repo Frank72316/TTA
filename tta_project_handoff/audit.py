@@ -4,7 +4,7 @@ import csv,json,hashlib,itertools
 from collections import Counter
 import numpy as np
 R=Path(__file__).resolve().parent; W=R.parent
-P="tta_pilot"; Q="tta_round2"; H="tta_round3_analysis"; N="tta_round4_repairing"; E="tta_p2_complementarity"; F="tta_p3_translation"
+P="P1/baseline"; Q="P1/prompts"; H="P1/decomposition"; N="P1/pairing"; E="P2"; F="P3"
 sources={}
 def rows(directory,name):
     p=W/directory/name;sources[str(p.relative_to(W)).replace(chr(92),"/")]=hashlib.sha256(p.read_bytes()).hexdigest()
@@ -13,7 +13,7 @@ def index(rs):return {r["pair_id"]:r for r in rs}
 def pick(d):return "A" if d>0 else "B" if d<0 else "同分"
 def check(v):assert v
 def main():
-    old=index(rows(P,"pairs.csv"));new=index(rows(F,"pairs_frozen.csv"));q=index(rows(Q,"prompts_round2.csv"));pilotres=index(rows(P,"pair_results.csv"));qres=index(rows(Q,"pair_results_round2.csv"));dec=index(rows(H,"pair_decomposition.csv"))
+    old=index(rows(P,"pairs.csv"));new=index(rows(F,"pairs_frozen.csv"));q=index(rows(Q,"prompts.csv"));pilotres=index(rows(P,"pair_results.csv"));qres=index(rows(Q,"pair_results.csv"));dec=index(rows(H,"pair_decomposition.csv"))
     rank=lambda p:"A" if int(p["rank_A"])<int(p["rank_B"]) else "B"
     assert len(old)==64 and len(new)==256 and old.keys()==q.keys()==qres.keys()==dec.keys()
     for p in [*old.values(),*new.values()]:assert p["human_winner_P0"]==rank(p) and p["rank_A"]!=p["rank_B"]
@@ -32,7 +32,7 @@ def main():
             kv[i,s,t,l]=float(r["score"])
             if d==Q:assert r["text_token_sha"]==q[i][t+"_token_sha"]
         return kv
-    bat=raw(P,"scores.csv");short=raw(Q,"scores_round2.csv")
+    bat=raw(P,"scores.csv");short=raw(Q,"scores.csv")
     lit={};hs=[];gs=[]
     for i in old:
         prev={}

@@ -3,8 +3,8 @@ __pycache__/
 *.py[cod]
 /.env
 **/.env
-/tta_pilot/data/
-/tta_pilot/vendor/
+/P1/baseline/data/
+/P1/baseline/vendor/
 **/runtime/
 .DS_Store
 Thumbs.db

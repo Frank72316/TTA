@@ -2642,88 +2642,89 @@
     }
   },
   "source_hashes": {
-    "tta_pilot/pairs.csv": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
-    "tta_p3_translation/pairs_frozen.csv": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
-    "tta_round2/prompts_round2.csv": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429",
-    "tta_pilot/pair_results.csv": "a1b86a82285eea779797b2e8d6b2b7744846fc33c0777ace5392aee281172ef4",
-    "tta_round2/pair_results_round2.csv": "eda98e8eeb13cacccc01ca556cdd43370887d075ef85aa9b508cd67e79b4c616",
-    "tta_round3_analysis/pair_decomposition.csv": "605beb2d032c228afdc3a0904ccc982a44e3bc156ee572c491f051d8a694b9e8",
-    "tta_round2/old_prompt_audit.csv": "b1601d8d0ebfb177d69b3998a36388e2c41ed5c7fab8fcb45e31c6a084ad651a",
-    "tta_pilot/scores.csv": "545438e8911ee8a1006c3278c826cfefe079be142cc376961fe71ad7b51a2d1a",
-    "tta_round2/scores_round2.csv": "39159d9a93bff42222bdb4c7024307db3f0eba827955ebc42bb0c75cdc9a4345",
-    "tta_round4_repairing/summary.csv": "8ba7c2970cdbeba8edc21d20302f403e647e5a0e1e2a9f159c37b48eabb15ed3",
-    "tta_round4_repairing/null_distribution.csv": "6995cd9d1092e1ae8a9a065cc48f649f67a88ebfe425d3663fbe77b50c082b7b",
-    "tta_p2_complementarity/scores.csv": "b7a19e8d072bf6ee0f5ee069088fde7e7e5900b7b3cca45c44a000207d7f73e3",
-    "tta_p2_complementarity/combination_results.csv": "44ccd3c9c15d01bc3cee04810699f10eed0bf7ff0aca4d357c38470dbd9f0056",
-    "tta_p3_translation/scores.csv": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275",
-    "tta_p3_translation/combination_results.csv": "b20d7ff546eb7d618ab78e274e1763d05f89d98a4e0462ebceeeadcbe2dbb8e5",
-    "tta_p3_translation/direction_counts.csv": "13865873277d987f1867d0f1d88b95ae3efe78245338b311ba2990ed6701751f",
-    "tta_p3_translation/margin_groups.csv": "90ab7b3cd283f24f83f1f35e2618a8ced84e12b65676ed15ab8493ceaf7f4794",
-    "tta_p2_complementarity/pair_strategy_results.csv": "9f8f9d1c0b50a941857478549492180a199545ef550e2637614e563fc24ad33f",
-    "tta_p2_complementarity/strategy_summary.csv": "a2e76f45b42ad5dd859dc539b03898b723a25b6d23ee3ff6409fb17bdbacb2aa",
-    "tta_p3_translation/pair_strategy_results.csv": "2e79fe023ea291a5d7eced189516c0f1d8cff51448b96725330de1c9e103de4e",
-    "tta_p3_translation/strategy_summary.csv": "a3e5d9fad87512fc1167b4463cce1c46bb1d4782b02efb21c4b2858b8b3624e0",
-    "tta_round2/summary.csv": "d3076d69a55be4726129efb7d01ce4ce778a54106b169a87fe12ab0a3a8a0399",
-    "tta_round3_analysis/summary.csv": "7ea3ea8408cae4551b174dd008c7070a115ef75dc570759855e9bdeb99bb243e",
-    "tta_p3_translation/transitions.csv": "e0239bfb85f9ba611667dadffa9c18aba48011331b10c82e6463eeda9256d49e",
-    "tta_pilot/README.md": "61eca2a9589b46287eb4d86d698cd4e5e6a99bfebfae1ca7aefe006cbbe6805e",
-    "tta_pilot/report.md": "781114bafdac8cec0fd102c42cddcb339c12d5041a56351101182d0e5dadc098",
-    "tta_round2/README.md": "451cebb8f308f26e721bfa594e4514456634320b96901f8511b46bfbaa0031f4",
-    "tta_round2/report.md": "1fc9f660b747ebb8d39618e3bc3146059a1a8e206b070218255e22ea726610af",
-    "tta_round3_analysis/README.md": "76dd17bdf237bbda29f8ce66df7c88e906264e327eb1990b9a1045cd98c8b0ff",
-    "tta_round3_analysis/report.md": "7f60c629f779e54ed6d58f026f717d6e5ed57e2b69e7071ea7beb2220c9b86b4",
-    "tta_round4_repairing/README.md": "f19e408ca186fdf128598a719eeadb69d21e4afbdcbeaac5305953679bd14950",
-    "tta_round4_repairing/report.md": "05ec15f28ae01768b14db4ae16af166cafdc57053e504b22068ddb91a6c4a921",
-    "tta_p2_complementarity/README.md": "e88f5469486a0cd1ad2ad2109293cabc5ec932fdee520cd44313298804c6937e",
-    "tta_p2_complementarity/report.md": "f43166045678bc1283645299528e4a00fb7fd6b82e36fb227a5c25c0ae36137e",
-    "tta_p3_translation/README.md": "c1695cd54eceffa75b28ab0672899b09f655d7d7b9545a276d6f4d23a856cf3e",
-    "tta_p3_translation/report.md": "3da0fbf9b0f65e78f4c2ea55fe3a02c5052d97ca57c3aec79b0eb0b72e35ee63"
+    "P1/baseline/pairs.csv": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
+    "P3/pairs_frozen.csv": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
+    "P1/prompts/prompts.csv": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429",
+    "P1/baseline/pair_results.csv": "a1b86a82285eea779797b2e8d6b2b7744846fc33c0777ace5392aee281172ef4",
+    "P1/prompts/pair_results.csv": "eda98e8eeb13cacccc01ca556cdd43370887d075ef85aa9b508cd67e79b4c616",
+    "P1/decomposition/pair_decomposition.csv": "605beb2d032c228afdc3a0904ccc982a44e3bc156ee572c491f051d8a694b9e8",
+    "P1/prompts/old_prompt_audit.csv": "b1601d8d0ebfb177d69b3998a36388e2c41ed5c7fab8fcb45e31c6a084ad651a",
+    "P1/baseline/scores.csv": "545438e8911ee8a1006c3278c826cfefe079be142cc376961fe71ad7b51a2d1a",
+    "P1/prompts/scores.csv": "39159d9a93bff42222bdb4c7024307db3f0eba827955ebc42bb0c75cdc9a4345",
+    "P1/pairing/summary.csv": "8ba7c2970cdbeba8edc21d20302f403e647e5a0e1e2a9f159c37b48eabb15ed3",
+    "P1/pairing/null_distribution.csv": "6995cd9d1092e1ae8a9a065cc48f649f67a88ebfe425d3663fbe77b50c082b7b",
+    "P2/scores.csv": "b7a19e8d072bf6ee0f5ee069088fde7e7e5900b7b3cca45c44a000207d7f73e3",
+    "P2/combination_results.csv": "44ccd3c9c15d01bc3cee04810699f10eed0bf7ff0aca4d357c38470dbd9f0056",
+    "P3/scores.csv": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275",
+    "P3/combination_results.csv": "b20d7ff546eb7d618ab78e274e1763d05f89d98a4e0462ebceeeadcbe2dbb8e5",
+    "P3/direction_counts.csv": "13865873277d987f1867d0f1d88b95ae3efe78245338b311ba2990ed6701751f",
+    "P3/margin_groups.csv": "90ab7b3cd283f24f83f1f35e2618a8ced84e12b65676ed15ab8493ceaf7f4794",
+    "P2/pair_strategy_results.csv": "9f8f9d1c0b50a941857478549492180a199545ef550e2637614e563fc24ad33f",
+    "P2/strategy_summary.csv": "a2e76f45b42ad5dd859dc539b03898b723a25b6d23ee3ff6409fb17bdbacb2aa",
+    "P3/pair_strategy_results.csv": "2e79fe023ea291a5d7eced189516c0f1d8cff51448b96725330de1c9e103de4e",
+    "P3/strategy_summary.csv": "a3e5d9fad87512fc1167b4463cce1c46bb1d4782b02efb21c4b2858b8b3624e0",
+    "P1/prompts/summary.csv": "d3076d69a55be4726129efb7d01ce4ce778a54106b169a87fe12ab0a3a8a0399",
+    "P1/decomposition/summary.csv": "7ea3ea8408cae4551b174dd008c7070a115ef75dc570759855e9bdeb99bb243e",
+    "P3/transitions.csv": "e0239bfb85f9ba611667dadffa9c18aba48011331b10c82e6463eeda9256d49e",
+    "P1/baseline/README.md": "24630f361b39925851a0fbb0ba09da720142b47a2a15c5526ceafc7063dfd638",
+    "P1/baseline/report.md": "781114bafdac8cec0fd102c42cddcb339c12d5041a56351101182d0e5dadc098",
+    "P1/prompts/README.md": "d1683323bb62e88530c63d617b953b5bf30604cee59c52ac0483325ca3207307",
+    "P1/prompts/report.md": "43066a1f7389c3c64840e53d22ea1ec69d55cd0c183a697ea95d4f84df66b28d",
+    "P1/decomposition/README.md": "a85071669c6b4377c21983142e772c8952cc0d7ea9fb26f8cf04c2995d2279fc",
+    "P1/decomposition/report.md": "8eef389fe7db07464ca95dc17e83a8089e83e818bbfd6ab0ed73f9aa54079fc7",
+    "P1/pairing/README.md": "6470451bcccd88b470b9b79ade1b40ae1373f18363d8f53133c3fbc17cb429e7",
+    "P1/pairing/report.md": "05ec15f28ae01768b14db4ae16af166cafdc57053e504b22068ddb91a6c4a921",
+    "P2/README.md": "2802e2dfbee9596e54896bfeb40094ae888fa599dab96848664239db86034fe4",
+    "P2/report.md": "f43166045678bc1283645299528e4a00fb7fd6b82e36fb227a5c25c0ae36137e",
+    "P3/README.md": "14944b42fe53343992d65247b2079730c761ffbddf02d63ae55e9b4939b009cc",
+    "P3/report.md": "3da0fbf9b0f65e78f4c2ea55fe3a02c5052d97ca57c3aec79b0eb0b72e35ee63"
   },
   "input_files": {
-    "tta_pilot": [
-      "tta_pilot/analyze.py",
-      "tta_pilot/fetch.py",
-      "tta_pilot/pilot_io.py",
-      "tta_pilot/prepare.py",
-      "tta_pilot/score.py"
+    "P1/baseline": [
+      "P1/baseline/analyze.py",
+      "P1/baseline/fetch.py",
+      "P1/baseline/layout_provenance.py",
+      "P1/baseline/pilot_io.py",
+      "P1/baseline/prepare.py",
+      "P1/baseline/score.py"
     ],
-    "tta_round2": [
-      "tta_round2/analyze_round2.py",
-      "tta_round2/blind.py",
-      "tta_round2/common.py",
-      "tta_round2/figures.py",
-      "tta_round2/freeze.py",
-      "tta_round2/import_annotations.py",
-      "tta_round2/report.py",
-      "tta_round2/score_new.py",
-      "tta_round2/verify.py"
+    "P1/prompts": [
+      "P1/prompts/analyze.py",
+      "P1/prompts/blind.py",
+      "P1/prompts/common.py",
+      "P1/prompts/figures.py",
+      "P1/prompts/freeze.py",
+      "P1/prompts/import_annotations.py",
+      "P1/prompts/report.py",
+      "P1/prompts/score_new.py",
+      "P1/prompts/verify.py"
     ],
-    "tta_round3_analysis": [
-      "tta_round3_analysis/analyze.py",
-      "tta_round3_analysis/present.py"
+    "P1/decomposition": [
+      "P1/decomposition/analyze.py",
+      "P1/decomposition/present.py"
     ],
-    "tta_round4_repairing": [
-      "tta_round4_repairing/analyze.py",
-      "tta_round4_repairing/present.py"
+    "P1/pairing": [
+      "P1/pairing/analyze.py",
+      "P1/pairing/present.py"
     ],
-    "tta_p2_complementarity": [
-      "tta_p2_complementarity/analyze_p2.py",
-      "tta_p2_complementarity/display_p2.py",
-      "tta_p2_complementarity/make_report.py",
-      "tta_p2_complementarity/score_p2.py",
-      "tta_p2_complementarity/study.py",
-      "tta_p2_complementarity/verify_p2.py",
-      "tta_p2_complementarity/views.py"
+    "P2": [
+      "P2/analyze_p2.py",
+      "P2/display_p2.py",
+      "P2/make_report.py",
+      "P2/score_p2.py",
+      "P2/study.py",
+      "P2/verify_p2.py",
+      "P2/views.py"
     ],
-    "tta_p3_translation": [
-      "tta_p3_translation/analyze.py",
-      "tta_p3_translation/common.py",
-      "tta_p3_translation/figures.py",
-      "tta_p3_translation/freeze.py",
-      "tta_p3_translation/old_cases.py",
-      "tta_p3_translation/report.py",
-      "tta_p3_translation/score_p3.py",
-      "tta_p3_translation/verify.py"
+    "P3": [
+      "P3/analyze.py",
+      "P3/common.py",
+      "P3/figures.py",
+      "P3/freeze.py",
+      "P3/old_cases.py",
+      "P3/report.py",
+      "P3/score_p3.py",
+      "P3/verify.py"
     ]
   }
 }

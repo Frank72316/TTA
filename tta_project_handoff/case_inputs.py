@@ -4,9 +4,9 @@ import os,sys,csv,hashlib,json,re,shutil
 import numpy as np
 from PIL import Image
 ROOT=Path(__file__).resolve().parent
-P2=ROOT.parent/"tta_p2_complementarity"
-P3=ROOT.parent/"tta_p3_translation"
-pilot=ROOT.parent/"tta_pilot"
+P2=ROOT.parent/"P2"
+P3=ROOT.parent/"P3"
+pilot=ROOT.parent/"P1/baseline"
 sys.dont_write_bytecode=True
 sys.path.insert(0,str(P2))
 from views import original,make_view,final_rgb
