@@ -1,0 +1,353 @@
+pair_id,budget_per_image,pair_wall_ms,views
+H001,1,177.9848150001726,O
+H001,2,284.68897400011883,O Tup_left
+H001,4,497.52786900012325,O Tup_left Tdown_right Tup_right
+H001,8,910.2058010000746,O Tup_left Tdown_right Tup_right Tleft Tright Tdown Tdown_left
+H002,1,155.98847500018564,O
+H002,2,254.18307400013873,O Tup_left
+H002,4,450.0669060000746,O Tup_left Tdown_right Tdown_left
+H002,8,821.509610000021,O Tup_left Tdown_right Tdown_left Tdown Tup Tup_right Tleft
+H003,1,165.2230970000801,O
+H003,2,263.18272999992587,O Tdown_left
+H003,4,459.0313960000003,O Tdown_left Tup_left Tup_right
+H003,8,829.6427489999587,O Tdown_left Tup_left Tup_right Tright Tup Tleft Tdown
+H004,1,164.84833000004073,O
+H004,2,262.3167019999073,O Tdown_right
+H004,4,447.9354180000428,O Tdown_right Tup Tdown_left
+H004,8,828.4227350000037,O Tdown_right Tup Tdown_left Tup_left Tup_right Tdown Tright
+H005,1,159.1210870001305,O
+H005,2,264.69643200016435,O Tup_left
+H005,4,476.58001700006025,O Tup_left Tleft Tup_right
+H005,8,872.2880060001899,O Tup_left Tleft Tup_right Tup Tdown_right Tdown_left Tdown
+H006,1,164.61056200000712,O
+H006,2,252.44543500002692,O Tdown
+H006,4,438.1228550000742,O Tdown Tup Tright
+H006,8,830.7087390001016,O Tdown Tup Tright Tdown_left Tup_right Tup_left Tdown_right
+H007,1,167.2582159999365,O
+H007,2,265.07290800009287,O Tdown_left
+H007,4,451.8026180001016,O Tdown_left Tright Tdown
+H007,8,832.9848400001083,O Tdown_left Tright Tdown Tdown_right Tup_left Tup Tleft
+H008,1,191.22419600012108,O
+H008,2,305.6870180000715,O Tleft
+H008,4,534.801520999963,O Tleft Tright Tdown_left
+H008,8,956.2612019999506,O Tleft Tright Tdown_left Tdown_right Tup Tup_left Tdown
+H009,1,164.1999839998789,O
+H009,2,261.6377570000168,O Tleft
+H009,4,457.245101999888,O Tleft Tup_left Tdown_left
+H009,8,828.8751679999677,O Tleft Tup_left Tdown_left Tdown_right Tup Tright Tdown
+H010,1,157.35977500003173,O
+H010,2,244.38231299996005,O Tdown
+H010,4,431.6551019999224,O Tdown Tdown_left Tup
+H010,8,822.3735059998489,O Tdown Tdown_left Tup Tleft Tdown_right Tup_right Tright
+H011,1,184.19639299986557,O
+H011,2,288.8626409999233,O Tright
+H011,4,498.3449189999192,O Tright Tdown_left Tup_left
+H011,8,890.3819259999182,O Tright Tdown_left Tup_left Tdown Tdown_right Tleft Tup
+H012,1,156.43482399991626,O
+H012,2,253.86519199992108,O Tleft
+H012,4,449.27740899993296,O Tleft Tdown_right Tdown_left
+H012,8,830.5024899998443,O Tleft Tdown_right Tdown_left Tright Tup Tup_left Tup_right
+H013,1,155.6248570000207,O
+H013,2,243.71007800004918,O Tup
+H013,4,438.38545500011605,O Tup Tup_right Tdown_right
+H013,8,817.3188760001722,O Tup Tup_right Tdown_right Tdown Tdown_left Tright Tleft
+H014,1,168.36206300013146,O
+H014,2,265.5413940001381,O Tup_right
+H014,4,441.3781519999702,O Tup_right Tdown Tup
+H014,8,831.4034439999887,O Tup_right Tdown Tup Tleft Tdown_right Tright Tup_left
+H015,1,163.702252000121,O
+H015,2,251.73220000010588,O Tup
+H015,4,447.02417300004527,O Tup Tup_left Tleft
+H015,8,828.0194349999874,O Tup Tup_left Tleft Tdown_right Tright Tdown Tdown_left
+H016,1,159.84774300000026,O
+H016,2,257.5670800001717,O Tleft
+H016,4,443.1243960000302,O Tleft Tdown_left Tdown
+H016,8,833.0731590001506,O Tleft Tdown_left Tdown Tup_right Tup_left Tright Tdown_right
+H017,1,166.68910400017012,O
+H017,2,264.293951000127,O Tdown_left
+H017,4,450.2221360000931,O Tdown_left Tup Tdown_right
+H017,8,832.9471260001355,O Tdown_left Tup Tdown_right Tdown Tup_right Tup_left Tright
+H018,1,156.11620499998935,O
+H018,2,253.50582700002633,O Tright
+H018,4,448.6390659999415,O Tright Tdown_right Tup_left
+H018,8,819.8567849999563,O Tright Tdown_right Tup_left Tdown_left Tup_right Tup Tdown
+H019,1,155.11672999991788,O
+H019,2,252.92721200003143,O Tdown_right
+H019,4,448.57497299994975,O Tdown_right Tleft Tright
+H019,8,820.5407499999637,O Tdown_right Tleft Tright Tdown_left Tdown Tup_left Tup
+H020,1,157.75365499985128,O
+H020,2,254.8732850000306,O Tup_left
+H020,4,439.7641969999313,O Tup_left Tright Tup
+H020,8,819.121745999837,O Tup_left Tright Tup Tleft Tdown Tdown_right Tdown_left
+H021,1,165.9296699999686,O
+H021,2,263.41123899987906,O Tright
+H021,4,458.04325299991433,O Tright Tdown_right Tleft
+H021,8,829.1618240000389,O Tright Tdown_right Tleft Tup_left Tup Tup_right Tdown
+H022,1,165.98502300007567,O
+H022,2,256.9114620000619,O Tup
+H022,4,452.82093000014356,O Tup Tdown Tup_right
+H022,8,868.8307810000424,O Tup Tdown Tup_right Tleft Tdown_right Tdown_left Tright
+H023,1,154.36130499983847,O
+H023,2,255.6588559998545,O Tup_right
+H023,4,444.44216399983816,O Tup_right Tup Tup_left
+H023,8,827.5268079999023,O Tup_right Tup Tup_left Tdown_left Tdown_right Tright Tdown
+H024,1,169.6684829998958,O
+H024,2,268.0944250000721,O Tdown_right
+H024,4,454.7946079999292,O Tdown_right Tup Tdown_left
+H024,8,846.6597789999923,O Tdown_right Tup Tdown_left Tdown Tup_right Tup_left Tright
+H025,1,178.43469500007814,O
+H025,2,292.6775850000922,O Tup_right
+H025,4,521.9017920001079,O Tup_right Tup_left Tdown_right
+H025,8,959.4054300000607,O Tup_right Tup_left Tdown_right Tleft Tright Tdown Tdown_left
+H026,1,152.55183699991903,O
+H026,2,238.64022899988413,O Tdown
+H026,4,425.04732899988085,O Tdown Tup_left Tdown_right
+H026,8,789.1921909999837,O Tdown Tup_left Tdown_right Tup_right Tleft Tdown_left Tup
+H027,1,164.11430500011193,O
+H027,2,266.4632089999941,O Tleft
+H027,4,471.5886110000156,O Tleft Tup_left Tdown_right
+H027,8,857.4205310001162,O Tleft Tup_left Tdown_right Tright Tup Tdown_left Tdown
+H028,1,156.8107499999769,O
+H028,2,244.6509059998334,O Tdown
+H028,4,439.31382799996754,O Tdown Tup_right Tup_left
+H028,8,819.0436909999335,O Tdown Tup_right Tup_left Tup Tdown_left Tright Tleft
+H029,1,157.83855699987726,O
+H029,2,255.09158899990325,O Tdown_left
+H029,4,439.4958289999522,O Tdown_left Tdown Tleft
+H029,8,821.2105099999008,O Tdown_left Tdown Tleft Tup_left Tdown_right Tup Tup_right
+H030,1,157.2567540001728,O
+H030,2,254.6588050001901,O Tleft
+H030,4,439.2259070000364,O Tleft Tup_left Tup
+H030,8,817.6248320000923,O Tleft Tup_left Tup Tup_right Tdown Tright Tdown_left
+H031,1,167.3071830000481,O
+H031,2,270.7664609999938,O Tright
+H031,4,481.20309000000816,O Tright Tleft Tdown_left
+H031,8,866.9431999999233,O Tright Tleft Tdown_left Tup_right Tup Tup_left Tdown
+H032,1,174.68228099983207,O
+H032,2,279.6311849999711,O Tup_right
+H032,4,475.09260399988307,O Tup_right Tdown Tdown_right
+H032,8,894.4363890000204,O Tup_right Tdown Tdown_right Tdown_left Tright Tleft Tup_left
+H033,1,169.50143399981243,O
+H033,2,255.91601099995387,O Tdown
+H033,4,448.55989799998497,O Tdown Tleft Tup_left
+H033,8,825.7205559998511,O Tdown Tleft Tup_left Tdown_left Tup_right Tdown_right Tup
+H034,1,156.4718519998678,O
+H034,2,252.74285799991958,O Tdown_left
+H034,4,426.4789619999192,O Tdown_left Tup Tdown
+H034,8,811.0159039999871,O Tdown_left Tup Tdown Tdown_right Tleft Tright Tup_right
+H035,1,163.9656439999726,O
+H035,2,261.94570000006934,O Tleft
+H035,4,458.73292500004936,O Tleft Tup_left Tright
+H035,8,833.7717990000328,O Tleft Tup_left Tright Tdown Tdown_left Tdown_right Tup
+H036,1,167.37670899988188,O
+H036,2,271.9387929998902,O Tright
+H036,4,480.1720419998219,O Tright Tup_right Tup_left
+H036,8,884.614762999945,O Tright Tup_right Tup_left Tdown Tdown_left Tdown_right Tleft
+H037,1,157.92551100003038,O
+H037,2,255.9228959999018,O Tright
+H037,4,441.4625539998269,O Tright Tdown_left Tdown
+H037,8,831.947338999953,O Tright Tdown_left Tdown Tup_left Tup_right Tleft Tdown_right
+H038,1,161.04512300012175,O
+H038,2,248.31927200011705,O Tdown
+H038,4,441.6853150000861,O Tdown Tleft Tdown_left
+H038,8,818.8042770000266,O Tdown Tleft Tdown_left Tright Tup Tup_right Tup_left
+H039,1,154.76379599999746,O
+H039,2,241.78591199984112,O Tup
+H039,4,425.24802399998407,O Tup Tdown_left Tdown
+H039,8,809.5108709999295,O Tup Tdown_left Tdown Tright Tleft Tup_left Tup_right
+H040,1,164.75928800014117,O
+H040,2,261.2911339999755,O Tright
+H040,4,453.42448200017316,O Tright Tleft Tdown_right
+H040,8,828.5430509999969,O Tright Tleft Tdown_right Tup_right Tup_left Tup Tdown_left
+H041,1,169.9922059999608,O
+H041,2,270.733263000011,O Tup_right
+H041,4,472.34103899995716,O Tup_right Tdown_right Tright
+H041,8,859.9921820000418,O Tup_right Tdown_right Tright Tup Tup_left Tleft Tdown_left
+H042,1,172.0983669999896,O
+H042,2,272.9250540000976,O Tdown_left
+H042,4,474.1147050001473,O Tdown_left Tleft Tup_left
+H042,8,863.3404880001763,O Tdown_left Tleft Tup_left Tdown Tdown_right Tup_right Tright
+H043,1,170.21979600008308,O
+H043,2,275.42667900002016,O Tup_left
+H043,4,473.76348100010546,O Tup_left Tdown_right Tdown
+H043,8,899.4130570001744,O Tup_left Tdown_right Tdown Tleft Tup_right Tdown_left Tright
+H044,1,177.0151849998456,O
+H044,2,289.53286499995556,O Tup_left
+H044,4,514.9504109999725,O Tup_left Tdown_left Tup_right
+H044,8,929.6317699997871,O Tup_left Tdown_left Tup_right Tright Tup Tdown Tdown_right
+H045,1,156.40382600008707,O
+H045,2,244.31318699998883,O Tup
+H045,4,439.932047999946,O Tup Tright Tup_right
+H045,8,820.8077640001648,O Tup Tright Tup_right Tdown Tleft Tup_left Tdown_right
+H046,1,164.62509899997713,O
+H046,2,262.3844629999894,O Tdown_left
+H046,4,458.50266399997963,O Tdown_left Tdown_right Tright
+H046,8,829.8469029998614,O Tdown_left Tdown_right Tright Tup_left Tdown Tup Tup_right
+H047,1,155.56119500001842,O
+H047,2,253.0575640000734,O Tright
+H047,4,448.1310860001031,O Tright Tdown_left Tup_right
+H047,8,820.4546360000222,O Tright Tdown_left Tup_right Tup Tdown Tup_left Tdown_right
+H048,1,180.74260299999878,O
+H048,2,273.6718160001601,O Tdown
+H048,4,486.9899150000947,O Tdown Tright Tup_left
+H048,8,915.7570790000591,O Tdown Tright Tup_left Tdown_left Tdown_right Tleft Tup_right
+H049,1,152.36426799992842,O
+H049,2,240.53057499986608,O Tup
+H049,4,435.96074699985365,O Tup Tdown_left Tright
+H049,8,826.2817119998545,O Tup Tdown_left Tright Tup_left Tup_right Tleft Tdown_right
+H050,1,193.11661299980187,O
+H050,2,316.28710199993293,O Tup_left
+H050,4,539.396823999823,O Tup_left Tup_right Tup
+H050,8,1030.5605919998015,O Tup_left Tup_right Tup Tleft Tright Tdown_right Tdown_left
+H051,1,165.79380000007404,O
+H051,2,253.7338600000112,O Tdown
+H051,4,438.307248000001,O Tdown Tup Tdown_left
+H051,8,828.9234670000951,O Tdown Tup Tdown_left Tup_right Tup_left Tright Tleft
+H052,1,167.88441799985776,O
+H052,2,265.49246199988374,O Tdown_left
+H052,4,460.3475310000249,O Tdown_left Tup_right Tdown_right
+H052,8,839.2785379999168,O Tdown_left Tup_right Tdown_right Tup_left Tright Tleft Tdown
+H053,1,180.30970899985732,O
+H053,2,275.5688629999895,O Tdown
+H053,4,504.31328499985284,O Tdown Tright Tdown_right
+H053,8,943.2771330000378,O Tdown Tright Tdown_right Tleft Tup Tup_left Tup_right
+H054,1,170.2205330000197,O
+H054,2,276.15439000010156,O Tdown_left
+H054,4,474.0028380001604,O Tdown_left Tdown_right Tdown
+H054,8,882.6765560002059,O Tdown_left Tdown_right Tdown Tright Tleft Tup_right Tup
+H055,1,169.50047700015602,O
+H055,2,259.5012010001483,O Tup
+H055,4,464.69909699999334,O Tup Tright Tup_left
+H055,8,860.1504089999708,O Tup Tright Tup_left Tup_right Tdown Tleft Tdown_right
+H056,1,178.95670699999755,O
+H056,2,285.9313909998491,O Tup_left
+H056,4,485.1923449998594,O Tup_left Tdown_right Tup
+H056,8,896.9103299998551,O Tup_left Tdown_right Tup Tdown Tright Tdown_left Tleft
+H057,1,160.3506239998751,O
+H057,2,258.37676299988743,O Tleft
+H057,4,446.4958060000299,O Tleft Tdown Tup_right
+H057,8,831.7813510000178,O Tleft Tdown Tup_right Tup Tdown_right Tup_left Tdown_left
+H058,1,167.67935300003955,O
+H058,2,266.34692900006485,O Tdown_right
+H058,4,463.5500030001367,O Tdown_right Tleft Tup_left
+H058,8,847.0950340001764,O Tdown_right Tleft Tup_left Tdown_left Tright Tdown Tup_right
+H059,1,165.01960199980203,O
+H059,2,263.1024599998,O Tdown_left
+H059,4,450.29833799981134,O Tdown_left Tup Tup_left
+H059,8,833.019454999885,O Tdown_left Tup Tup_left Tleft Tright Tdown Tdown_right
+H060,1,158.86431800004175,O
+H060,2,247.65541900001153,O Tdown
+H060,4,444.8312980000537,O Tdown Tup_left Tleft
+H060,8,826.588023000113,O Tdown Tup_left Tleft Tup Tright Tup_right Tdown_left
+H061,1,175.54846000007274,O
+H061,2,278.773511000054,O Tup_right
+H061,4,475.29307499985407,O Tup_right Tdown_left Tup
+H061,8,893.7359169999581,O Tup_right Tdown_left Tup Tdown_right Tup_left Tleft Tright
+H062,1,157.52534700004617,O
+H062,2,245.6889019999835,O Tup
+H062,4,441.6280769999048,O Tup Tup_right Tright
+H062,8,831.0416699998768,O Tup Tup_right Tright Tleft Tdown_left Tdown_right Tup_left
+H063,1,165.5674569999519,O
+H063,2,262.66053799986366,O Tdown_left
+H063,4,456.67964899985236,O Tdown_left Tup_left Tdown_right
+H063,8,826.994687000024,O Tdown_left Tup_left Tdown_right Tleft Tright Tup Tdown
+H064,1,157.44357399989894,O
+H064,2,254.3640169999435,O Tup_right
+H064,4,439.38820599987594,O Tup_right Tright Tup
+H064,8,819.158889999926,O Tup_right Tright Tup Tup_left Tdown Tdown_right Tleft
+H065,1,212.84034999985124,O
+H065,2,341.6449510000348,O Tdown_right
+H065,4,598.6633600000459,O Tdown_right Tdown_left Tup_right
+H065,8,1062.3151019999568,O Tdown_right Tdown_left Tup_right Tup Tdown Tright Tleft
+H066,1,167.37519000002976,O
+H066,2,270.54103299997223,O Tdown_left
+H066,4,464.94079199987937,O Tdown_left Tup_right Tdown
+H066,8,867.0631109998794,O Tdown_left Tup_right Tdown Tleft Tdown_right Tup Tright
+H067,1,155.68832799999655,O
+H067,2,243.67194100000233,O Tup
+H067,4,430.46174099981727,O Tup Tdown Tdown_right
+H067,8,820.3578749998996,O Tup Tdown Tdown_right Tleft Tup_right Tright Tdown_left
+H068,1,156.79776299998593,O
+H068,2,254.08696799991048,O Tright
+H068,4,449.21839599987834,O Tright Tleft Tdown_right
+H068,8,820.5788749999101,O Tright Tleft Tdown_right Tup Tup_right Tdown Tdown_left
+H069,1,183.84095700002945,O
+H069,2,296.0815999999795,O Tup_right
+H069,4,521.6494839999086,O Tup_right Tdown_right Tright
+H069,8,934.7728430000188,O Tup_right Tdown_right Tright Tleft Tup Tdown Tup_left
+H070,1,156.49090900001283,O
+H070,2,253.75452100001894,O Tup_right
+H070,4,447.97869500007437,O Tup_right Tleft Tdown_right
+H070,8,828.4404790001645,O Tup_right Tleft Tdown_right Tup Tdown_left Tup_left Tright
+H071,1,192.52126199990016,O
+H071,2,311.0930699999699,O Tup_left
+H071,4,546.2710809999862,O Tup_left Tdown_left Tleft
+H071,8,977.6567599999453,O Tup_left Tdown_left Tleft Tdown Tup Tdown_right Tright
+H072,1,156.55436699989878,O
+H072,2,252.85456599999634,O Tright
+H072,4,445.6367870000122,O Tright Tdown_left Tup_right
+H072,8,809.9813260000701,O Tright Tdown_left Tup_right Tdown_right Tdown Tleft Tup
+H073,1,159.56584000014118,O
+H073,2,255.80646100002014,O Tright
+H073,4,447.3967779999839,O Tright Tdown_right Tup_left
+H073,8,818.0958010000268,O Tright Tdown_right Tup_left Tup Tdown_left Tleft Tdown
+H074,1,191.06498899986946,O
+H074,2,314.4435209999301,O Tup_left
+H074,4,559.5524049999767,O Tup_left Tup_right Tdown_right
+H074,8,1027.9955510000036,O Tup_left Tup_right Tdown_right Tright Tleft Tup Tdown_left
+H075,1,164.37921599981564,O
+H075,2,261.3611559997935,O Tdown_left
+H075,4,454.6948459999385,O Tdown_left Tright Tup_left
+H075,8,831.4138249997995,O Tdown_left Tright Tup_left Tleft Tdown Tdown_right Tup_right
+H076,1,154.70779100019172,O
+H076,2,250.88731700020617,O Tright
+H076,4,433.58474400019986,O Tright Tdown Tdown_right
+H076,8,808.7997920001726,O Tright Tdown Tdown_right Tup_left Tup_right Tleft Tup
+H077,1,168.4333749999496,O
+H077,2,259.47050700006,O Tdown
+H077,4,471.10974499992153,O Tdown Tright Tup_right
+H077,8,880.6711810000252,O Tdown Tright Tup_right Tup Tdown_left Tleft Tup_left
+H078,1,167.4878669998634,O
+H078,2,256.03812500003187,O Tup
+H078,4,450.29118599995854,O Tup Tdown_right Tup_left
+H078,8,830.9435300000132,O Tup Tdown_right Tup_left Tdown Tright Tdown_left Tup_right
+H079,1,153.93374100017354,O
+H079,2,252.18027599999004,O Tup_right
+H079,4,446.89191600014055,O Tup_right Tdown_right Tdown_left
+H079,8,837.0962870001222,O Tup_right Tdown_right Tdown_left Tup_left Tup Tdown Tright
+H080,1,160.97727700002906,O
+H080,2,266.41202100017836,O Tright
+H080,4,462.6013720001083,O Tright Tup_right Tup
+H080,8,839.8663240000133,O Tright Tup_right Tup Tdown Tleft Tdown_right Tup_left
+H081,1,164.72732400006862,O
+H081,2,262.86768800014215,O Tup_right
+H081,4,458.41383200013297,O Tup_right Tup_left Tdown_right
+H081,8,835.446445000116,O Tup_right Tup_left Tdown_right Tleft Tright Tdown Tdown_left
+H082,1,170.5698040000243,O
+H082,2,267.6767039999959,O Tdown_right
+H082,4,461.77203999991434,O Tdown_right Tdown_left Tright
+H082,8,837.6764969998476,O Tdown_right Tdown_left Tright Tdown Tup_left Tup_right Tleft
+H083,1,167.94684900014545,O
+H083,2,259.1204940001717,O Tup
+H083,4,471.9514620001064,O Tup Tup_right Tdown_right
+H083,8,893.7379600001805,O Tup Tup_right Tdown_right Tdown_left Tright Tleft Tup_left
+H084,1,179.01747900009468,O
+H084,2,270.0706620000801,O Tup
+H084,4,466.11525899993467,O Tup Tdown Tup_left
+H084,8,888.001814000063,O Tup Tdown Tup_left Tdown_right Tup_right Tright Tdown_left
+H085,1,164.34628499996506,O
+H085,2,260.72631800002455,O Tup_left
+H085,4,444.0515230000983,O Tup_left Tright Tdown
+H085,8,821.1463269999513,O Tup_left Tright Tdown Tup Tleft Tdown_left Tdown_right
+H086,1,174.37981899979604,O
+H086,2,264.6129749998636,O Tdown
+H086,4,471.1113099999693,O Tdown Tleft Tdown_left
+H086,8,869.1090339998482,O Tdown Tleft Tdown_left Tup Tup_right Tup_left Tright
+H087,1,172.0756130000609,O
+H087,2,279.7964830001547,O Tleft
+H087,4,492.74140700003954,O Tleft Tdown_left Tright
+H087,8,889.9256390000119,O Tleft Tdown_left Tright Tdown Tup_right Tup_left Tup
+H088,1,177.49578500001917,O
+H088,2,291.7835670000386,O Tup_right
+H088,4,502.1765100000266,O Tup_right Tup Tdown_right
+H088,8,944.3332419998569,O Tup_right Tup Tdown_right Tleft Tdown Tup_left Tdown_left

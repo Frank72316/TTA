@@ -1,0 +1,7 @@
+{
+  "probability_calibration_slope": 36.63471054243853,
+  "translation_residual_bias": -0.020469632086220286,
+  "translation_residual_variance": 0.20112127458168508,
+  "translation_residual_mean_correlation": 0.9904157227926748,
+  "translation_equicorrelation_floor": 0.19961267837154884
+}
