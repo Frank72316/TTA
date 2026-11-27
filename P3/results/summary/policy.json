@@ -1,0 +1,7 @@
+{
+  "threshold": 0.00830078125,
+  "threshold_internal_split": 0.0047607421875,
+  "holdout_pairs": 88,
+  "holdout_triggered": 14,
+  "holdout_oracle_improved": 2
+}

@@ -1,0 +1,12 @@
+{
+  "pairs": 88,
+  "seed": 30126,
+  "dataset_revision": "c493721e19e296eb615420036f2a2eed08412bb4",
+  "metadata_sha256": "c022eff66ce7241c8f5eaf8a1314b9fdbf36a562655b1a69a3c8668452c6d3db",
+  "excluded_pair_files_sha256": [
+    "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
+    "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe"
+  ],
+  "pairs_sha256": "02d52fda6da180e5d52a9aa536260a777ae2f3f278759b09a39aaba85915f593",
+  "freeze_source_sha256": "1d74471a284e004ce6ab64c2177c2207c55d1ff84dca58646e768a363a4ff315"
+}

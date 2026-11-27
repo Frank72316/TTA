@@ -1,0 +1,26 @@
+{
+  "mode": "eight_direction_fresh_scores",
+  "pairs_sha256": "02d52fda6da180e5d52a9aa536260a777ae2f3f278759b09a39aaba85915f593",
+  "scores_sha256": "9a1c894973a5a95feeb360e32cbed226fc26930a8530f0af2495b80e1cef2f83",
+  "timings_sha256": "631838d7ba0a162375a72f447badf15f51ebe51a572b46d04b19da5e82381d7c",
+  "environment_sha256": "e976d5d25a1d060b3f1bae09b24f30f85e67ebbb4c342c6b32023cf5c88075ad",
+  "bootstrap_seed": 2026,
+  "bootstrap_resamples": 10000,
+  "views": [
+    "O",
+    "Tleft",
+    "Tright",
+    "Tup",
+    "Tdown",
+    "Tup_left",
+    "Tup_right",
+    "Tdown_left",
+    "Tdown_right"
+  ],
+  "budgets_per_image": [
+    1,
+    2,
+    4,
+    8
+  ]
+}

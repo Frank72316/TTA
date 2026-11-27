@@ -1,0 +1,70 @@
+{
+  "started_utc": "2026-11-27T09:22:58.675799+00:00",
+  "finished_utc": "2026-11-27T09:24:53.486993+00:00",
+  "instance_template": null,
+  "zone": "asia-southeast1-c",
+  "platform": "Linux-6.8.0-1074-gcp-x86_64-with-glibc2.35",
+  "linux": "Ubuntu 22.04.5 LTS",
+  "python": "3.10.12",
+  "gpu": {
+    "index": 0,
+    "uuid": "GPU-9d6b1a6b-3cc3-45d4-9c16-8716439d8af8",
+    "name": "NVIDIA L4",
+    "initial_MiB": 0,
+    "total_MiB": 23034,
+    "initial_util": 0,
+    "driver": "580.178.04"
+  },
+  "expected_gpu_name": "NVIDIA L4",
+  "cuda": "12.4",
+  "cudnn": 90100,
+  "torch_build": "2.5.1+cu124",
+  "software": {
+    "hpsv2": "1.2.0",
+    "torchvision": "0.20.1+cu124",
+    "Pillow": "12.2.0",
+    "numpy": "1.26.4",
+    "huggingface-hub": "0.36.2"
+  },
+  "scorer": "hps",
+  "model": "HPS v2.1 ViT-H-14",
+  "amplitude_pct": 3,
+  "with_brightness": true,
+  "amp": "CUDA float16",
+  "deterministic_algorithms": true,
+  "tf32_matmul": false,
+  "pinned_weights": [
+    [
+      "xswu/HPSv2",
+      "697403c78157020a1ae59d23f111aa58ced35b0a",
+      "HPS_v2.1_compressed.pt",
+      "c57a38fb4a2f7e7c15bf00da2ea377cdf165448b4dd1052a484c215a998c9837"
+    ],
+    [
+      "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
+      "open_clip_pytorch_model.bin",
+      "9a78ef8e8c73fd0df621682e7a8e8eb36c6916cb3c16b291a082ecd52ab79cc4"
+    ]
+  ],
+  "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+  "dataset_revision": "c493721e19e296eb615420036f2a2eed08412bb4",
+  "validation_archives_sha256": {
+    "validation_1.zip": "8eb57656d6c424b9451240d5f401462107889f2c4781fb3e5f827f7e73a197ea",
+    "validation_2.zip": "5349f894b1b1571fbe1aed6a3288bdf9f8e4dbf2d8a6fbe00274477f276da48c"
+  },
+  "pairs_sha256": "02d52fda6da180e5d52a9aa536260a777ae2f3f278759b09a39aaba85915f593",
+  "scores_sha256": "9a1c894973a5a95feeb360e32cbed226fc26930a8530f0af2495b80e1cef2f83",
+  "timings_sha256": "631838d7ba0a162375a72f447badf15f51ebe51a572b46d04b19da5e82381d7c",
+  "scorer_source_sha256": "82262f03a50eb9118634a36a4a6bb7760d0aaf93fcaf1c0962e0814d29d61ec7",
+  "code_sha256": {
+    "score_gpu.py": "6843c3a29a543faa22cd2dbf9ba0ab0b7d344082f3a551894e76c9d322b65dc6",
+    "budget.py": "8704313a7f278f73274716cd1a17b406fbd69665accb703046e140efb4a6dd28",
+    "views.py": "204da2f9e126a5ba8b7cf1b3be7310033a4bb80499ad9600f06900839540000b"
+  },
+  "score_count": 1936,
+  "warmup_reference_scores": 22,
+  "repeated_input_count": 0,
+  "timing_seed": 2026,
+  "timing_scope": "Cumulative wall latency per pair, one warmed model and text encoding per pair; includes original ZIP reads, image transforms, feature inference, and score transfer; excludes warmup, input hashing, and output writes"
+}

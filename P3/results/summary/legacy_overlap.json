@@ -1,0 +1,7 @@
+{
+  "pairs": 256,
+  "identical_params_tokens_and_rgb_hashes": 2560,
+  "identical_fp16_scores": 2001,
+  "max_absolute_score_delta": 0.000244140625,
+  "legacy_scores_sha256": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275"
+}

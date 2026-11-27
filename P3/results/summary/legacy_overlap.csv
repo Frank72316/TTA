@@ -1,0 +1,4 @@
+budget_per_image,evaluated_cells,different_cells,affected_pairs
+1,256,0,0
+2,1024,2,2
+4,1024,2,2

@@ -1,0 +1,38 @@
+{
+  "gpu": {
+    "index": 0,
+    "uuid": "GPU-9d6b1a6b-3cc3-45d4-9c16-8716439d8af8",
+    "name": "NVIDIA L4",
+    "initial_MiB": 0,
+    "total_MiB": 23034,
+    "initial_util": 0,
+    "driver": "580.178.04"
+  },
+  "torch_build": "2.5.1+cu124",
+  "transformers": "4.46.0",
+  "data_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/nyu-depth-png.zip",
+  "data_sha256": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "model_revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "model_sha256": {
+    "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+    "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+    "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+  },
+  "source_sha256": "a9761284ee9a709356ad4144c6c217ca23594795635d8a0f11c0518facd189c9",
+  "moments_sha256": "f73d98e268971b07bd57ea4135f9f920488ca94a7dbf0fa6e0c6f9bd795a24c1",
+  "float": "float32",
+  "views": [
+    "O",
+    "Tleft",
+    "Tright",
+    "Tup",
+    "Tdown",
+    "Tup_left",
+    "Tup_right",
+    "Tdown_left",
+    "Tdown_right"
+  ],
+  "seed": 2026,
+  "timing_scope": "Cumulative image transforms, single images in float32, resize and device transfer; excludes input I/O, alignment and statistics"
+}
