@@ -20,19 +20,19 @@ node build_pdf.cjs
 python -B verify_pdf.py
 ```
 
-`audit.py` 需要 NumPy 与仓库中的 P1、P2、P3 实验目录。它从旧、新原始评分重算分差、共同分量、严格跨提示词期望、主要策略的每套搭配、按图对配对区间及所引案例，并与原逐对 CSV 对账。来源文件摘要记录在 `audit.json`。`compose.py` 读 `audit.json`、`assets/`、`case_inputs.csv` 和 `print.css`。PDF 校验需要 pypdf、Pillow、NumPy 和 Poppler 的 pdftoppm。它只把 PDF 复制到临时空目录，再逐页渲染、核验字体嵌入、核对图像绘制顺序和像素。8 页的 PNG、文件校验值及每页资源清单见 `qa/`。
+`audit.py` 需要 NumPy 与仓库中的 P1、P2 实验目录。它从旧、新原始评分重算分差、共同分量、严格跨提示词期望、主要策略的每套搭配、按图对配对区间及所引案例，并与原逐对 CSV 对账。来源文件摘要记录在 `audit.json`。`compose.py` 读 `audit.json`、`assets/`、`case_inputs.csv` 和 `print.css`。PDF 校验需要 pypdf、Pillow、NumPy 和 Poppler 的 pdftoppm。它只把 PDF 复制到临时空目录，再逐页渲染、核验字体嵌入、核对图像绘制顺序和像素。8 页的 PNG、文件校验值及每页资源清单见 `qa/`。
 
 ## 表、图与案例的来源
 
 | 页码 | 引用材料 | 实际输入 |
 |---|---|---|
-| 1 | 003 的 A/B 原图、同时涨分的示例 | `P1/baseline/pairs.csv`、`scores.csv` 的 P0 × L0/L1；图片沿用 `P3/old_cases/assets/` |
+| 1 | 003 的 A/B 原图、同时涨分的示例 | `P1/baseline/pairs.csv`、`scores.csv` 的 P0 × L0/L1；图片沿用 `P2/translation/old_cases/assets/` |
 | 2 | 六阶段设计、005/053 的两分均值 | 各目录的 README 和 report；`P1/prompts/old_prompt_audit.csv`、`P1/baseline/pair_results.csv` 与 pilot 原始分数 |
 | 3 | 共同分量、图 1 随机重配参照 | `P1/prompts/scores.csv`、`P1/decomposition/pair_decomposition.csv`、`summary.csv`；`P1/pairing/summary.csv` 与 `null_distribution.csv` 中 all × derangement |
-| 4 | 图 2 纠正与改错、准确率与平局表、图 3 原始分差四分组 | `P3/scores.csv`、`transitions.csv`、`strategy_summary.csv`、`endpoint.json`、`margin_groups.csv` 与 `pair_contributions.csv` |
-| 5 | 003、008 的三列图像及已观察到的搭配 | `P1/baseline/pairs.csv`、`P2/scores.csv`、`combination_results.csv` 和 `P3/old_cases/index.html` |
-| 6–7 | N032、N141 的原图、三个版本、带符号分差、方向表 | `P3/pairs_frozen.csv`、`scores.csv`、`combination_results.csv`、`direction_counts.csv`；冻结路径标识的验证集原始图像 |
-| 8 | 复查路径、命令、结论边界与后续问题 | 各实验 README；短提示词实验及 P2、P3 的汇总和逐对缓存 |
+| 4 | 图 2 纠正与改错、准确率与平局表、图 3 原始分差四分组 | `P2/translation/scores.csv`、`transitions.csv`、`strategy_summary.csv`、`endpoint.json`、`margin_groups.csv` 与 `pair_contributions.csv` |
+| 5 | 003、008 的三列图像及已观察到的搭配 | `P1/baseline/pairs.csv`、`P2/scores.csv`、`combination_results.csv` 和 `P2/translation/old_cases/index.html` |
+| 6–7 | N032、N141 的原图、三个版本、带符号分差、方向表 | `P2/translation/pairs_frozen.csv`、`scores.csv`、`combination_results.csv`、`direction_counts.csv`；冻结路径标识的验证集原始图像 |
+| 8 | 复查路径、命令、结论边界与后续问题 | 各实验 README；短提示词实验及 P2 两批样本的汇总和逐对缓存 |
 
 ## 案例输入核验
 

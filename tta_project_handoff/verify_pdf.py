@@ -10,7 +10,7 @@ pdf=R/"TTA阶段交接报告.pdf";qa=R/"qa";qa.mkdir(exist_ok=True)
 cases={"003":["O","B090","Tdown"],"008":["O","B090","Tleft"],"N032":["O","B090","Tup","Tdown"],"N141":["O","B090","Tleft","Tright"]}
 def ids(i):return [f"{i}-{s}-{v}.png" for s in "AB" for v in cases[i]]
 expected=[["003-A-O.png","003-B-O.png"],[],[],[],ids("003")+ids("008"),ids("N032"),ids("N141"),[]]
-terms=["候选分差","三个实验如何衔接","同一对候选更容易一起变","平移补到错例","同一种平移策略的两面","只有上移能纠正","每个方向都改错","下一位同学从哪里接手"]
+terms=["候选分差","已完成的实验对应哪些假设","同一对候选更容易一起变","平移补到错例","同一种平移策略的两面","只有上移能纠正","每个方向都改错","下一位同学从哪里接手"]
 render=shutil.which("pdftoppm")
 if not render:raise RuntimeError("pdftoppm required on PATH")
 with tempfile.TemporaryDirectory(prefix="tta_handoff_detached_") as d:

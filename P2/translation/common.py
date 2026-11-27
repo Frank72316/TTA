@@ -6,8 +6,8 @@ import hashlib
 import itertools
 
 ROOT=Path(__file__).resolve().parent
-P2=ROOT.parent/"P2"
-PILOT=ROOT.parent/"P1/baseline"
+P2=ROOT.parent
+PILOT=P2.parent/"P1/baseline"
 sys.dont_write_bytecode=True
 sys.path.extend([str(P2),str(PILOT)])
 from study import FAMILIES, combinations, choice, outcome, read_csv, write_csv, write_json, digest, file_json

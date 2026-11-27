@@ -2,6 +2,8 @@
 
 [中文报告](report.md) · [策略对比图](figures/strategies.png) · [策略汇总](strategy_summary.csv) · [混合与单类的配对比较](mix_comparisons.csv)
 
+本目录对应飞书 P2。在 64 对图上发现平移既能补错也会改错后，我们在 [translation/](translation/README.md) 的 256 个新提示词上进行了独立复验。两批样本分别报告，主要策略均固定每图三次评分。
+
 从仓库根目录进入 `P2`。本实验读取 P1/baseline 的冻结抽样清单、验证集图像及 P0 分数，使用其公开 HPS 权重和已验证的推理环境。研究对象为原始提示词下人对原图对的偏好。模型在生成的变换视图上评分，策略最后仍在两张原图间选择。
 
 ## 输出

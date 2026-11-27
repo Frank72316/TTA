@@ -4,7 +4,7 @@ import csv,json,hashlib,itertools
 from collections import Counter
 import numpy as np
 R=Path(__file__).resolve().parent; W=R.parent
-P="P1/baseline"; Q="P1/prompts"; H="P1/decomposition"; N="P1/pairing"; E="P2"; F="P3"
+P="P1/baseline"; Q="P1/prompts"; H="P1/decomposition"; N="P1/pairing"; E="P2"; F="P2/translation"
 sources={}
 def rows(directory,name):
     p=W/directory/name;sources[str(p.relative_to(W)).replace(chr(92),"/")]=hashlib.sha256(p.read_bytes()).hexdigest()

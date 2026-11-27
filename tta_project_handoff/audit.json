@@ -2643,7 +2643,7 @@
   },
   "source_hashes": {
     "P1/baseline/pairs.csv": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
-    "P3/pairs_frozen.csv": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
+    "P2/translation/pairs_frozen.csv": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
     "P1/prompts/prompts.csv": "0bad2a1b662c1ee23358f57c1812c6bb38b7fd80f594e2483ac3b96c468b8429",
     "P1/baseline/pair_results.csv": "a1b86a82285eea779797b2e8d6b2b7744846fc33c0777ace5392aee281172ef4",
     "P1/prompts/pair_results.csv": "eda98e8eeb13cacccc01ca556cdd43370887d075ef85aa9b508cd67e79b4c616",
@@ -2655,17 +2655,17 @@
     "P1/pairing/null_distribution.csv": "6995cd9d1092e1ae8a9a065cc48f649f67a88ebfe425d3663fbe77b50c082b7b",
     "P2/scores.csv": "b7a19e8d072bf6ee0f5ee069088fde7e7e5900b7b3cca45c44a000207d7f73e3",
     "P2/combination_results.csv": "44ccd3c9c15d01bc3cee04810699f10eed0bf7ff0aca4d357c38470dbd9f0056",
-    "P3/scores.csv": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275",
-    "P3/combination_results.csv": "b20d7ff546eb7d618ab78e274e1763d05f89d98a4e0462ebceeeadcbe2dbb8e5",
-    "P3/direction_counts.csv": "13865873277d987f1867d0f1d88b95ae3efe78245338b311ba2990ed6701751f",
-    "P3/margin_groups.csv": "90ab7b3cd283f24f83f1f35e2618a8ced84e12b65676ed15ab8493ceaf7f4794",
+    "P2/translation/scores.csv": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275",
+    "P2/translation/combination_results.csv": "b20d7ff546eb7d618ab78e274e1763d05f89d98a4e0462ebceeeadcbe2dbb8e5",
+    "P2/translation/direction_counts.csv": "13865873277d987f1867d0f1d88b95ae3efe78245338b311ba2990ed6701751f",
+    "P2/translation/margin_groups.csv": "90ab7b3cd283f24f83f1f35e2618a8ced84e12b65676ed15ab8493ceaf7f4794",
     "P2/pair_strategy_results.csv": "9f8f9d1c0b50a941857478549492180a199545ef550e2637614e563fc24ad33f",
     "P2/strategy_summary.csv": "a2e76f45b42ad5dd859dc539b03898b723a25b6d23ee3ff6409fb17bdbacb2aa",
-    "P3/pair_strategy_results.csv": "2e79fe023ea291a5d7eced189516c0f1d8cff51448b96725330de1c9e103de4e",
-    "P3/strategy_summary.csv": "a3e5d9fad87512fc1167b4463cce1c46bb1d4782b02efb21c4b2858b8b3624e0",
+    "P2/translation/pair_strategy_results.csv": "2e79fe023ea291a5d7eced189516c0f1d8cff51448b96725330de1c9e103de4e",
+    "P2/translation/strategy_summary.csv": "a3e5d9fad87512fc1167b4463cce1c46bb1d4782b02efb21c4b2858b8b3624e0",
     "P1/prompts/summary.csv": "d3076d69a55be4726129efb7d01ce4ce778a54106b169a87fe12ab0a3a8a0399",
     "P1/decomposition/summary.csv": "7ea3ea8408cae4551b174dd008c7070a115ef75dc570759855e9bdeb99bb243e",
-    "P3/transitions.csv": "e0239bfb85f9ba611667dadffa9c18aba48011331b10c82e6463eeda9256d49e",
+    "P2/translation/transitions.csv": "e0239bfb85f9ba611667dadffa9c18aba48011331b10c82e6463eeda9256d49e",
     "P1/baseline/README.md": "24630f361b39925851a0fbb0ba09da720142b47a2a15c5526ceafc7063dfd638",
     "P1/baseline/report.md": "781114bafdac8cec0fd102c42cddcb339c12d5041a56351101182d0e5dadc098",
     "P1/prompts/README.md": "d1683323bb62e88530c63d617b953b5bf30604cee59c52ac0483325ca3207307",
@@ -2674,10 +2674,10 @@
     "P1/decomposition/report.md": "8eef389fe7db07464ca95dc17e83a8089e83e818bbfd6ab0ed73f9aa54079fc7",
     "P1/pairing/README.md": "6470451bcccd88b470b9b79ade1b40ae1373f18363d8f53133c3fbc17cb429e7",
     "P1/pairing/report.md": "05ec15f28ae01768b14db4ae16af166cafdc57053e504b22068ddb91a6c4a921",
-    "P2/README.md": "2802e2dfbee9596e54896bfeb40094ae888fa599dab96848664239db86034fe4",
+    "P2/README.md": "ea61a75c69f872f322489ecfbb03eaab3f2bb8bd364fd33b1f9d8a6567744eb7",
     "P2/report.md": "f43166045678bc1283645299528e4a00fb7fd6b82e36fb227a5c25c0ae36137e",
-    "P3/README.md": "14944b42fe53343992d65247b2079730c761ffbddf02d63ae55e9b4939b009cc",
-    "P3/report.md": "3da0fbf9b0f65e78f4c2ea55fe3a02c5052d97ca57c3aec79b0eb0b72e35ee63"
+    "P2/translation/README.md": "7be228d4585b6859bf4b2eaeec67cae6371ca0aff997e0008aae84c2a7a7fb69",
+    "P2/translation/report.md": "3da0fbf9b0f65e78f4c2ea55fe3a02c5052d97ca57c3aec79b0eb0b72e35ee63"
   },
   "input_files": {
     "P1/baseline": [
@@ -2716,15 +2716,15 @@
       "P2/verify_p2.py",
       "P2/views.py"
     ],
-    "P3": [
-      "P3/analyze.py",
-      "P3/common.py",
-      "P3/figures.py",
-      "P3/freeze.py",
-      "P3/old_cases.py",
-      "P3/report.py",
-      "P3/score_p3.py",
-      "P3/verify.py"
+    "P2/translation": [
+      "P2/translation/analyze.py",
+      "P2/translation/common.py",
+      "P2/translation/figures.py",
+      "P2/translation/freeze.py",
+      "P2/translation/old_cases.py",
+      "P2/translation/report.py",
+      "P2/translation/score_translation.py",
+      "P2/translation/verify.py"
     ]
   }
 }

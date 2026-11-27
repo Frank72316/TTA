@@ -1,7 +1,7 @@
 """Build the Chinese report from the frozen outputs. Counts keep their full precision in CSV."""
 from collections import defaultdict
 import numpy as np
-from common import ROOT,read_csv,file_json,FAMILIES
+from common import ROOT,PILOT,read_csv,file_json,FAMILIES
 
 def load(name):return read_csv(ROOT/(name+".csv"))
 def val(x):return f"{float(x):.4f}".rstrip("0").rstrip(".") if x!="" else "—"
@@ -81,7 +81,7 @@ def main():
     lines+=["每个方向的严格翻转、最终选对、选错与同分计数见 [方向明细](direction_counts.csv)。同一图对的方向和亮度档共享两张候选图。数据足以描述这些案例，尚不足以判断哪类构图普遍受益。",
             "## 旧 64 对 · 案例复核",
             "从 P2 的 2,176 条原始分数独立枚举十项策略，每对 120 种搭配。仅 003、008、053、005、031 至少一次改变原始选择。003 原图选错，TT 纠正 4/6、BT 纠正 4/16；008 原图选对，BT 改错 16/16。下表显示原图与单一平移等权平均的选择，便于对照方向。"]
-    op={r["pair_id"]:r for r in read_csv(ROOT.parent/"P1/baseline/pairs.csv")}
+    op={r["pair_id"]:r for r in read_csv(PILOT/"pairs.csv")}
     lines.append(table(["旧图对","人工赢家","原始 A−B","原图选择","原图＋左","原图＋右","原图＋上","原图＋下"],[[i,op[i]["human_winner_P0"],small(rs[0]["d0"]),"A" if float(rs[0]["d0"])>0 else "B",*[r["pick"] for r in rs]] for i in ["003","008","053","005","031"] for rs in [[r for r in old if r["pair_id"]==i and r["method"]=="O+T"]]]))
     lines+=["[打开五个旧案例](old_cases/index.html)。每例含原文、原始图像、模型看到的 224 × 224 输入、BT 的 4 × 4 分差与判定，以及四种单方向结果。可直接比较边缘纹理和位置的改变；当前实验没有测量模型关注的图像区域。旧案例未并入独立样本估计。",
             "## 运行与验收",

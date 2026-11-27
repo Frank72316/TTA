@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 ROOT=Path(__file__).resolve().parent
 P2=ROOT.parent/"P2"
-P3=ROOT.parent/"P3"
+translation=P2/"translation"
 pilot=ROOT.parent/"P1/baseline"
 sys.dont_write_bytecode=True
 sys.path.insert(0,str(P2))
@@ -20,7 +20,7 @@ assert hashlib.sha256((P2/"views.py").read_bytes()).hexdigest()==env["source_has
 plan={"003":["O","B090","Tdown"],"008":["O","B090","Tleft"],"N032":["O","B090","Tup","Tdown"],"N141":["O","B090","Tleft","Tright"]}
 out=ROOT/"assets";out.mkdir(exist_ok=True)
 audit=[]
-for group,pairs,cache in [("old",pilot/"pairs.csv",P2/"scores.csv"),("new",P3/"pairs_frozen.csv",P3/"scores.csv")]:
+for group,pairs,cache in [("old",pilot/"pairs.csv",P2/"scores.csv"),("new",translation/"pairs_frozen.csv",translation/"scores.csv")]:
     bank={(r["pair_id"],r["side"],r["view"]):r for r in rows(cache)}
     for p in rows(pairs):
         i=p["pair_id"]
@@ -35,10 +35,10 @@ for group,pairs,cache in [("old",pilot/"pairs.csv",P2/"scores.csv"),("new",P3/"p
                 assert sha==r.get("pixel_sha256",r.get("input_pixels_sha"))
                 arr=np.uint8(np.rint(255*np.clip(final_rgb(tf,view),0,1)))
                 assert arr.shape==(224,224,3)
-                name=f"{i}-{side}-{v}.png";dest=out/name;prior=P3/"old_cases/assets"/name
+                name=f"{i}-{side}-{v}.png";dest=out/name;prior=translation/"old_cases/assets"/name
                 if group=="old" and prior.exists():
                     with Image.open(prior) as old:assert np.array_equal(arr,np.asarray(old.convert("RGB")))
-                    shutil.copyfile(prior,dest);origin="verified P3 case PNG"
+                    shutil.copyfile(prior,dest);origin="verified translation case PNG"
                 else:
                     Image.fromarray(arr).save(dest);origin="reconstructed from validation ZIP"
                 audit.append(dict(pair_id=i,side=side,view=v,image_id=r["image_id"],params=params,source=origin,pixels_sha256=sha,filename=name,png_sha256=hashlib.sha256(dest.read_bytes()).hexdigest()))

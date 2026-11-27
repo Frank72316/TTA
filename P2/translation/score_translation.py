@@ -45,10 +45,15 @@ def run(limit):
     env=dict(hps_version="v2.1",code_rev=old["code_revision"],weights=old["weights"],software=old["software"],
              cuda=torch.version.cuda,torch_build=torch.__version__,device=gpu["name"],driver=gpu["driver"],host=platform.node(),
              preprocess=p2["preprocess"],return_dtype="float16",method="Official normalized singleton image/text features and CUDA AMP dot product",
-             p2_views_sha=digest(P2/"views.py"),sources={n:digest(ROOT/n) for n in ("common.py","score_p3.py")},
+             p2_views_sha=digest(P2/"views.py"),sources={n:digest(ROOT/n) for n in ("common.py","score_translation.py")},
              pairs_sha=digest(ROOT/"pairs_frozen.csv"),protocol_sha=digest(ROOT/"protocol.md"))
     envfile=ROOT/"environment.json"
-    if envfile.exists():assert matches_environment(file_json(envfile), env, ('sources',))
+    if envfile.exists():
+        recorded=file_json(envfile)
+        # Historical cache manifests retain the scoring script's original filename.
+        if "score_p3.py" in recorded["sources"]:
+            recorded["sources"]["score_translation.py"]=recorded["sources"].pop("score_p3.py")
+        assert matches_environment(recorded, env, ('sources',))
     else:write_json(envfile,env)
     signature=digest(envfile);cache=ROOT/"cache";cache.mkdir(exist_ok=True)
     fresh=hits=qa=0;gpu_secs=0.;out=[]
