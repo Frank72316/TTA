@@ -1,0 +1,65 @@
+pair_id,x,y,x_cat,y_cat,prompt_left,prompt_right,winner_left,winner_right,image_A,image_B
+F001,book,bowl,84,51,The book is to the left of the bowl.,The book is to the right of the bowl.,B,A,199771,308430
+F002,bowl,banana,51,52,The bowl is to the left of the banana.,The bowl is to the right of the banana.,A,B,294350,312406
+F003,dining table,refrigerator,67,82,The dining table is to the left of the refrigerator.,The dining table is to the right of the refrigerator.,B,A,14038,30213
+F004,teddy bear,microwave,88,78,The teddy bear is to the left of the microwave.,The teddy bear is to the right of the microwave.,B,A,319696,445658
+F005,couch,cup,63,47,The couch is to the left of the cup.,The couch is to the right of the cup.,A,B,435880,376365
+F006,laptop,clock,73,85,The laptop is to the left of the clock.,The laptop is to the right of the clock.,B,A,124659,326082
+F007,dining table,knife,67,49,The dining table is to the left of the knife.,The dining table is to the right of the knife.,B,A,374083,559513
+F008,chair,backpack,62,27,The chair is to the left of the backpack.,The chair is to the right of the backpack.,B,A,16249,132796
+F009,potted plant,teddy bear,64,88,The potted plant is to the left of the teddy bear.,The potted plant is to the right of the teddy bear.,A,B,175443,404484
+F010,tie,traffic light,32,10,The tie is to the left of the traffic light.,The tie is to the right of the traffic light.,B,A,76547,429011
+F011,motorcycle,person,4,1,The motorcycle is to the left of the person.,The motorcycle is to the right of the person.,A,B,13177,213605
+F012,bus,car,6,3,The bus is to the left of the car.,The bus is to the right of the car.,B,A,520009,27768
+F013,fork,hot dog,48,58,The fork is to the left of the hot dog.,The fork is to the right of the hot dog.,B,A,438226,320664
+F014,sports ball,laptop,37,73,The sports ball is to the left of the laptop.,The sports ball is to the right of the laptop.,A,B,303713,190236
+F015,cup,dining table,47,67,The cup is to the left of the dining table.,The cup is to the right of the dining table.,B,A,367386,438774
+F016,fork,knife,48,49,The fork is to the left of the knife.,The fork is to the right of the knife.,A,B,419312,458992
+F017,remote,person,75,1,The remote is to the left of the person.,The remote is to the right of the person.,B,A,532058,147415
+F018,tv,bed,72,65,The tv is to the left of the bed.,The tv is to the right of the bed.,B,A,450488,169076
+F019,chair,dog,62,18,The chair is to the left of the dog.,The chair is to the right of the dog.,A,B,371699,159458
+F020,cell phone,cup,77,47,The cell phone is to the left of the cup.,The cell phone is to the right of the cup.,A,B,15335,278463
+F021,keyboard,tv,76,72,The keyboard is to the left of the tv.,The keyboard is to the right of the tv.,B,A,232088,491366
+F022,toilet,bottle,70,44,The toilet is to the left of the bottle.,The toilet is to the right of the bottle.,B,A,262440,351362
+F023,orange,knife,55,49,The orange is to the left of the knife.,The orange is to the right of the knife.,B,A,322959,167572
+F024,bowl,wine glass,51,46,The bowl is to the left of the wine glass.,The bowl is to the right of the wine glass.,A,B,529762,425361
+F025,motorcycle,umbrella,4,28,The motorcycle is to the left of the umbrella.,The motorcycle is to the right of the umbrella.,A,B,255536,139099
+F026,cup,pizza,47,59,The cup is to the left of the pizza.,The cup is to the right of the pizza.,A,B,307172,532129
+F027,bowl,tv,51,72,The bowl is to the left of the tv.,The bowl is to the right of the tv.,A,B,440475,36936
+F028,stop sign,person,13,1,The stop sign is to the left of the person.,The stop sign is to the right of the person.,A,B,261888,499181
+F029,microwave,remote,78,75,The microwave is to the left of the remote.,The microwave is to the right of the remote.,A,B,322163,246968
+F030,sports ball,baseball bat,37,39,The sports ball is to the left of the baseball bat.,The sports ball is to the right of the baseball bat.,A,B,43816,370375
+F031,bottle,couch,44,63,The bottle is to the left of the couch.,The bottle is to the right of the couch.,A,B,24610,293625
+F032,apple,refrigerator,53,82,The apple is to the left of the refrigerator.,The apple is to the right of the refrigerator.,B,A,78266,40471
+F033,clock,car,85,3,The clock is to the left of the car.,The clock is to the right of the car.,B,A,459500,308531
+F034,chair,suitcase,62,33,The chair is to the left of the suitcase.,The chair is to the right of the suitcase.,B,A,442323,81061
+F035,bus,backpack,6,27,The bus is to the left of the backpack.,The bus is to the right of the backpack.,A,B,184324,55167
+F036,car,bench,3,15,The car is to the left of the bench.,The car is to the right of the bench.,B,A,227898,511076
+F037,person,book,1,84,The person is to the left of the book.,The person is to the right of the book.,A,B,245026,297353
+F038,clock,dining table,85,67,The clock is to the left of the dining table.,The clock is to the right of the dining table.,B,A,322352,450303
+F039,baseball bat,baseball glove,39,40,The baseball bat is to the left of the baseball glove.,The baseball bat is to the right of the baseball glove.,A,B,507223,304404
+F040,chair,baseball bat,62,39,The chair is to the left of the baseball bat.,The chair is to the right of the baseball bat.,A,B,259690,136915
+F041,cup,knife,47,49,The cup is to the left of the knife.,The cup is to the right of the knife.,A,B,482275,110999
+F042,sink,potted plant,81,64,The sink is to the left of the potted plant.,The sink is to the right of the potted plant.,B,A,37777,407614
+F043,person,toilet,1,70,The person is to the left of the toilet.,The person is to the right of the toilet.,B,A,393569,232649
+F044,bench,clock,15,85,The bench is to the left of the clock.,The bench is to the right of the clock.,A,B,508917,120572
+F045,backpack,truck,27,8,The backpack is to the left of the truck.,The backpack is to the right of the truck.,A,B,203294,259640
+F046,handbag,potted plant,31,64,The handbag is to the left of the potted plant.,The handbag is to the right of the potted plant.,A,B,127092,194875
+F047,knife,sandwich,49,54,The knife is to the left of the sandwich.,The knife is to the right of the sandwich.,A,B,422998,92053
+F048,umbrella,cup,28,47,The umbrella is to the left of the cup.,The umbrella is to the right of the cup.,A,B,20553,252219
+F049,chair,bottle,62,44,The chair is to the left of the bottle.,The chair is to the right of the bottle.,B,A,472678,9590
+F050,cell phone,vase,77,86,The cell phone is to the left of the vase.,The cell phone is to the right of the vase.,A,B,345356,226147
+F051,cup,remote,47,75,The cup is to the left of the remote.,The cup is to the right of the remote.,A,B,119828,36844
+F052,person,sandwich,1,54,The person is to the left of the sandwich.,The person is to the right of the sandwich.,B,A,243204,213255
+F053,pizza,cake,59,61,The pizza is to the left of the cake.,The pizza is to the right of the cake.,A,B,180101,201426
+F054,clock,fork,85,48,The clock is to the left of the fork.,The clock is to the right of the fork.,B,A,313034,494913
+F055,dog,handbag,18,31,The dog is to the left of the handbag.,The dog is to the right of the handbag.,A,B,295478,288685
+F056,vase,potted plant,86,64,The vase is to the left of the potted plant.,The vase is to the right of the potted plant.,A,B,575970,472046
+F057,cell phone,dining table,77,67,The cell phone is to the left of the dining table.,The cell phone is to the right of the dining table.,A,B,284764,527427
+F058,refrigerator,bottle,82,44,The refrigerator is to the left of the bottle.,The refrigerator is to the right of the bottle.,B,A,292060,429598
+F059,handbag,stop sign,31,13,The handbag is to the left of the stop sign.,The handbag is to the right of the stop sign.,A,B,100723,413689
+F060,spoon,cake,50,61,The spoon is to the left of the cake.,The spoon is to the right of the cake.,B,A,117425,63965
+F061,vase,person,86,1,The vase is to the left of the person.,The vase is to the right of the person.,A,B,492758,559543
+F062,laptop,wine glass,73,46,The laptop is to the left of the wine glass.,The laptop is to the right of the wine glass.,B,A,479126,16439
+F063,knife,person,49,1,The knife is to the left of the person.,The knife is to the right of the person.,B,A,356531,331817
+F064,potted plant,couch,64,63,The potted plant is to the left of the couch.,The potted plant is to the right of the couch.,B,A,357978,405970

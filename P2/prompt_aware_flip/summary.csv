@@ -1,0 +1,4 @@
+strategy,n_pairs,n_questions,both_count,both_rate,question_accuracy_count,question_accuracy_rate,question_tie_count,question_tie_rate,same_choice_count,same_choice_rate,question_wrong_count
+original,64,128,1,0.015625,65,0.5078125,0,0.0,63,0.984375,63
+image_only,64,128,2,0.03125,66,0.515625,0,0.0,62,0.96875,62
+synchronized,64,128,0,0.0,64,0.5,0,0.0,64,1.0,64

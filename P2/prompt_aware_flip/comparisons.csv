@@ -1,0 +1,13 @@
+after,before,metric,diff_pp,lo95_pp,hi95_pp,pairs_improved,pairs_decreased,pairs_unchanged
+synchronized,image_only,both,-3.125,-7.8125,0.0,0,2,62
+synchronized,image_only,question_accuracy,-1.5625,-3.90625,0.0,0,2,62
+synchronized,image_only,question_tie,0.0,0.0,0.0,0,0,64
+synchronized,image_only,same_choice,3.125,0.0,7.8125,2,0,62
+synchronized,original,both,-1.5625,-4.6875,0.0,0,1,63
+synchronized,original,question_accuracy,-0.78125,-2.34375,0.0,0,1,63
+synchronized,original,question_tie,0.0,0.0,0.0,0,0,64
+synchronized,original,same_choice,1.5625,0.0,4.6875,1,0,63
+image_only,original,both,1.5625,0.0,4.6875,1,0,63
+image_only,original,question_accuracy,0.78125,0.0,2.34375,1,0,63
+image_only,original,question_tie,0.0,0.0,0.0,0,0,64
+image_only,original,same_choice,-1.5625,-4.6875,0.0,0,1,63

@@ -1,0 +1,53 @@
+{
+  "pairs": [
+    "F001",
+    "F002"
+  ],
+  "scores": 16,
+  "checks": [
+    {
+      "pair_id": "F001",
+      "side": "A",
+      "token_index": 6,
+      "left_token": 1823,
+      "right_token": 1155,
+      "original_x_left": false,
+      "mirror_x_left": true,
+      "mirror_input_max_abs_error": 4.493631422519684e-05,
+      "padding_matches_annotation": true
+    },
+    {
+      "pair_id": "F001",
+      "side": "B",
+      "token_index": 6,
+      "left_token": 1823,
+      "right_token": 1155,
+      "original_x_left": true,
+      "mirror_x_left": false,
+      "mirror_input_max_abs_error": 4.309415817260742e-05,
+      "padding_matches_annotation": true
+    },
+    {
+      "pair_id": "F002",
+      "side": "A",
+      "token_index": 6,
+      "left_token": 1823,
+      "right_token": 1155,
+      "original_x_left": true,
+      "mirror_x_left": false,
+      "mirror_input_max_abs_error": 3.439188003540039e-05,
+      "padding_matches_annotation": true
+    },
+    {
+      "pair_id": "F002",
+      "side": "B",
+      "token_index": 6,
+      "left_token": 1823,
+      "right_token": 1155,
+      "original_x_left": false,
+      "mirror_x_left": true,
+      "mirror_input_max_abs_error": 2.508983016014099e-05,
+      "padding_matches_annotation": true
+    }
+  ]
+}

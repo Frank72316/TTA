@@ -1,0 +1,11 @@
+[
+  {
+    "new_image_forwards": 256,
+    "new_image_text_scores": 512,
+    "checkpoint_scores": 0,
+    "gpu_image_seconds": 4.84257363434881,
+    "wall_seconds": 29.071840677410364,
+    "scored_pairs": 64,
+    "largest_mirror_input_error": 5.456805229187012e-05
+  }
+]

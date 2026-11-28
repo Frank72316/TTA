@@ -1,0 +1,10 @@
+{
+  "pairs": 64,
+  "distinct_originals": 128,
+  "scores": 512,
+  "independently_recomputed_decisions": 384,
+  "decision_mismatches": 0,
+  "checked_boxes": 256,
+  "mirror_check_questions": 16,
+  "mirror_ties": 16
+}

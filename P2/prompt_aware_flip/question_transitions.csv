@@ -1,0 +1,4 @@
+before,after,wrong_to_right,right_to_wrong
+original,image_only,4,3
+image_only,synchronized,0,2
+original,synchronized,3,4
