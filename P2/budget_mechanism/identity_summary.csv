@@ -1,0 +1,4 @@
+check,comparisons,max_residual,tolerance,violations
+all36_mean,256,1.3877787807814457e-17,1e-15,0
+complement_mean,4608,2.7755575615628914e-17,1e-15,0
+conditional_at_most_one,1422,0,0,0

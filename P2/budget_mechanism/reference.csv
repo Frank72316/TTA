@@ -1,0 +1,3 @@
+n,K,keep,replace,pure_combos,mixed_combos,keep_fix_pairs,replace_fix_pairs,both_fix,keep_only_ids,replace_only_ids,mix_only_ids,keep_correct_expected,keep_tie_expected,keep_wrong_expected,replace_correct_expected,replace_tie_expected,replace_wrong_expected,mix_correct_expected,mix_tie_expected,mix_wrong_expected
+256,3,B,C,6,16,5,7,5,,N020 N164,,174.16666666666666,0.16666666666666666,81.66666666666666,174.66666666666666,0.16666666666666666,81.16666666666666,175.3125,0.1875,80.5
+256,5,B,C,1,36,2,2,0,N078 N137,N020 N164,N015 N100 N156,174.0,0.0,82.0,175.0,0.0,81.0,174.63888888888889,0.08333333333333333,81.27777777777777
