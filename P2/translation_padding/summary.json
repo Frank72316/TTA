@@ -1,0 +1,233 @@
+{
+  "abs_margin_change": [
+    0.0,
+    0.000732421875,
+    0.00189208984375,
+    0.0035400390625,
+    0.020263671875
+  ],
+  "zero": 25,
+  "positive": 486,
+  "counts": {
+    "ref": [
+      176.25,
+      79.25,
+      0.5
+    ],
+    "edge": [
+      175.5,
+      80.0,
+      0.5
+    ]
+  },
+  "diff_pp": [
+    -0.29296875,
+    -1.07421875,
+    0.3930664062499645
+  ],
+  "O_to_ref": {
+    "correct_to_correct": 169.75,
+    "correct_to_wrong": 5.0,
+    "correct_to_tie": 0.25,
+    "wrong_to_correct": 6.5,
+    "wrong_to_wrong": 74.25,
+    "wrong_to_tie": 0.25,
+    "tie_to_correct": 0,
+    "tie_to_wrong": 0,
+    "tie_to_tie": 0
+  },
+  "O_to_edge": {
+    "correct_to_correct": 169.75,
+    "correct_to_wrong": 5.0,
+    "correct_to_tie": 0.25,
+    "wrong_to_correct": 5.75,
+    "wrong_to_wrong": 75.0,
+    "wrong_to_tie": 0.25,
+    "tie_to_correct": 0,
+    "tie_to_wrong": 0,
+    "tie_to_tie": 0
+  },
+  "ref_to_edge": {
+    "correct_to_correct": 173.5,
+    "correct_to_wrong": 2.75,
+    "correct_to_tie": 0,
+    "wrong_to_correct": 2.0,
+    "wrong_to_wrong": 77.0,
+    "wrong_to_tie": 0.25,
+    "tie_to_correct": 0,
+    "tie_to_wrong": 0.25,
+    "tie_to_tie": 0.25
+  },
+  "coverage": {
+    "rescue": {
+      "both": [
+        "N020",
+        "N025",
+        "N030",
+        "N032",
+        "N092",
+        "N156",
+        "N164",
+        "N171",
+        "N207",
+        "N217",
+        "N231"
+      ],
+      "ref_only": [
+        "N017",
+        "N088",
+        "N147"
+      ],
+      "edge_only": [],
+      "same_direction": [
+        "N020",
+        "N025",
+        "N030",
+        "N032",
+        "N156",
+        "N164",
+        "N171",
+        "N207",
+        "N217",
+        "N231"
+      ],
+      "ref_exclusive_direction": [
+        "N017",
+        "N030",
+        "N088",
+        "N092",
+        "N147",
+        "N171",
+        "N217"
+      ],
+      "edge_exclusive_direction": [
+        "N020",
+        "N030",
+        "N092",
+        "N156"
+      ]
+    },
+    "harm": {
+      "both": [
+        "N081",
+        "N083",
+        "N097",
+        "N107",
+        "N135",
+        "N141",
+        "N223",
+        "N241"
+      ],
+      "ref_only": [
+        "N023",
+        "N056",
+        "N185"
+      ],
+      "edge_only": [
+        "N087",
+        "N179"
+      ],
+      "same_direction": [
+        "N081",
+        "N083",
+        "N097",
+        "N107",
+        "N135",
+        "N141",
+        "N223",
+        "N241"
+      ],
+      "ref_exclusive_direction": [
+        "N023",
+        "N056",
+        "N097",
+        "N185",
+        "N223"
+      ],
+      "edge_exclusive_direction": [
+        "N087",
+        "N097",
+        "N135",
+        "N179"
+      ]
+    },
+    "new_ties": {
+      "both": [
+        "N097",
+        "N231"
+      ],
+      "ref_only": [],
+      "edge_only": [],
+      "same_direction": [
+        "N231"
+      ],
+      "ref_exclusive_direction": [
+        "N097"
+      ],
+      "edge_exclusive_direction": [
+        "N097"
+      ]
+    }
+  },
+  "examples": {
+    "correction": {
+      "pair_id": "N020",
+      "combination": 1,
+      "old": -0.0003662109375,
+      "new": 0.00048828125
+    },
+    "loss": {
+      "pair_id": "N017",
+      "combination": 2,
+      "old": 0.0008544921875,
+      "new": -0.0015869140625
+    }
+  },
+  "pixels": {
+    "source_changed": [
+      0.00345611572265625,
+      0.029155731201171875,
+      0.029266357421875,
+      0.029356638590494793,
+      0.030329087201286766
+    ],
+    "border_rgb_mae": [
+      0.0006411696623093682,
+      0.024834357803226653,
+      0.04954960398511256,
+      0.08827782180958131,
+      0.7901694373401535
+    ],
+    "source_mae": [
+      1.878426745046975e-05,
+      0.000728142750241965,
+      0.0014516485542513443,
+      0.002599844589732051,
+      0.023663928462009792
+    ],
+    "input_changed": [
+      0.006576849489795918,
+      0.029237085459183673,
+      0.03571428571428571,
+      0.03571428571428571,
+      0.04017857142857143
+    ],
+    "input_changed_mae": [
+      0.0005632681839788982,
+      0.016745235991131525,
+      0.03414643095192395,
+      0.06306866098950599,
+      0.5956983987274994
+    ],
+    "input_mae": [
+      1.9440178811517154e-05,
+      0.0005303677604153708,
+      0.0010741409305004453,
+      0.002003698943510054,
+      0.023934310663158456
+    ]
+  },
+  "repeated_decisions": 6,
+  "repeated_scores": 36,
+  "repeat_disagreements": 0
+}

@@ -1,0 +1,40 @@
+{
+  "hps_version": "v2.1",
+  "weights": [
+    [
+      "xswu/HPSv2",
+      "697403c78157020a1ae59d23f111aa58ced35b0a",
+      "HPS_v2.1_compressed.pt",
+      "c57a38fb4a2f7e7c15bf00da2ea377cdf165448b4dd1052a484c215a998c9837"
+    ],
+    [
+      "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
+      "open_clip_pytorch_model.bin",
+      "9a78ef8e8c73fd0df621682e7a8e8eb36c6916cb3c16b291a082ecd52ab79cc4"
+    ]
+  ],
+  "torch": "2.5.1+cu124",
+  "pillow": "12.2.0",
+  "numpy": "1.26.4",
+  "cuda": "12.4",
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "precision": "CUDA autocast FP16",
+  "preprocess": "Compose(\n    <function _convert_to_rgb_or_rgba>\n    ToTensor()\n    ResizeMaxSize()\n    MaskAwareNormalize(\n  (normalize): Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)\n)",
+  "scorer_sha": "82262f03a50eb9118634a36a4a6bb7760d0aaf93fcaf1c0962e0814d29d61ec7",
+  "geometry_sha": "44a695e42c550fce93f90f2ddc1146402bc771f44dcc2622181256dc510c16b9",
+  "implementation_sha": "2e3a76699b65875106bc7960242f3b29eac93c321d31468cd442949d6ccca343",
+  "device_binding": "GPU-d329c8d0-f276-5f23-03a9-df221a2021ed, NVIDIA GeForce RTX 4090, 580.159.04",
+  "source_scores_sha": "85e1b07edecf1475e91d8e1042a12f5dcf9e8cfc42351bc2c1a17abdf3c76f8f",
+  "pairs_sha": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
+  "archives": {
+    "validation_1.zip": "8eb57656d6c424b9451240d5f401462107889f2c4781fb3e5f827f7e73a197ea",
+    "validation_2.zip": "5349f894b1b1571fbe1aed6a3288bdf9f8e4dbf2d8a6fbe00274477f276da48c"
+  },
+  "image_batch": 1,
+  "text_batch": 1,
+  "script": "ecfd4684113e8f273c1d4d83aa12ea8b27db01c396b258d3a020cfd0d2a2de84",
+  "engine": "34996221496a488ff122a9e3d674b24787739b74a24442db444af574d6a07254",
+  "protocol": "d262ba8ad60734a163f86e6e1fd2f13e3c96ed2a0c0e56cb11be381d9a11dd2f"
+}

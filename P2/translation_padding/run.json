@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 157.99806744698435,
+  "visual_forwards": 2104,
+  "historical_hits": 2560,
+  "resumed_pairs": 0,
+  "repeated_records": 36,
+  "smoke_pairs": [
+    "N001",
+    "N002"
+  ]
+}
