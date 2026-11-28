@@ -9,7 +9,7 @@ from time import perf_counter
 import numpy as np
 from PIL import Image, ImageOps
 
-from common import HERE, rows, save_json, save_rows, sha
+from common import HERE, rows, save_json, save_rows, sha, verified_freeze, legacy_environment
 
 
 def run(data, out, pilot):
@@ -17,8 +17,7 @@ def run(data, out, pilot):
     sys.path.insert(0,str(HERE.parent/"geometry_specificity"))
     from score import init
     import torch
-    freeze=json.loads((out/"freeze.json").read_text())
-    assert all(sha((out/f).read_bytes())==h for f,h in freeze["hashes"].items())
+    freeze=verified_freeze(out)
     pairs=rows(out/"pairs.csv")
     image_rows=rows(out/"images.csv")
     source={(s["pair_id"],s["side"]):s for s in image_rows}
@@ -29,11 +28,15 @@ def run(data, out, pilot):
     meta.update(gpu_uuid=os.environ.get("CUDA_VISIBLE_DEVICES"),freeze_sha=sha((out/"freeze.json").read_bytes()),
         flip_inference_sha=sha(Path(__file__).read_bytes()),torch_image_batch=1,torch_text_batch=1)
     env=out/"environment.json"
+    legacy=legacy_environment(meta)
     if env.exists():
-        assert json.loads(env.read_text())==meta
+        assert json.loads(env.read_text()) in (meta,legacy)
     else:
         save_json(env,meta)
     signature=sha(env.read_bytes())
+    compatible={signature}
+    if legacy is not None:
+        compatible.add(sha((json.dumps(legacy,indent=2,ensure_ascii=False)+"\n").encode()))
     cache=data/"flip_scores"; cache.mkdir(exist_ok=True)
     view_dir=data/"model_views"; view_dir.mkdir(exist_ok=True)
     norm=transform.transforms[-1].normalize
@@ -47,7 +50,7 @@ def run(data, out, pilot):
         key=cache/(pid+".json")
         if key.exists():
             prev=json.loads(key.read_text())
-            assert prev["signature"]==signature and len(prev["rows"])==8
+            assert prev["signature"] in compatible and len(prev["rows"])==8
             total.extend(prev["rows"]); checks.extend(prev["checks"])
             run_info["checkpoint_scores"]+=8
         else:

@@ -3,7 +3,7 @@ import argparse
 from collections import defaultdict
 import json
 from pathlib import Path
-from common import ANNOTATION_SHA, HERE, choose, rows, save_json, sha
+from common import ANNOTATION_SHA, HERE, choose, rows, save_json, sha, verified_freeze
 
 
 def audit(out,ann_file):
@@ -18,8 +18,7 @@ def audit(out,ann_file):
     images=rows(out/"images.csv")
     results={r["pair_id"]:r for r in rows(out/"pair_results.csv")}
     scores=rows(out/"scores.csv")
-    frozen=json.loads((out/"freeze.json").read_text())
-    assert all(sha((out/f).read_bytes())==h for f,h in frozen["hashes"].items())
+    frozen=verified_freeze(out)
     assert len(pairs)==frozen["selected"] and pairs.keys()==results.keys()
     assert len({i["image_id"] for i in images})==len(images)==2*len(pairs)
     for s in images:

@@ -1,4 +1,5 @@
-"""Make the editable, self-contained print HTML from verified data and case PNGs."""
+"""Send the self-contained PDF print layout to the browser renderer."""
+import sys
 from pathlib import Path
 import json,csv,hashlib,base64,html
 R=Path(__file__).resolve().parent
@@ -150,5 +151,10 @@ p8+='<div class="next"><b>1</b><span><strong>按原始分差分配预算。</str
 p8+=src("命令取自各阶段 README；证据边界来自 P1/prompts/summary.csv、P2/combination_results.csv、P2/translation/endpoint.json。")
 pages.append(page(8,"复查入口与研究交接","下一位同学从哪里接手",p8))
 css=(R/"print.css").read_text(encoding="utf8")
-(R/"TTA阶段交接报告.html").write_text('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>测试时增强如何改变图像偏好排序：阶段发现与实验交接</title><style>'+css+'</style></head><body>'+''.join(pages)+'</body></html>',encoding="utf8")
+layout=('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>测试时增强如何改变图像偏好排序：阶段发现与实验交接</title><style>'+css+'</style></head><body>'+''.join(pages)+'</body></html>')
+if __name__ == "__main__":
+    if sys.argv[1:] == ["--print-layout"]:
+        sys.stdout.buffer.write(layout.encode("utf8"))
+    else:
+        print("Run node build_pdf.cjs to build the handoff PDF.")
 

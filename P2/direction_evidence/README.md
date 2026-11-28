@@ -29,7 +29,7 @@ python -B report.py --browser "/path/to/chrome"
 
 ## 极端案例与照片来源
 
-案例只按 M 的全体最大、最小值选取。若同一极值有多对，按图对 ID 取第一对并在 summary.json 保留全部并列 ID。本次两个极值各有一对。以下四张 JPEG 与冻结清单的 SHA-256 逐字节一致。报告只缩放显示完整原图。许可和来源取自 COCO 图像元数据，原图保留各自许可。冻结标注与本地 JPEG 未提供可核实的作者姓名。[上轮带框预览](../prompt_aware_flip/box_previews.html)
+案例只按 M 的全体最大、最小值选取。若同一极值有多对，按图对 ID 取第一对并在 summary.json 保留全部并列 ID。本次两个极值各有一对。以下四张 JPEG 与冻结清单的 SHA-256 逐字节一致。报告只缩放显示完整原图。许可和来源取自 COCO 图像元数据，原图保留各自许可。冻结标注与本地 JPEG 未提供可核实的作者姓名。[上轮框坐标](../prompt_aware_flip/images.csv)
 
 | 图对／候选 | COCO ID | 照片来源 | COCO 记录的许可 |
 |---|---:|---|---|

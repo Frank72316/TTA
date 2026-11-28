@@ -31,7 +31,7 @@ python -B verify.py --out "$OUT" --annotations "$DATA/instances_val2017.json"
 
 首次准备时下载 COCO 实例标注和入选的 128 张照片。已有 instances_val2017.json 时直接校验并使用。正式运行使用官方 trainval 标注 ZIP 中的 validation JSON 成员，SHA-256 为 `e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f`。输入图片按 COCO 发布的 JPEG 原始像素方向转成 RGB，与标注尺寸逐张核对。[COCO 官方下载](https://cocodataset.org/#download)
 
-准备步骤写出 [带框预览 HTML](box_previews.html)，下载后可用浏览器打开，图片来自 COCO。完整离线版会生成在 DATA/box_previews/。冻结哈希覆盖 pairs.csv、images.csv 和预览，评分器开跑前核验。各图对断点写入 DATA/flip_scores/，再次运行时按清单与评分环境签名校验。正式批次的模型输入另存为 DATA/model_views/，供案例图使用。[图片与标注详情](images.csv) · [案例图署名](photo_credits.md)
+准备步骤将每对照片的带框预览保存为 DATA/box_previews/ 下的 JPEG。评分前校验 pairs.csv 和 images.csv 的冻结哈希。各图对断点写入 DATA/flip_scores/，再次运行时按清单与评分环境签名校验。正式批次的模型输入另存为 DATA/model_views/，供案例图使用。[图片与标注详情](images.csv) · [案例图署名](photo_credits.md)
 
 ## 正式 GPU 运行
 

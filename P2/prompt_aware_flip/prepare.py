@@ -2,7 +2,6 @@
 import argparse
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
-from html import escape
 from io import BytesIO
 from itertools import combinations
 import json
@@ -140,14 +139,8 @@ def prepare(data,out):
         list(ex.map(acquire,sources))
     save_rows(out/"pairs.csv",pairs)
     save_rows(out/"images.csv",sources)
-    # The online preview stores box geometry and links to original COCO photos.
-    # A raster copy for entirely offline review is also saved in the dataset cache.
     local=data/"box_previews"; local.mkdir(exist_ok=True)
-    doc_html=['<!doctype html><html lang="en"><meta charset="utf-8"><title>COCO box review</title>',
-        '<style>body{font:16px system-ui;max-width:900px;margin:auto}svg{background:#111;margin-right:12px} section{break-inside:avoid}</style>',
-        '<h1>Frozen annotation review</h1><p>Blue = prompt subject X. Orange = reference Y. Candidate A is on the left.</p>']
     for i,p in enumerate(pairs):
-        doc_html.append(f'<section><h3>{p["pair_id"]} · {escape(p["prompt_left"])} · answer {p["winner_left"]}</h3>')
         sheet=Image.new("RGB",(448,224))
         for j,s in enumerate(sources[2*i:2*i+2]):
             ox,oy,w,h=json.loads(s["valid_xywh"])
@@ -155,19 +148,15 @@ def prepare(data,out):
                 tile=Image.new("RGB",(224,224))
                 tile.paste(im.convert("RGB").resize((w,h),Image.Resampling.BICUBIC),(ox,oy))
             draw=ImageDraw.Draw(tile)
-            doc_html.append(f'<svg width="224" height="224" viewBox="0 0 224 224"><image href="{escape(s["url"])}" x="{ox}" y="{oy}" width="{w}" height="{h}" preserveAspectRatio="none"/>')
             for key,color in (("x","#26baff"),("y","#ff9822")):
                 x1,y1,x2,y2=json.loads(s[key+"_input_xyxy"])
                 draw.rectangle((x1,y1,x2,y2),outline=color,width=2)
-                doc_html.append(f'<rect x="{x1}" y="{y1}" width="{x2-x1}" height="{y2-y1}" fill="none" stroke="{color}" stroke-width="2"/>')
-            doc_html.append('</svg>'); sheet.paste(tile,(224*j,0))
+            sheet.paste(tile,(224*j,0))
         sheet.save(local/(p["pair_id"]+".jpg"),quality=94)
-        doc_html.append('</section>')
-    (out/"box_previews.html").write_bytes(("\n".join(doc_html)+"\n</html>").encode())
     save_json(out/"freeze.json",dict(seed=SEED,source="COCO 2017 validation instances",annotation_sha256=ANNOTATION_SHA,
               bidirectional_category_pairs=buckets,selected=len(pairs),photos=len(sources),
               category_pairs=len({tuple(sorted((p["x_cat"],p["y_cat"]))) for p in pairs}),
-              licenses=doc["licenses"],hashes={name:sha((out/name).read_bytes()) for name in ("pairs.csv","images.csv","box_previews.html")}))
+              licenses=doc["licenses"],hashes={name:sha((out/name).read_bytes()) for name in ("pairs.csv","images.csv")}))
     print("Frozen",len(pairs),"pairs,",len(sources),"originals",flush=True)
 
 

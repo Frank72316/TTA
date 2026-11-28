@@ -1,5 +1,8 @@
 """Render the Markdown handoff and, optionally, its one-page PDF using a local browser."""
 import argparse
+from base64 import b64encode
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from threading import Thread
 from html import escape
 import json
 from pathlib import Path
@@ -75,7 +78,9 @@ def render(out,photos,browser):
             img=Path("photos")/f'{int(r["image_"+side]):012}.jpg'
             case_headers.append(label)
             pics.append(f'![{label}]({img.as_posix()})')
-            image_tags.append(f'<figure><figcaption>{label} · COCO {r["image_"+side]}</figcaption><img src="{(out/img).resolve().as_uri()}"></figure>')
+            if browser:
+                data=b64encode((out/img).read_bytes()).decode("ascii")
+                image_tags.append(f'<figure><figcaption>{label} · COCO {r["image_"+side]}</figcaption><img src="data:image/jpeg;base64,{data}"></figure>')
             scores[0].append(r[side+"_left"])
             scores[1].append(r[side+"_right"])
         score_header=["原图评分",*case_headers]
@@ -83,9 +88,10 @@ def render(out,photos,browser):
         direction_m=f'M = {float(r["M"]):+.13f}'.rstrip("0")
         md+=["### "+case_title,r["prompt_left"]+"<br>\n"+r["prompt_right"],
              md_table(case_headers,[pics]),md_table(score_header,score_rows),"**"+direction_m+"**"]
-        html_cards.append('<article><h3>'+case_title+'</h3><div class="pics">'+"".join(image_tags)+'</div><div class="prompts">'+
-                          escape(r["prompt_left"])+"<br>"+escape(r["prompt_right"])+"</div>"+html_table(score_header,score_rows)+
-                          '<strong class="margin">'+direction_m+"</strong></article>")
+        if browser:
+            html_cards.append('<article><h3>'+case_title+'</h3><div class="pics">'+"".join(image_tags)+'</div><div class="prompts">'+
+                              escape(r["prompt_left"])+"<br>"+escape(r["prompt_right"])+"</div>"+html_table(score_header,score_rows)+
+                              '<strong class="margin">'+direction_m+"</strong></article>")
     always=[r for r in results.values() if r["all_six_same"]=="1"]
     extra=[r for r in results.values() if r["original_same"]=="1" and r["all_six_same"]=="0"]
     def id_line(items, outcome):
@@ -122,13 +128,35 @@ def render(out,photos,browser):
           +'<h2>方向分差的两个极端案例</h2><div class="cases">'+''.join(html_cards)+'</div>'
           +'<section class="ids"><strong>'+id_title+'</strong>'+''.join('<p>'+label+'　'+values+'</p>' for label,values in id_rows)+'<p>'+extra_line+'</p></section>'
           +'<footer>来源：冻结的 COCO 实例框与 512 条 HPS 缓存评分。每个案例的两张原始照片完整展示。逐对 ID、照片来源和完整分数见仓库 P2/direction_evidence。</footer></html>')
-    with TemporaryDirectory() as temp:
+    payload=html.encode("utf8")
+
+    class PrintPage(BaseHTTPRequestHandler):
+        def do_GET(self):
+            if self.path!="/":
+                self.send_error(404)
+                return
+            self.send_response(200)
+            self.send_header("Content-Type","text/html; charset=utf-8")
+            self.send_header("Content-Length",str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
+
+        def log_message(self,*args):
+            pass
+
+    with TemporaryDirectory() as temp, ThreadingHTTPServer(("127.0.0.1",0),PrintPage) as server:
         temp=Path(temp)
-        page=temp/"report.html"; page.write_text(html,encoding="utf8")
         dest=temp/"report.pdf"
-        subprocess.run([str(browser),"--headless","--disable-gpu","--no-pdf-header-footer","--allow-file-access-from-files",
-                        "--user-data-dir="+str(temp/"profile"),"--print-to-pdf="+str(dest),page.as_uri()],
-                       check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=60)
+        thread=Thread(target=server.serve_forever,daemon=True)
+        thread.start()
+        try:
+            subprocess.run([str(browser),"--headless","--disable-gpu","--no-pdf-header-footer",
+                            "--user-data-dir="+str(temp/"profile"),"--print-to-pdf="+str(dest),
+                            f"http://127.0.0.1:{server.server_port}/"],
+                           check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=60)
+        finally:
+            server.shutdown()
+            thread.join()
         assert dest.is_file()
         shutil.copyfile(dest,out/"report.pdf")
 

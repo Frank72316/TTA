@@ -83,7 +83,7 @@ def main():
             "从 P2 的 2,176 条原始分数独立枚举十项策略，每对 120 种搭配。仅 003、008、053、005、031 至少一次改变原始选择。003 原图选错，TT 纠正 4/6、BT 纠正 4/16；008 原图选对，BT 改错 16/16。下表显示原图与单一平移等权平均的选择，便于对照方向。"]
     op={r["pair_id"]:r for r in read_csv(PILOT/"pairs.csv")}
     lines.append(table(["旧图对","人工赢家","原始 A−B","原图选择","原图＋左","原图＋右","原图＋上","原图＋下"],[[i,op[i]["human_winner_P0"],small(rs[0]["d0"]),"A" if float(rs[0]["d0"])>0 else "B",*[r["pick"] for r in rs]] for i in ["003","008","053","005","031"] for rs in [[r for r in old if r["pair_id"]==i and r["method"]=="O+T"]]]))
-    lines+=["[打开五个旧案例](old_cases/index.html)。每例含原文、原始图像、模型看到的 224 × 224 输入、BT 的 4 × 4 分差与判定，以及四种单方向结果。可直接比较边缘纹理和位置的改变；当前实验没有测量模型关注的图像区域。旧案例未并入独立样本估计。",
+    lines+=["五个旧案例的 [BT 分差、判定与单方向结果](old_case_checks.csv)、[原图与 224 × 224 模型输入](old_cases/assets/)可按图对 ID 对照；原提示词见[冻结清单](../../P1/baseline/pairs.csv)。可直接比较边缘纹理和位置的改变；当前实验没有测量模型关注的图像区域。旧案例未并入独立样本估计。",
             "## 运行与验收",
             f"在 {runs[0]['gpu']['name']} 单卡上运行 HPS v2.1，官方验证变换和 CUDA fp16 autocast，原生分数为 float16，保存可精确往返的十进制，再用 float64 汇总。2 对冒烟新增 52 条并与官方评分入口逐项相等；全量阶段从检查点命中 {runs[1]['checkpoint_hits']} 条，独立样本从旧评分命中 {sum(r['old_score_hits'] for r in runs)} 条。新增唯一评分 {sum(r['unique_new_scores'] for r in runs):,} 条；冒烟验证另做 {sum(r['reference_check_extra_forwards'] for r in runs)} 次图像前向。",
             f"冒烟墙钟 {runs[0]['wall_seconds']:.1f} 秒，全量续跑 {runs[1]['wall_seconds']:.1f} 秒，合计 {sum(r['wall_seconds'] for r in runs[:2]):.1f} 秒。生产评分 CUDA event 累计 {sum(r['gpu_score_seconds'] for r in runs[:2]):.1f} 秒，含文本与图像编码及点积；额外官方数值核对计入墙钟。",

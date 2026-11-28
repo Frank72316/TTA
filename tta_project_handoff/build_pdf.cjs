@@ -1,17 +1,20 @@
-// Print the current editable HTML. This rebuild uses no experimental inputs.
+// Render the editable layout directly to PDF using the cached assets.
 const fs = require('node:fs');
 const path = require('node:path');
-const { pathToFileURL } = require('node:url');
+const { execFileSync } = require('node:child_process');
 const { chromium } = require('playwright');
 (async () => {
-  const html = path.join(__dirname, 'TTA阶段交接报告.html');
+  const python = process.env.PYTHON || (process.platform === 'win32' ? 'py' : 'python3');
+  const layout = execFileSync(python, ['-B', path.join(__dirname, 'compose.py'), '--print-layout'], {
+    encoding: 'utf8', maxBuffer: 32 * 1024 * 1024,
+  });
   const pdf = path.join(__dirname, 'TTA阶段交接报告.pdf');
   const exe = process.env.CHROME_PATH || ['C:/Program Files/Google/Chrome/Application/chrome.exe','/usr/bin/chromium','/usr/bin/google-chrome'].find(fs.existsSync);
   const browser = await chromium.launch({ executablePath:exe, headless:true });
   try {
     const page = await browser.newPage();
     await page.emulateMedia({media:'print'});
-    await page.goto(pathToFileURL(html).href,{waitUntil:'load'});
+    await page.setContent(layout, {waitUntil:'load'});
     await page.evaluate(() => document.fonts.ready);
     const pages = await page.evaluate(() => [...document.querySelectorAll('.page')].map((p,i) => {
       const footer = p.querySelector('footer').getBoundingClientRect();

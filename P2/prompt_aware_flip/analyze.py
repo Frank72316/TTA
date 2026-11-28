@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import numpy as np
 
-from common import HERE, SEED, choose, rows, save_rows, sha
+from common import HERE, SEED, choose, rows, save_rows, sha, verified_freeze
 
 STRATEGIES=("original","image_only","synchronized")
 NAMES={"original":"原图","image_only":"只翻图","synchronized":"图文同步"}
@@ -27,7 +27,7 @@ def decisions(a,b):
 
 def analyze(out):
     pairs=rows(out/"pairs.csv"); n=len(pairs)
-    assert all(sha((out/f).read_bytes())==v for f,v in json.loads((out/"freeze.json").read_bytes())["hashes"].items())
+    verified_freeze(out)
     score_rows=rows(out/"scores.csv")
     bank={(r["pair_id"],r["side"],r["view"],r["direction"]):r for r in score_rows}
     assert len(bank)==len(score_rows)==8*n and len({r["pair_id"] for r in pairs})==n

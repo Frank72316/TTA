@@ -44,3 +44,20 @@ def valid_rect(w, h):
 
 def choose(x):
     return "A" if x > 0 else "B" if x < 0 else "="
+
+
+def verified_freeze(out):
+    manifest = json.loads((out / "freeze.json").read_bytes())
+    for name in ("pairs.csv", "images.csv"):
+        assert sha((out / name).read_bytes()) == manifest["hashes"][name], name
+    return manifest
+
+
+def legacy_environment(meta):
+    """The two audited runner revisions differ only in preview/checkpoint handling."""
+    if (meta["flip_inference_sha"] == "0c5d4654c68b78e3402cbf80e38344d10ce6ebdbae63c17702805eb3090c4b0b"
+            and meta["freeze_sha"] in ("1de355c4e590b7fc28205f65d5f4c59fa8962989b84f5b00bff71b4626b6670a",
+                                       "2399fa9b99969744474d7650b3829399838801fb2d39592c75901f73bcb8ebf0")):
+        return dict(meta, flip_inference_sha="69fc6fdffa0345b8e93e726d56ebe6cbd2cd6c2602f22bf9909a9d77cfd7ba53",
+                    freeze_sha="2399fa9b99969744474d7650b3829399838801fb2d39592c75901f73bcb8ebf0")
+    return None

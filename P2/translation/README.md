@@ -1,6 +1,6 @@
 # P2 独立复验 · 轻微平移与人工偏好排序
 
-阅读 [中文结果](report.md) 或在浏览器直接打开 [五例旧样本](old_cases/index.html)。独立样本的主比较是 BT 与 BC 的严格选对率差。两种策略均对每张图使用原图分数及两个独立增强的分数。
+阅读 [中文结果](report.md) 或查看[五例旧样本的分差表](old_case_checks.csv)和[对应图像](old_cases/assets/)。独立样本的主比较是 BT 与 BC 的严格选对率差。两种策略均对每张图使用原图分数及两个独立增强的分数。
 
 ## 目录与环境
 
@@ -14,7 +14,7 @@
 
 ## 实际运行与复现
 
-从 Windows 登录，再在服务器 bash 中运行。原始数据、权重与图像 ZIP 留在服务器，Windows 副本含离线分析结果、逐对检查点及完整案例页。
+从 Windows 登录，再在服务器 bash 中运行。原始数据、权重与图像 ZIP 留在服务器，Windows 副本含离线分析结果、逐对检查点及案例图像。
 
 ```powershell
 ssh shenc@10.0.16.83
@@ -50,7 +50,7 @@ $CPU -B report.py
 | [strategy_summary.csv](strategy_summary.csv)、[transitions.csv](transitions.csv) | 原始搭配计数、百分比、期望计数，及原图对/错/同分三组的去向 |
 | [endpoint.json](endpoint.json) | 整对配对 bootstrap 的主终点、95% 区间与按原图状态拆解的期望计数差 |
 | [margin_groups.csv](margin_groups.csv)、[direction_counts.csv](direction_counts.csv) | 领先幅度四分组和原始同分组；逐方向的触发亮度、严格翻转、原图与单方向取均值时的选择 |
-| [old_case_checks.csv](old_case_checks.csv)、[旧案例页](old_cases/index.html) | 旧 64 对里发生改判的五例，含各 BT 单元格和原图＋单平移结果 |
+| [old_case_checks.csv](old_case_checks.csv)、[旧案例图像](old_cases/assets/) | 旧 64 对里发生改判的五例，含各 BT 单元格和原图＋单平移结果 |
 | [runs.json](runs.json)、[verification.json](verification.json) | 分阶段耗时、设备、检查点及官方对照次数；独立的整数精确判定、区间与完整性验证 |
 
 所有 CSV 采用 UTF-8。新图对 ID 前缀为 N；旧案例使用三位数字。旧发现样本与独立复验使用各自的分母。「原图＋单方向平移」只用于方向诊断，主要策略比较始终固定每张图三次评分。

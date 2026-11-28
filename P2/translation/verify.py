@@ -1,6 +1,5 @@
 """Independent checks using exact integer score units and the source ranking metadata."""
 from collections import Counter,defaultdict
-from html.parser import HTMLParser
 from itertools import combinations as unordered_pairs,product
 import struct
 import numpy as np
@@ -54,18 +53,15 @@ def validate():
     for a in totals:
         trs=[r for r in trans if r["strategy"]==a["strategy"]]; assert sum(int(r["pairs"]) for r in trs)==n
         for k in STATES:assert int(a[k+"_cells"])==sum(int(r[k+"_cells"]) for r in trs)
-    class Links(HTMLParser):
-        def __init__(self):super().__init__();self.img=[];self.href=[]
-        def handle_starttag(self,tag,attrs):
-            a=dict(attrs)
-            if tag=="img":self.img.append(a["src"])
-            if tag=="a" and a.get("href","").startswith("assets/"):self.href.append(a["href"])
-    reader=Links();folder=ROOT/"old_cases";reader.feed((folder/"index.html").read_text(encoding="utf8"))
-    assert len(set(reader.img))==50 and len(set(reader.href))==10
     from PIL import Image
-    for im in reader.img+reader.href:
-        with Image.open(folder/im) as pic:
-            if im in reader.img:assert pic.size==(224,224)
+    assets=ROOT/"old_cases"/"assets"
+    cases={r["pair_id"] for r in read_csv(ROOT/"old_case_checks.csv")}
+    assert cases=={"003","005","008","031","053"}
+    inputs=[assets/f"{i}-{s}-{v}.png" for i in cases for s in "AB" for v in ["O",*FAMILIES["T"]]]
+    originals=[assets/f"{i}-{s}.webp" for i in cases for s in "AB"]
+    for path in inputs+originals:
+        with Image.open(path) as pic:
+            if path.suffix==".png":assert pic.size==(224,224)
             pic.verify()
     for fig in ("strategy_transitions","margin_groups"):
         with Image.open(ROOT/"figures"/(fig+".png")) as pic:pic.verify()
@@ -77,7 +73,7 @@ def validate():
         sha,path=line.split(maxsplit=1);assert digest(ROOT/path)==sha
     info=dict(independent_pairs=n,unique_images=2*n,raw_scores=len(s),unique_strategy_combinations=len(comb_key),score_checkpoints=n,
               exact_integer_decisions=True,bootstrap_reproduced=True,transitions_reconcile=True,old_input_hashes_unchanged=len(old_paths),
-              original_case_views_verified=len(reader.img),original_webps_verified=len(reader.href),statistical_figures=2)
+              original_case_views_verified=len(inputs),original_webps_verified=len(originals),statistical_figures=2)
     write_json(ROOT/"verification.json",info);print(info)
 if __name__=="__main__":validate()
 
