@@ -1,0 +1,17 @@
+{
+  "source_scores_sha": "fba976a8f06ece78da21371a71c6ea9619ca40074e752acfdde1be2e57668275",
+  "source_pairs_sha": "7b06fc4d4c766fe70b41bfe434f90ab92d25b16e2b734a3f5af9e2d6da0095fe",
+  "protocol_sha": "361eb0a02d257fcf9be164debe3a965e943b65ac2e94d2c175442d12042bd9f5",
+  "old_environment_sha": "b266a99fb6bc9d40194394afd42fee9cec3db52d465c73ab2623299de39d9aaf",
+  "model": "frozen HPS v2.1",
+  "scores_read": 6656,
+  "used_records": 4608,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "forwards": 0,
+  "wall_seconds": 0.13341090001631528,
+  "smoke": [
+    "N001",
+    "N002"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "B": {
+    "var_same": 1.3731126576506845e-06,
+    "var_cross": 1.5852896871769599e-07,
+    "reduction": 0.8845477333309782,
+    "pos": 215,
+    "neg": 30,
+    "zero": 11,
+    "counts": {
+      "same": [
+        175.0,
+        81.0,
+        0.0
+      ],
+      "cross": [
+        174.0,
+        81.5,
+        0.5
+      ]
+    },
+    "diff_pp": [
+      -0.390625,
+      -0.9765625,
+      0.0
+    ],
+    "O_to_same": {
+      "correct_to_correct": 172.5,
+      "correct_to_wrong": 2.5,
+      "correct_to_tie": 0,
+      "wrong_to_correct": 2.5,
+      "wrong_to_wrong": 78.5,
+      "wrong_to_tie": 0,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "O_to_cross": {
+      "correct_to_correct": 172.0,
+      "correct_to_wrong": 2.5,
+      "correct_to_tie": 0.5,
+      "wrong_to_correct": 2.0,
+      "wrong_to_wrong": 79.0,
+      "wrong_to_tie": 0,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "same_to_cross": {
+      "correct_to_correct": 171.5,
+      "correct_to_wrong": 3.5,
+      "correct_to_tie": 0,
+      "wrong_to_correct": 2.5,
+      "wrong_to_wrong": 78.0,
+      "wrong_to_tie": 0.5,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "examples": {
+      "correction": {
+        "pair_id": "N015",
+        "combination": 0,
+        "old": -0.0009358723958333334,
+        "new": 0.0005289713541666666
+      },
+      "loss": {
+        "pair_id": "N015",
+        "combination": 1,
+        "old": 0.0006917317708333334,
+        "new": -0.0007731119791666666
+      }
+    }
+  },
+  "C": {
+    "var_same": 1.1829983527099503e-06,
+    "var_cross": 1.4189451273220283e-07,
+    "reduction": 0.8800551899272232,
+    "pos": 209,
+    "neg": 39,
+    "zero": 8,
+    "counts": {
+      "same": [
+        176.5,
+        79.5,
+        0.0
+      ],
+      "cross": [
+        174.0,
+        81.5,
+        0.5
+      ]
+    },
+    "diff_pp": [
+      -0.9765625,
+      -1.953125,
+      0.0
+    ],
+    "O_to_same": {
+      "correct_to_correct": 173.0,
+      "correct_to_wrong": 2.0,
+      "correct_to_tie": 0,
+      "wrong_to_correct": 3.5,
+      "wrong_to_wrong": 77.5,
+      "wrong_to_tie": 0,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "O_to_cross": {
+      "correct_to_correct": 172.0,
+      "correct_to_wrong": 2.5,
+      "correct_to_tie": 0.5,
+      "wrong_to_correct": 2.0,
+      "wrong_to_wrong": 79.0,
+      "wrong_to_tie": 0,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "same_to_cross": {
+      "correct_to_correct": 172.0,
+      "correct_to_wrong": 4.0,
+      "correct_to_tie": 0.5,
+      "wrong_to_correct": 2.0,
+      "wrong_to_wrong": 77.5,
+      "wrong_to_tie": 0,
+      "tie_to_correct": 0,
+      "tie_to_wrong": 0,
+      "tie_to_tie": 0
+    },
+    "examples": {
+      "correction": {
+        "pair_id": "N020",
+        "combination": 1,
+        "old": -0.0002848307291666667,
+        "new": 0.0008544921875
+      },
+      "loss": {
+        "pair_id": "N015",
+        "combination": 0,
+        "old": 4.0690104166666664e-05,
+        "new": -0.0005696614583333334
+      }
+    }
+  }
+}
