@@ -1,0 +1,28 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "weights": {
+    "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+    "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+    "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+  },
+  "archive_sha256": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "frames_sha256": "c42dba48b09730f87f4081f6d039492f7c432154a3b7f397b4620df997eddc94",
+  "scene_source_sha256": "9026305dff299b8288f6526f5232429da7830fe27303ba77f03acab8461acf25",
+  "old_environment_sha256": "b0141c4ec18e569ed88e46f971c87733eaca3204bece9390fdf3b64df85fa216",
+  "historical_gpu": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+  "gpu": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+  "hostname": "ASUS4090x8",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "transformers": "4.46.0",
+  "numpy": "1.26.4",
+  "python": "3.10.20",
+  "processor": "DPTImageProcessor",
+  "dtype": "FP32 model, preprocessing and cached predictions; FP64 evaluation; TF32 off",
+  "hashes": {
+    "protocol.md": "4e34627d517ecad4b5923e5351f9d22987db1fa25da90d24cd2189dfb7bd8acb",
+    "metrics.py": "d923d00b2dbda2421da4f9094c7fcfaef32db89f84b4d0e4931768a18fbd8783",
+    "run.py": "c41da07677cc41a5a523160a5dcd76a9073ea1d761b813126189cfc07c07506f"
+  }
+}

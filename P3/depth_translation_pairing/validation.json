@@ -1,0 +1,15 @@
+{
+  "frames": 128,
+  "scenes": 95,
+  "bootstrap": 10000,
+  "seed": 20261128,
+  "max_identity_abs_error": 1.3773704399255848e-15,
+  "max_signed_sum_abs_error": 1.377804120794579e-15,
+  "max_mean_prediction_abs_error": 3.552713678800501e-15,
+  "geometry_pixels": 36126720,
+  "valid_pixels": 36126720,
+  "extreme_frames": {
+    "max": "nyu_0859",
+    "min": "nyu_0360"
+  }
+}

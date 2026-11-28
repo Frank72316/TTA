@@ -1,0 +1,8 @@
+{
+  "frames": 128,
+  "old_original_arrays_checked": 128,
+  "aligned_arrays_hashed": 640,
+  "mse_values_replayed": 640,
+  "max_abs_mse_difference": 3.552713678800501e-15,
+  "max_abs_gain_or_contribution_difference": 1.3773704399255848e-15
+}

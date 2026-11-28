@@ -1,0 +1,98 @@
+{
+  "signature": "353a2ed41f6db0611c7f967e855f7da704f535ae7dd51692d2954761cba36777",
+  "original_replays": [
+    {
+      "frame_id": "nyu_1180",
+      "max_abs_difference": 0.0,
+      "shape": [
+        480,
+        602
+      ],
+      "dtype": "float32",
+      "original_cache_sha256": "40ca586b0a16b20c0b3f435e6501c4a034e4817b727cff1c741203075cbb89e3",
+      "processor_tensor_sha256": "a40919655df80c88df9da109e6b09141997d5abba93c3d36a1f79dc4e73b9b14"
+    },
+    {
+      "frame_id": "nyu_0325",
+      "max_abs_difference": 0.0,
+      "shape": [
+        480,
+        602
+      ],
+      "dtype": "float32",
+      "original_cache_sha256": "fdbc4a1fb8aafb70c28b377b083bdd2a0cd48cd2a7b6ccdc5a67a90b65129354",
+      "processor_tensor_sha256": "b7b30b922c0355ae1416a920eaf2229a14031cfaf0589201d56aee3e82c9e95c"
+    }
+  ],
+  "coordinate_tests": [
+    {
+      "width": 125,
+      "height": 29,
+      "dx": {
+        "O": 0,
+        "L2": -3,
+        "R2": 3,
+        "L4": -5,
+        "R4": 5
+      },
+      "x_start": 5,
+      "x_stop": 120
+    },
+    {
+      "width": 157,
+      "height": 29,
+      "dx": {
+        "O": 0,
+        "L2": -3,
+        "R2": 3,
+        "L4": -6,
+        "R4": 6
+      },
+      "x_start": 6,
+      "x_stop": 151
+    },
+    {
+      "width": 640,
+      "height": 29,
+      "dx": {
+        "O": 0,
+        "L2": -13,
+        "R2": 13,
+        "L4": -26,
+        "R4": 26
+      },
+      "x_start": 26,
+      "x_stop": 614
+    }
+  ],
+  "real_frames": [
+    {
+      "frame_id": "nyu_1180",
+      "width": 640,
+      "height": 480,
+      "dx": {
+        "O": 0,
+        "L2": -13,
+        "R2": 13,
+        "L4": -26,
+        "R4": 26
+      },
+      "x_start": 26,
+      "x_stop": 614
+    },
+    {
+      "frame_id": "nyu_0325",
+      "width": 640,
+      "height": 480,
+      "dx": {
+        "O": 0,
+        "L2": -13,
+        "R2": 13,
+        "L4": -26,
+        "R4": 26
+      },
+      "x_start": 26,
+      "x_stop": 614
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "smoke",
+    "frames": 2,
+    "new_translation_forwards": 8,
+    "validation_original_forwards": 2,
+    "old_original_cache_hits": 2,
+    "local_checkpoint_view_hits": 0,
+    "wall_seconds": 4.1955945724621415
+  },
+  {
+    "stage": "full",
+    "frames": 128,
+    "new_translation_forwards": 504,
+    "validation_original_forwards": 0,
+    "old_original_cache_hits": 126,
+    "local_checkpoint_view_hits": 10,
+    "wall_seconds": 23.67778694909066
+  }
+]
