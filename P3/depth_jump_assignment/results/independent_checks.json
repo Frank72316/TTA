@@ -1,0 +1,16 @@
+{
+  "scenes": 50,
+  "method_scene_checks": 100,
+  "registered_metric_checks": 1200,
+  "source_hashes_and_inference_metadata": 200,
+  "cdf_MAE_max_difference_mm": 3.410605131648481e-13,
+  "brute_force_edge_rows": 3100,
+  "brute_force_max_error_mm": 0.0,
+  "max_identity_residual_mm": 0.0,
+  "min_Jensen_gap_mm": -2.842170943040401e-14,
+  "convexity_violations": 0,
+  "UP_public_reconstructions": 150,
+  "UP_max_public_difference_mm": 2.2737367544323206e-13,
+  "clustered_summary_max_error_mm": 1.7053025658242404e-13,
+  "new_model_forwards": 0
+}

@@ -1,0 +1,21 @@
+{
+  "scenes": 50,
+  "edges": 243818,
+  "reference_scene_method_metrics_checked": 1200,
+  "max_reference_difference_mm": 4.547473508864641e-13,
+  "bootstrap_replicates": 10000,
+  "seed": 2026,
+  "signed_metrics": "reference signed bias minus method signed bias; sign is not an accuracy gain",
+  "contrast_sign": "reference minus method",
+  "script_sha256": "4c9275f5fd25764161acd83f50609122be7f21698191ad5228bd6ddcb824bd7d",
+  "reference_csv_sha256": "2fe73e7b9120c773a8d704ecac9042ea2f18c6ee0ae6f85d3e61ebaf5d0455fe",
+  "methods": [
+    "B",
+    "T",
+    "R",
+    "UP",
+    "DOWN",
+    "SHIFT",
+    "ROLL"
+  ]
+}
