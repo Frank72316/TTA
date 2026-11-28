@@ -1,0 +1,12 @@
+{
+  "frozen_local_time": "2026-11-28T21:32:15+08:00",
+  "protocol_sha256": "5573ab9af8e059beb08bbeff8b01bbede18125d7752f581458c2d8293a92c8a4",
+  "full_spec_sha256": "5d2d9a4be28c5400e38227d8a1b5fec62c2d43e28b5c612453db4183e136cab7",
+  "expected_sha256": "a04fb3642477c2779b1597a88395883add2ca40cdaa641e1bc005441ff6b9f03",
+  "counts": {
+    "ibims": 100,
+    "middlebury": 23
+  },
+  "seed": 2026,
+  "base_commit": "d777ac372cefc35e4ea9a57f5bd22f478d9ec6d8"
+}

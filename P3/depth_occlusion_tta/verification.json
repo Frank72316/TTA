@@ -1,0 +1,9 @@
+{
+  "images": 23,
+  "mae_recalculations": 92,
+  "pfm_direct_file_offsets": 1472,
+  "max_MAE_difference_m": 1.7301158283800078e-09,
+  "synthetic_window_alignment_max_m": 9.5367431640625e-07,
+  "bootstrap_draws": 10000,
+  "case_IDs_verified": true
+}

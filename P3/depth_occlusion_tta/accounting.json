@@ -1,0 +1,24 @@
+{
+  "planned_formal": 1353,
+  "actual_formal": 253,
+  "formal_by_dataset": {
+    "ibims": 0,
+    "middlebury": 253
+  },
+  "measured_synthetic_and_warmup": 198,
+  "extra_formal_forwards_from_PFM_repair": 0,
+  "OOM_calibration": 0,
+  "formal_images_first_on_worker": 7,
+  "workers": 7,
+  "worker_wall_seconds": [
+    61.94218789320439,
+    62.14583941642195,
+    52.52041219174862,
+    42.75325685366988,
+    54.34002099279314,
+    54.991169708780944,
+    54.28230415377766
+  ],
+  "cache_hits": 0,
+  "total_real_and_synthetic": 451
+}

@@ -1,0 +1,3 @@
+dataset,expected,input_ready,with_edges,with_narrow,with_wide,narrow_at_least_20_each,wide_at_least_20_each,both_at_least_20_each,native_pixels,depth_positive_finite,out_of_model_range,valid_pixels,adjacent,both_valid,coarse_jump,in_bounds,no_holes,consistent_jump,stable,narrow_edges,wide_edges,excluded_at_both_valid,excluded_at_coarse_jump,excluded_at_in_bounds,excluded_at_no_holes,excluded_at_consistent_jump,excluded_at_stable
+ibims,100,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,
+middlebury,23,23,23,21,23,19,23,19,128016864,122878332,0,122878332,255923452,244402079,339688,338865,262120,200710,188235,17993,64985,11521373,244062391,823,76745,61410,12475

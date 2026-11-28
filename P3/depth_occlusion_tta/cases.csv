@@ -1,0 +1,4 @@
+dataset,case,id,G_mm
+middlebury,best,Recycle,78.18606532111838
+middlebury,median,Flowers,1.0000333418693774
+middlebury,worst,Sword1,-121.74908478280366

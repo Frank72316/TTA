@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+    "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+    "weights": {
+      "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+      "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+      "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+    },
+    "torch": "2.5.1+cu124",
+    "transformers": "4.46.0",
+    "numpy": "1.26.4",
+    "pillow": "12.2.0",
+    "cuda": "12.4",
+    "uuid": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4",
+    "hardware": "NVIDIA GeForce RTX 4090",
+    "driver": "580.159.04",
+    "host": "ASUS4090x8"
+  },
+  "shards": 7,
+  "rows": [
+    {
+      "id": "middlebury/Mask",
+      "new": 11,
+      "hits": 0
+    },
+    {
+      "id": "middlebury/Motorcycle",
+      "new": 11,
+      "hits": 0
+    },
+    {
+      "id": "middlebury/Couch",
+      "new": 11,
+      "hits": 0
+    }
+  ],
+  "fresh": 33,
+  "wall_s": 52.52041219174862
+}

@@ -1,0 +1,28 @@
+{
+  "selected": {
+    "ibims": 2.5,
+    "middlebury": 2.5
+  },
+  "reference": {
+    "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+    "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+    "weights": {
+      "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+      "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+      "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+    },
+    "torch": "2.5.1+cu124",
+    "transformers": "4.46.0",
+    "numpy": "1.26.4",
+    "pillow": "12.2.0",
+    "cuda": "12.4",
+    "uuid": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4",
+    "hardware": "NVIDIA GeForce RTX 4090",
+    "driver": "580.159.04",
+    "host": "ASUS4090x8"
+  },
+  "cache_code": "9337e7095504267237f3245eb70d03b573667a83dec6476304c1cbfdf1c3b152",
+  "protocol": "5573ab9af8e059beb08bbeff8b01bbede18125d7752f581458c2d8293a92c8a4",
+  "freeze": "98ea8dd317d230f707c75a7e0094d8d52f6204546091b9e9e674a7a12e4f2181",
+  "calibration_sha": "c007c52f6897c82c91e28f279ea17d93fe15f31e6aa23d3b3fb920ac67bcc20b"
+}

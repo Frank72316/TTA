@@ -1,0 +1,34 @@
+{
+  "official_sha512": {
+    "evaluation_scripts.zip": "65736bd2960543dd82b409fa3b023ebb763ce3b0cd2294ba9535ac74baf11cf8385b953a3bb20a932b7e2850fd4f1af890cba624f99981998e5c2b95d4c114da",
+    "ibims1_aux_augmented.zip": "bd4c56705e57d43ff60bad3c0af4e6e53dfd6a1d4a0338063f6703cae498617691646d1e5183dd52763aa8b2146f6500f25765329e292da55e2d05b4ae66de28",
+    "ibims1_aux_mvs.zip": "d7568dc6f654a2efe84e4bb573c9d37df0b018a6c6debb42a37f49d689dda733e9d5b38fe01914bd151c4bc153f62766f1a54ca2491193f1cdf5ce4c9eef96de",
+    "ibims1_aux_patterns.zip": "3cc071fec60eb4d9ad7433eb034a57fe1fa493e78ec3bd936bc485ddcb362f9a64515d26c9bdea488f845a18f1ccdc8e719bbdd3dae619c3db58f61ac6a48f78",
+    "ibims1_core_mat.zip": "cae479ad99ca57f358ab46af496a36634e52cbde6aa0c140bae1a46b7cdbcb1f16578b560e500bb48947eae9e83eed4eb1abd1366ea2e99a5cc1359d4cfc0ae1",
+    "ibims1_core_raw.zip": "2641a837c82909e58a34af43d779051c38d57a848308733b10cda747f1e8347da035a0cf591422f0448b4c5dba6eff92ae6289aa5ba73e6d79003d33315a80c8",
+    "imagelist.txt": "45d62faf9055cb68ce52182104486cf2fde9bf5b94da7ffac2ac7697b99d9b6c192dbe15f7d7b581841c05f6be535079c5975dbd197d1d2b8e299347f94fd2f4"
+  },
+  "verified": true,
+  "auxiliary_and_mirror_shapes": {
+    "ibims1_aux_augmented.zip": {
+      "('.png', (640, 480))": 2800
+    },
+    "ibims1_aux_mvs.zip": {
+      "('.png', (640, 480))": 50,
+      "('.jpg', (6000, 4000))": 122,
+      "('.jpg', (3872, 2592))": 12
+    },
+    "ibims1_aux_patterns.zip": {
+      "('.png', (640, 480))": 86
+    },
+    "Ruicheng/monocular-geometry-evaluation iBims-1.zip": {
+      "('depth.png', (640, 480))": 100,
+      "('image.jpg', (640, 480))": 100
+    }
+  },
+  "official_hd_spec": "https://www.asg.ed.tum.de/en/lmf/ibims1/",
+  "public_deposit": "https://mediatum.ub.tum.de/1455541",
+  "external": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "middlebury_unit": "optical-axis metres from float pixel disparity",
+  "ibims_ready": 0
+}
