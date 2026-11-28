@@ -1,0 +1,80 @@
+{
+  "records": 7680,
+  "pairs": 256,
+  "contrasts": 2048,
+  "diff_pp": 0.048828125,
+  "ci_pp": [
+    -0.341796875,
+    0.439453125
+  ],
+  "transitions": {
+    "correct": {
+      "correct": 1398,
+      "wrong": 5,
+      "tie": 2
+    },
+    "wrong": {
+      "correct": 8,
+      "wrong": 629,
+      "tie": 2
+    },
+    "tie": {
+      "correct": 0,
+      "wrong": 3,
+      "tie": 1
+    }
+  },
+  "expected": {
+    "original": {
+      "correct": 175.0,
+      "wrong": 81.0,
+      "tie": 0.0
+    },
+    "original_B": {
+      "correct": 173.5,
+      "wrong": 82.0,
+      "tie": 0.5
+    },
+    "original_T": {
+      "correct": 176.25,
+      "wrong": 79.25,
+      "tie": 0.5
+    },
+    "separate": {
+      "correct": 175.625,
+      "wrong": 79.875,
+      "tie": 0.5
+    },
+    "composed": {
+      "correct": 175.75,
+      "wrong": 79.625,
+      "tie": 0.625
+    }
+  },
+  "abs_I_quartiles": [
+    0.000244140625,
+    0.000732421875,
+    0.0013427734375
+  ],
+  "abs_I_ratio_quartiles": [
+    0.014388489208633094,
+    0.03896103896103896,
+    0.0967741935483871
+  ],
+  "zero_m0_pairs": 0,
+  "zero_I": 121,
+  "within_one_native_ulp": 426,
+  "ulp_values": [
+    0.0001220703125,
+    0.000244140625
+  ],
+  "changed": 20,
+  "changed_pairs": 14,
+  "strict_flips": 13,
+  "strict_flip_pairs": 12,
+  "max_identity_error": 0.0,
+  "source_counts": {
+    "new": 4124,
+    "geometry_specificity/dev256": 3556
+  }
+}

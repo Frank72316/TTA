@@ -1,0 +1,3 @@
+event,pair_id,human,P0,B,T,m_O,m_B,m_T,m_BT,m_separate,m_composed
+wrong_to_correct,N001,B,a small group of angry clowns wearing red trucker hats dancing around a government building ,B0.9500,T_down_3,0.001953125,0.000244140625,-0.000732421875,-0.00146484375,-0.000244140625,0.000244140625
+correct_to_wrong,N032,A,happy fat man in a hawaiian shirt and roller skates,B0.9500,T_right_3,-0.00390625,-0.003173828125,0.00341796875,0.0029296875,0.0001220703125,-0.00048828125
