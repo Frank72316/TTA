@@ -1,0 +1,30 @@
+{
+  "archive": {
+    "md5": "97eceeb196236b17998738112f37df78",
+    "sha256": "0c685df5597a8b24909f6a7c9db6d11e008733779a671760afef78feb49bf081",
+    "bytes": 1150585339
+  },
+  "source": "https://data.caltech.edu/records/65de6-vp158",
+  "packet_sha256": "dd3003733a7b74ff94620a21beb69899936ee47eaf9e1f33b7b671550920e488",
+  "pairs_sha256": "40e08a81833c70c80ef27aa73e3d86bd3bff12db8d3b005fafcaeae8b616a4f9",
+  "inputs_sha256": "396194098d8013c693b12eb2b85d895384defcca200ed8474b02e91f23754556",
+  "pairs": 96,
+  "photos": 192,
+  "species": 76,
+  "colors": 9,
+  "definitely_pairs": 29,
+  "wing_id_counts": {
+    "9": 116,
+    "13": 76
+  },
+  "official_labels_verified": 384,
+  "metadata_sha256": {
+    "attributes.txt": "d5b158c197a8548071114150b2384c55cbd8881b32e57816c6ccc1437e946a1a",
+    "image_attribute_labels.txt": "836a9ed2a0a4b1e0a8093699e3884450a514aa36a6e88b277275e8ddf191a175",
+    "image_class_labels.txt": "e9df8c96d897994a245746fe2c98914b9b31f5342bddc6e8b06bdfbf45e49b02",
+    "images.txt": "e1cfc5ed1f4bd1b838040784b6f75c44f7a25d9b31707a3adab49ec694618c1f",
+    "part_locs.txt": "5be41e1e1e9165ff19632da203e30384fe8a359347c545ffc12ab99155b0415f",
+    "parts.txt": "411a4ab5c7622c1b93bf84dd1e9f69a8a2feaecd79753ed13cfc27ec0c2aeef0",
+    "train_test_split.txt": "8bbbfcc09b4d3c9c6e3e40c9874bd863eb6658f4f456e472df1b33d3403d2600"
+  }
+}

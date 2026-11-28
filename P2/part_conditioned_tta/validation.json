@@ -1,0 +1,14 @@
+{
+  "questions": 192,
+  "pairs": 96,
+  "verified_oriented_margins": 768,
+  "clusters": 76,
+  "bootstrap_replicates": 10000,
+  "verified_ci": 3,
+  "example_pairs": [
+    "C016",
+    "C003"
+  ],
+  "full_score_rows": 1536,
+  "unique_inputs": 768
+}

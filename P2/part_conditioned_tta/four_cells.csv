@@ -1,0 +1,9 @@
+subset,query,added_view,total,correct,wrong,tie
+all,crown,crown,96,52,44,0
+all,crown,wing,96,49,47,0
+all,wing,crown,96,46,50,0
+all,wing,wing,96,47,48,1
+definitely,crown,crown,29,17,12,0
+definitely,crown,wing,29,15,14,0
+definitely,wing,crown,29,12,17,0
+definitely,wing,wing,29,12,16,1

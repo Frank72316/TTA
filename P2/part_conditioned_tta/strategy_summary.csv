@@ -1,0 +1,9 @@
+subset,method,total,correct,wrong,tie,strict_accuracy,both,one,neither,crown_correct,wing_correct
+all,original,192,97,95,0,0.5052083333333334,2,93,1,50,47
+all,center,192,89,102,1,0.4635416666666667,2,85,9,48,41
+all,matched,192,99,92,1,0.515625,14,71,11,52,47
+all,swapped,192,95,97,0,0.4947916666666667,13,69,14,49,46
+definitely,original,58,29,29,0,0.5,0,29,0,14,15
+definitely,center,58,28,30,0,0.4827586206896552,1,26,2,16,12
+definitely,matched,58,29,28,1,0.5,4,21,4,17,12
+definitely,swapped,58,27,31,0,0.46551724137931033,4,19,6,15,12
