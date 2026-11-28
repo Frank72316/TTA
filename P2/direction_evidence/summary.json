@@ -1,0 +1,73 @@
+{
+  "pairs": 64,
+  "photos": 128,
+  "cached_scores": 512,
+  "old_both": {
+    "original": 1,
+    "image_only": 2,
+    "synchronized": 0
+  },
+  "assignments": {
+    "correct": 30,
+    "reversed": 34,
+    "tie": 0
+  },
+  "sign_test_n": 64,
+  "sign_test_two_sided_p": 0.707980754134764,
+  "M": {
+    "min": -0.0076904296875,
+    "q1": -0.001861572265625,
+    "median": -0.00030517578125,
+    "q3": 0.00201416015625,
+    "max": 0.0079345703125,
+    "mean": 0.0002079010009765625
+  },
+  "max_cases": [
+    "F061"
+  ],
+  "min_cases": [
+    "F020"
+  ],
+  "mirror": {
+    "both_correct": 2,
+    "one_correct": 119,
+    "both_wrong": 2,
+    "has_tie": 5
+  },
+  "mirror_question_correct": 125,
+  "mirror_question_ties": 5,
+  "same_choice": {
+    "original_same": {
+      "correct": 29,
+      "reversed": 34,
+      "tie": 0
+    },
+    "image_only_same": {
+      "correct": 28,
+      "reversed": 34,
+      "tie": 0
+    },
+    "synchronized_same": {
+      "correct": 30,
+      "reversed": 34,
+      "tie": 0
+    },
+    "each_strategy_same": {
+      "correct": 28,
+      "reversed": 34,
+      "tie": 0
+    },
+    "all_six_same": {
+      "correct": 27,
+      "reversed": 32,
+      "tie": 0
+    }
+  },
+  "input_hashes": {
+    "images.csv": "4e9c512f84da7823df4d73439c8ff198e4aa6d6b9ca05f1edaaab1a5278d13d5",
+    "pairs.csv": "2d525630f11e1578b6e207dd4edec9108456cc4436ec02c65ac5bb56b583a172",
+    "scores.csv": "dd787a0c5941f8b0d718b24043f0d555f77d782439b40a41060f5c42df43cfac",
+    "pair_results.csv": "5f9831d5bbbd2ea4ce0ae8fdfb9102440f9a3ec4393ea9f0cb46ba0a172a56b6"
+  },
+  "annotation_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f"
+}
