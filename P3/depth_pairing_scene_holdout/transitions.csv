@@ -1,0 +1,11 @@
+scope,before,after,n,corrected,harmed,involving_tie,unchanged_strict,pairs_changed_either_direction,pairs_strict_flip_either_direction,pairs_tie_either_direction,correct_to_correct,correct_to_wrong,correct_to_tie,wrong_to_correct,wrong_to_wrong,wrong_to_tie,tie_to_correct,tie_to_wrong,tie_to_tie
+main,LL,LR,23368,27,41,0,23300,118,118,0,21838,41,0,27,1462,0,0,0,0
+main,RR,RL,23368,48,25,0,23295,118,118,0,21826,25,0,48,1469,0,0,0,0
+small,LL,LR,4186,14,23,0,4149,61,61,0,3519,23,0,14,630,0,0,0,0
+small,RR,RL,4186,22,14,0,4150,61,61,0,3518,14,0,22,632,0,0,0,0
+medium,LL,LR,9604,11,8,0,9585,37,37,0,9107,8,0,11,478,0,0,0,0
+medium,RR,RL,9604,15,11,0,9578,37,37,0,9102,11,0,15,476,0,0,0,0
+large,LL,LR,9578,2,10,0,9566,20,20,0,9212,10,0,2,354,0,0,0,0
+large,RR,RL,9578,11,0,0,9567,20,20,0,9206,0,0,11,361,0,0,0,0
+near,LL,LR,2792,22,29,0,2741,89,89,0,1789,29,0,22,952,0,0,0,0
+near,RR,RL,2792,30,24,0,2738,89,89,0,1793,24,0,30,945,0,0,0,0

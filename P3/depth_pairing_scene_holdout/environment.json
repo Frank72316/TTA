@@ -1,0 +1,29 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "weights": {
+    "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+    "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+    "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+  },
+  "archive_sha256": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "gpu": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+  "hostname": "ASUS4090x8",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "transformers": "4.46.0",
+  "numpy": "1.26.4",
+  "python": "3.10.20",
+  "processor": "DPTImageProcessor",
+  "dtype": "FP32 model, preprocessing and cached predictions; FP64 evaluation; TF32 off",
+  "frames_sha256": "9f6ef82bfe7e771ef1acc4ab1ea6a0a6e0a4e72ed8d28ee36f094d1c9235f773",
+  "freeze_sha256": "6d2971a99cc97e3329945f672d6fe7597117a0904254a5caf09c83ffcde17107",
+  "source_evaluation_sha256": "bca9dada91da2292d9e1fed3f2f353267796a342a19f65643aea26827a87d0cf",
+  "implementation_hashes": {
+    "predict_holdout.py": "afca8844f933ee50b9d52ff91bfeed472bebf455f718b6d0f8070ee49ff8e7f1",
+    "holdout_lib.py": "bc93197750d41c09bb8a9d674ab4197f18bda95c1002ec262a5088efab94668c",
+    "evaluate_holdout.py": "cf9ec3e01970ee7a22b9630f1a140309cb2b3c27323b903d210b92f4a63dec9a"
+  },
+  "dev_replay_sha256": "33fc1cb96d5184bff5b0355d091b0905caad0664e6910a83f8b90da81392c8b8",
+  "batch": 1
+}

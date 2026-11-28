@@ -1,0 +1,55 @@
+{
+  "signature": "6a4b4244587bd519f0bdc8b7fa189abd5176459a956527eb223da9e5844bcdfb",
+  "frame_ids": [
+    "nyu_0000",
+    "nyu_0001"
+  ],
+  "checks": [
+    {
+      "frame_id": "nyu_0000",
+      "coordinates": {
+        "width": 640,
+        "height": 480,
+        "dx": {
+          "O": 0,
+          "L2": -13,
+          "R2": 13,
+          "L4": -26,
+          "R4": 26
+        },
+        "x_start": 26,
+        "x_stop": 614
+      },
+      "valid_pixels": 282240,
+      "eligible_windows": 16,
+      "region_pairs": 120,
+      "independent_recipe_checks": 600,
+      "max_identity_residual": 1.8404331877941438e-16
+    },
+    {
+      "frame_id": "nyu_0001",
+      "coordinates": {
+        "width": 640,
+        "height": 480,
+        "dx": {
+          "O": 0,
+          "L2": -13,
+          "R2": 13,
+          "L4": -26,
+          "R4": 26
+        },
+        "x_start": 26,
+        "x_stop": 614
+      },
+      "valid_pixels": 282240,
+      "eligible_windows": 16,
+      "region_pairs": 120,
+      "independent_recipe_checks": 600,
+      "max_identity_residual": 8.66277535815918e-17
+    }
+  ],
+  "npz_sha256": {
+    "nyu_0000": "c257a1406d60646b7fa76d4a7ede26e01e9164b4f63a641230fdddb3af1cb090",
+    "nyu_0001": "64fa961f6569fa3507dcdac6cc6bdf4616ad416978ba1bd111111f111eb8336b"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "total_scenes": 215,
+  "total_frames": 654,
+  "directly_used_frames": 192,
+  "excluded_scenes": 131,
+  "excluded_frames": 436,
+  "retained_scenes": 84,
+  "retained_frames": 218,
+  "historical_scene_overlap": [],
+  "metadata": "https://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.mat#scenes",
+  "split_sha256": "6e081404491a8bfba2f066beaa9713ef6046f9007aa5f799f2a350506a580cee",
+  "archive_sha256": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "prediction_commit": "3e0ea7c340a5bf27faf784b6e16a45a27571a7f0",
+  "inventory_and_evaluation_commit": "8a8d0cfcb8702c2df5be01b4e67c6a2f252e9fe4",
+  "bootstrap_replicates": 10000,
+  "seed": 20261128,
+  "primary": "G",
+  "key_secondary": "A",
+  "hashes": {
+    "protocol.md": "694b55f96bedd63619729e2737534c5111fca0a9447e20fa65b916c302c52fd1",
+    "sources.json": "683e13e544f3b5299fc6ba5f3f96e665154c5ff6c50b6fa3fce0b8b40020ec77",
+    "official_test_scenes.csv": "ea1a728df4c6a24de1f03026837f1bf440d9c607f760c42383d4bcd79fc2ff10",
+    "history.csv": "39233ab745b2c231434b6035059f77d85be63b1014f56f9cb3ca9033348bb590",
+    "freeze_holdout.py": "231c285594007f7af6829f1378d84d8938d51f198e5969d4cb27e74c67ee1117",
+    "inventory.py": "5800355c1e780af61a3f0d19f7c4cf5190173915a2bba6c3d86388691183691c",
+    "frames.csv": "9f6ef82bfe7e771ef1acc4ab1ea6a0a6e0a4e72ed8d28ee36f094d1c9235f773",
+    "excluded_scenes.csv": "5f990d993c416a37ec373331b468d3d2942157482ad8c03441de9cfba83f7fa2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "frames": 218,
+  "scenes": 84,
+  "windows": 3488,
+  "all_pairs": 26160,
+  "main_pairs": 23368,
+  "audited_arrays": 1090,
+  "max_product_identity_error": 1.0113336220991115e-14,
+  "freeze_sha256": "6d2971a99cc97e3329945f672d6fe7597117a0904254a5caf09c83ffcde17107"
+}

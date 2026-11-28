@@ -1,0 +1,13 @@
+{
+  "official_test_frames": 654,
+  "official_scenes": 215,
+  "historical_frames": 192,
+  "excluded_scenes": 131,
+  "excluded_test_frames": 436,
+  "new_frames": 218,
+  "new_scenes": 84,
+  "shared_scenes": [],
+  "main_and_secondary_share_identical_pair_list": true,
+  "window_count": 3488,
+  "eligible_pairs": 26160
+}

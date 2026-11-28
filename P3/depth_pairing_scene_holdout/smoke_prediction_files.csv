@@ -1,0 +1,3 @@
+frame_id,scene,file,npz_sha256
+nyu_0000,kitchen_0004,predictions/nyu_0000.npz,c257a1406d60646b7fa76d4a7ede26e01e9164b4f63a641230fdddb3af1cb090
+nyu_0001,kitchen_0004,predictions/nyu_0001.npz,64fa961f6569fa3507dcdac6cc6bdf4616ad416978ba1bd111111f111eb8336b

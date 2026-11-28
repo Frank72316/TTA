@@ -1,0 +1,16 @@
+{
+  "prediction_commit": "3e0ea7c340a5bf27faf784b6e16a45a27571a7f0",
+  "evaluation_and_inventory_commit": "8a8d0cfcb8702c2df5be01b4e67c6a2f252e9fe4",
+  "source_files": {
+    "P3/depth_translation_pairing/run.py": "c41da07677cc41a5a523160a5dcd76a9073ea1d761b813126189cfc07c07506f",
+    "P3/depth_translation_pairing/metrics.py": "d923d00b2dbda2421da4f9094c7fcfaef32db89f84b4d0e4931768a18fbd8783",
+    "P3/depth_order_pairing/order_data.py": "bca9dada91da2292d9e1fed3f2f353267796a342a19f65643aea26827a87d0cf",
+    "P3/depth_order_pairing/summarize.py": "b9ef90cae89c3791fb46d700d09d6ce81706bba03573d347ad814cc38aa8a325",
+    "P3/depth_order_pairing/verify.py": "a27df33c48e11d6384b6d79322e90bf03dc87bf2d100e389570cda5fded18579",
+    "P3/depth_order_pairing/summary.csv": "00924c5d7e3bd594bc7a537ad9d79e23f5553883351cd2154f828adf1be2d498",
+    "P3/depth_order_pairing/region_pairs.csv": "55aee3f436636ae192e5b4e21750cc2f8162573c56411bd39b8d1cc2c3511f13",
+    "P3/depth_adaptive_budget/scene_metadata.py": "b396de8dffc59b9e0455981a3a136fe693baec299a3c14d8c44cc78dbef583cb",
+    "P3/depth_adaptive_budget/frames.csv": "c42dba48b09730f87f4081f6d039492f7c432154a3b7f397b4620df997eddc94",
+    "P3/depth_adaptive_budget/environment.json": "b0141c4ec18e569ed88e46f971c87733eaca3204bece9390fdf3b64df85fa216"
+  }
+}

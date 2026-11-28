@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "smoke",
+    "frames": 2,
+    "new_forwards": 10,
+    "checkpoint_view_hits": 0,
+    "wall_seconds": 2.911072955466807
+  },
+  {
+    "stage": "full",
+    "frames": 218,
+    "new_forwards": 1080,
+    "checkpoint_view_hits": 10,
+    "wall_seconds": 37.75168426241726
+  }
+]

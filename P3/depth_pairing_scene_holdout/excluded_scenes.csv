@@ -1,0 +1,132 @@
+scene,test_frames,historical_frames,used_ids,all_excluded_ids
+bathroom_0003,1,1,nyu_0045,nyu_0045
+bathroom_0009,1,1,nyu_0650,nyu_0650
+bathroom_0015,2,1,nyu_0662,nyu_0662 nyu_0663
+bathroom_0021,2,1,nyu_0678,nyu_0677 nyu_0678
+bathroom_0029,2,1,nyu_0693,nyu_0692 nyu_0693
+bathroom_0031,3,2,nyu_0696 nyu_0698,nyu_0696 nyu_0697 nyu_0698
+bathroom_0037,2,1,nyu_0709,nyu_0708 nyu_0709
+bedroom_0003,6,2,nyu_0171 nyu_0173,nyu_0170 nyu_0171 nyu_0172 nyu_0173 nyu_0174 nyu_0175
+bedroom_0006,6,3,nyu_0183 nyu_0185 nyu_0186,nyu_0182 nyu_0183 nyu_0184 nyu_0185 nyu_0186 nyu_0187
+bedroom_0007,5,1,nyu_0190,nyu_0188 nyu_0189 nyu_0190 nyu_0191 nyu_0192
+bedroom_0013,5,2,nyu_0061 nyu_0062,nyu_0058 nyu_0059 nyu_0060 nyu_0061 nyu_0062
+bedroom_0018,4,2,nyu_0075 nyu_0077,nyu_0075 nyu_0076 nyu_0077 nyu_0078
+bedroom_0022,1,1,nyu_0219,nyu_0219
+bedroom_0024,2,1,nyu_0221,nyu_0220 nyu_0221
+bedroom_0032,4,1,nyu_0934,nyu_0931 nyu_0932 nyu_0933 nyu_0934
+bedroom_0037,3,1,nyu_0944,nyu_0944 nyu_0945 nyu_0946
+bedroom_0043,2,1,nyu_0958,nyu_0958 nyu_0959
+bedroom_0046,3,1,nyu_0966,nyu_0964 nyu_0965 nyu_0966
+bedroom_0048,5,3,nyu_0969 nyu_0970 nyu_0972,nyu_0969 nyu_0970 nyu_0971 nyu_0972 nyu_0973
+bedroom_0049,3,1,nyu_0976,nyu_0974 nyu_0975 nyu_0976
+bedroom_0054,3,2,nyu_0990 nyu_0992,nyu_0990 nyu_0991 nyu_0992
+bedroom_0055,2,2,nyu_0993 nyu_0994,nyu_0993 nyu_0994
+bedroom_0061,3,1,nyu_1010,nyu_1009 nyu_1010 nyu_1011
+bedroom_0064,3,2,nyu_1020 nyu_1022,nyu_1020 nyu_1021 nyu_1022
+bedroom_0068,3,3,nyu_1031 nyu_1032 nyu_1033,nyu_1031 nyu_1032 nyu_1033
+bedroom_0070,2,1,nyu_1037,nyu_1037 nyu_1038
+bedroom_0073,2,2,nyu_1047 nyu_1048,nyu_1047 nyu_1048
+bedroom_0075,2,1,nyu_1052,nyu_1051 nyu_1052
+bedroom_0084,4,2,nyu_1076 nyu_1079,nyu_1076 nyu_1077 nyu_1078 nyu_1079
+bedroom_0085,4,1,nyu_1081,nyu_1080 nyu_1081 nyu_1082 nyu_1083
+bedroom_0087,3,1,nyu_1087,nyu_1087 nyu_1088 nyu_1089
+bedroom_0089,3,2,nyu_1093 nyu_1095,nyu_1093 nyu_1094 nyu_1095
+bedroom_0091,2,2,nyu_1097 nyu_1098,nyu_1097 nyu_1098
+bedroom_0092,3,1,nyu_1101,nyu_1099 nyu_1100 nyu_1101
+bedroom_0093,2,2,nyu_1102 nyu_1103,nyu_1102 nyu_1103
+bedroom_0095,4,2,nyu_1105 nyu_1106,nyu_1105 nyu_1106 nyu_1107 nyu_1108
+bedroom_0099,3,2,nyu_1117 nyu_1118,nyu_1116 nyu_1117 nyu_1118
+bedroom_0101,4,1,nyu_1122,nyu_1122 nyu_1123 nyu_1124 nyu_1125
+bedroom_0102,2,1,nyu_1127,nyu_1126 nyu_1127
+bedroom_0103,3,1,nyu_1129,nyu_1128 nyu_1129 nyu_1130
+bedroom_0105,2,1,nyu_1135,nyu_1134 nyu_1135
+bedroom_0109,3,1,nyu_1148,nyu_1146 nyu_1147 nyu_1148
+bedroom_0112,3,1,nyu_1157,nyu_1155 nyu_1156 nyu_1157
+bedroom_0114,3,1,nyu_1163,nyu_1161 nyu_1162 nyu_1163
+bedroom_0119,3,2,nyu_1173 nyu_1175,nyu_1173 nyu_1174 nyu_1175
+bedroom_0121,2,1,nyu_1178,nyu_1178 nyu_1179
+bedroom_0122,2,2,nyu_1180 nyu_1181,nyu_1180 nyu_1181
+bedroom_0127,3,1,nyu_1192,nyu_1191 nyu_1192 nyu_1193
+bedroom_0133,5,1,nyu_0514,nyu_0514 nyu_0515 nyu_0516 nyu_0517 nyu_0518
+bedroom_0135,4,1,nyu_0522,nyu_0522 nyu_0523 nyu_0524 nyu_0525
+bedroom_0137,3,1,nyu_0530,nyu_0530 nyu_0531 nyu_0532
+bedroom_0139,3,1,nyu_0537,nyu_0536 nyu_0537 nyu_0538
+bookstore_0001,11,1,nyu_0118,nyu_0083 nyu_0084 nyu_0085 nyu_0086 nyu_0087 nyu_0088 nyu_0089 nyu_0090 nyu_0116 nyu_0117 nyu_0118
+classroom_0001,2,1,nyu_0283,nyu_0283 nyu_0284
+classroom_0007,3,2,nyu_0295 nyu_0296,nyu_0295 nyu_0296 nyu_0297
+classroom_0008,2,1,nyu_0299,nyu_0298 nyu_0299
+classroom_0009,2,1,nyu_0301,nyu_0300 nyu_0301
+classroom_0023,4,1,nyu_0325,nyu_0324 nyu_0325 nyu_0326 nyu_0327
+computer_lab_0001,3,1,nyu_0334,nyu_0332 nyu_0333 nyu_0334
+dining_room_0006,2,1,nyu_1355,nyu_1354 nyu_1355
+dining_room_0017,3,3,nyu_1383 nyu_1384 nyu_1385,nyu_1383 nyu_1384 nyu_1385
+dining_room_0020,3,1,nyu_1394,nyu_1393 nyu_1394 nyu_1395
+dining_room_0021,3,1,nyu_1396,nyu_1396 nyu_1397 nyu_1398
+dining_room_0022,2,1,nyu_1400,nyu_1399 nyu_1400
+dining_room_0026,3,1,nyu_1413,nyu_1411 nyu_1412 nyu_1413
+dining_room_0030,4,3,nyu_1420 nyu_1421 nyu_1422,nyu_1420 nyu_1421 nyu_1422 nyu_1423
+dining_room_0035,3,1,nyu_1441,nyu_1440 nyu_1441 nyu_1442
+dining_room_0036,6,4,nyu_1443 nyu_1445 nyu_1446 nyu_1448,nyu_1443 nyu_1444 nyu_1445 nyu_1446 nyu_1447 nyu_1448
+dining_room_0038,3,1,nyu_0550,nyu_0548 nyu_0549 nyu_0550
+home_office_0001,4,1,nyu_0357,nyu_0354 nyu_0355 nyu_0356 nyu_0357
+home_office_0002,4,1,nyu_0360,nyu_0358 nyu_0359 nyu_0360 nyu_0361
+home_office_0012,3,1,nyu_0396,nyu_0394 nyu_0395 nyu_0396
+kitchen_0002,9,2,nyu_0199 nyu_0200,nyu_0193 nyu_0194 nyu_0195 nyu_0196 nyu_0197 nyu_0198 nyu_0199 nyu_0200 nyu_0201
+kitchen_0005,5,2,nyu_0125 nyu_0126,nyu_0124 nyu_0125 nyu_0126 nyu_0127 nyu_0128
+kitchen_0007,4,1,nyu_0133,nyu_0130 nyu_0131 nyu_0132 nyu_0133
+kitchen_0021,3,1,nyu_0758,nyu_0758 nyu_0759 nyu_0760
+kitchen_0022,5,1,nyu_0763,nyu_0761 nyu_0762 nyu_0763 nyu_0764 nyu_0765
+kitchen_0023,5,2,nyu_0766 nyu_0769,nyu_0766 nyu_0767 nyu_0768 nyu_0769 nyu_0770
+kitchen_0024,5,1,nyu_0771,nyu_0771 nyu_0772 nyu_0773 nyu_0774 nyu_0775
+kitchen_0026,3,1,nyu_0781,nyu_0779 nyu_0780 nyu_0781
+kitchen_0027,5,2,nyu_0782 nyu_0783,nyu_0782 nyu_0783 nyu_0784 nyu_0785 nyu_0786
+kitchen_0030,5,1,nyu_0802,nyu_0799 nyu_0800 nyu_0801 nyu_0802 nyu_0803
+kitchen_0032,5,1,nyu_0812,nyu_0809 nyu_0810 nyu_0811 nyu_0812 nyu_0813
+kitchen_0034,3,2,nyu_0820 nyu_0821,nyu_0820 nyu_0821 nyu_0822
+kitchen_0039,6,2,nyu_0839 nyu_0840,nyu_0836 nyu_0837 nyu_0838 nyu_0839 nyu_0840 nyu_0841
+kitchen_0042,3,2,nyu_0849 nyu_0851,nyu_0849 nyu_0850 nyu_0851
+kitchen_0044,6,3,nyu_0858 nyu_0859 nyu_0861,nyu_0856 nyu_0857 nyu_0858 nyu_0859 nyu_0860 nyu_0861
+kitchen_0054,3,1,nyu_0906,nyu_0905 nyu_0906 nyu_0907
+kitchen_0055,2,1,nyu_0559,nyu_0558 nyu_0559
+kitchen_0056,4,3,nyu_0561 nyu_0562 nyu_0563,nyu_0560 nyu_0561 nyu_0562 nyu_0563
+kitchen_0058,3,1,nyu_0569,nyu_0568 nyu_0569 nyu_0570
+living_room_0002,1,1,nyu_0206,nyu_0206
+living_room_0003,5,1,nyu_0207,nyu_0207 nyu_0208 nyu_0209 nyu_0210 nyu_0211
+living_room_0009,1,1,nyu_0154,nyu_0154
+living_room_0013,2,1,nyu_0167,nyu_0166 nyu_0167
+living_room_0025,3,1,nyu_1202,nyu_1200 nyu_1201 nyu_1202
+living_room_0026,2,1,nyu_1203,nyu_1203 nyu_1204
+living_room_0027,3,1,nyu_1207,nyu_1205 nyu_1206 nyu_1207
+living_room_0028,4,1,nyu_1208,nyu_1208 nyu_1209 nyu_1210 nyu_1211
+living_room_0031,3,1,nyu_1218,nyu_1217 nyu_1218 nyu_1219
+living_room_0034,5,1,nyu_1228,nyu_1225 nyu_1226 nyu_1227 nyu_1228 nyu_1229
+living_room_0036,3,1,nyu_1234,nyu_1232 nyu_1233 nyu_1234
+living_room_0041,4,1,nyu_1249,nyu_1246 nyu_1247 nyu_1248 nyu_1249
+living_room_0044,4,2,nyu_1257 nyu_1258,nyu_1257 nyu_1258 nyu_1259 nyu_1260
+living_room_0045,4,1,nyu_1262,nyu_1261 nyu_1262 nyu_1263 nyu_1264
+living_room_0049,4,1,nyu_1278,nyu_1276 nyu_1277 nyu_1278 nyu_1279
+living_room_0051,4,3,nyu_1284 nyu_1285 nyu_1286,nyu_1284 nyu_1285 nyu_1286 nyu_1287
+living_room_0053,3,1,nyu_1292,nyu_1290 nyu_1291 nyu_1292
+living_room_0057,2,1,nyu_1297,nyu_1297 nyu_1298
+living_room_0059,4,4,nyu_1301 nyu_1302 nyu_1303 nyu_1304,nyu_1301 nyu_1302 nyu_1303 nyu_1304
+living_room_0061,1,1,nyu_1307,nyu_1307
+living_room_0066,1,1,nyu_1314,nyu_1314
+living_room_0072,1,1,nyu_1328,nyu_1328
+living_room_0079,3,1,nyu_1335,nyu_1334 nyu_1335 nyu_1336
+living_room_0080,3,2,nyu_1337 nyu_1338,nyu_1337 nyu_1338 nyu_1339
+living_room_0081,5,3,nyu_0578 nyu_0579 nyu_0581,nyu_0578 nyu_0579 nyu_0580 nyu_0581 nyu_0582
+living_room_0084,4,3,nyu_0590 nyu_0591 nyu_0593,nyu_0590 nyu_0591 nyu_0592 nyu_0593
+living_room_0087,5,3,nyu_0603 nyu_0604 nyu_0606,nyu_0602 nyu_0603 nyu_0604 nyu_0605 nyu_0606
+office_0005,1,1,nyu_0008,nyu_0008
+office_0010,1,1,nyu_0020,nyu_0020
+office_0013,7,1,nyu_0029,nyu_0027 nyu_0028 nyu_0029 nyu_0030 nyu_0031 nyu_0032 nyu_0033
+office_0014,4,2,nyu_0034 nyu_0035,nyu_0034 nyu_0035 nyu_0036 nyu_0037
+office_0015,5,3,nyu_0038 nyu_0039 nyu_0040,nyu_0038 nyu_0039 nyu_0040 nyu_0041 nyu_0042
+office_0016,1,1,nyu_0270,nyu_0270
+office_0017,1,1,nyu_0271,nyu_0271
+office_0022,5,3,nyu_0617 nyu_0619 nyu_0620,nyu_0616 nyu_0617 nyu_0618 nyu_0619 nyu_0620
+office_kitchen_0002,4,1,nyu_0413,nyu_0410 nyu_0411 nyu_0412 nyu_0413
+playroom_0005,6,1,nyu_0432,nyu_0429 nyu_0430 nyu_0431 nyu_0432 nyu_0433 nyu_0434
+reception_room_0003,5,3,nyu_0461 nyu_0463 nyu_0464,nyu_0461 nyu_0462 nyu_0463 nyu_0464 nyu_0465
+study_0007,2,1,nyu_0643,nyu_0643 nyu_0644
+study_room_0001,1,1,nyu_0272,nyu_0272
