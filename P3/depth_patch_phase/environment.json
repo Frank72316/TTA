@@ -1,0 +1,43 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "weights": {
+    "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+    "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+    "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+  },
+  "archive_sha": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "freeze_sha": "b4ca2e7713db2ef4490e87622926d6ee1abbe9440245a54adc6ceed85d288fc8",
+  "code": {
+    "study.py": "83b2d3ee8dc86417b77a396b549b1b2a5dc9af4c721f1b825557fcf2edc642b7",
+    "run.py": "7bfa9a766208e42bd162928b7313ff912480e804b5ccb81728922cb43a573dce"
+  },
+  "hardware": "3, GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+  "host": "ASUS4090x8",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.46.0",
+  "numpy": "1.26.4",
+  "cuda": "12.4",
+  "dtype": "FP32, TF32 off",
+  "processor": "DPTImageProcessor",
+  "parent_hw": [
+    518,
+    686
+  ],
+  "canvas_hw": [
+    518,
+    602
+  ],
+  "kernel": [
+    14,
+    14
+  ],
+  "stride": [
+    14,
+    14
+  ],
+  "padding": [
+    0,
+    0
+  ]
+}

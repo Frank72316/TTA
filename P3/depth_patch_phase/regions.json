@@ -1,0 +1,9 @@
+{
+  "frames": 32,
+  "windows": 512,
+  "verified_predictions": 544,
+  "eligible_windows": 512,
+  "pixel_first_checks": 0,
+  "max_pixel_first_residual": 0.0,
+  "windows_sha256": "fb27fd227c4ba627d8923ce921b610ae493bff9b7eec580497a792a83abf9857"
+}

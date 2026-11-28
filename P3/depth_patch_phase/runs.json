@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "smoke",
+    "reflect": 18,
+    "real_extra": 16,
+    "hits": 0,
+    "preprocess": 2,
+    "wall_seconds": 3.267162013798952
+  },
+  {
+    "stage": "full",
+    "reflect": 270,
+    "real_extra": 240,
+    "hits": 34,
+    "preprocess": 30,
+    "wall_seconds": 15.40287597477436
+  }
+]

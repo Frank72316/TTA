@@ -1,0 +1,8 @@
+{
+  "regions_checked": 3486,
+  "per_recipe_region_checks": 111552,
+  "max_frame_mse_or_gain_error": 3.790912896095566e-15,
+  "intervals_replayed": 4,
+  "unique_predictions": 544,
+  "synchronized_forward_seconds": 7.958095466718078
+}

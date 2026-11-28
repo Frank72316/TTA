@@ -1,0 +1,22 @@
+{
+  "frames": 32,
+  "scenes": 32,
+  "excluded": [],
+  "eligible_pairs": 3840,
+  "primary_pairs": 3486,
+  "identity_checks": 27888,
+  "max_residual": 2.1318979025707063e-14,
+  "arms": {
+    "reflect": {
+      "both_signs": true,
+      "strict_flip": false,
+      "positive_modulation": true
+    },
+    "real": {
+      "both_signs": true,
+      "strict_flip": false,
+      "positive_modulation": true
+    }
+  },
+  "external_confirmation_gate": false
+}

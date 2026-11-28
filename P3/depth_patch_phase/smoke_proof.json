@@ -1,0 +1,25 @@
+{
+  "signature": "4a9e73d9ee08030145383424152630ca1ec67618f1bc111ed0529a1527e79955",
+  "ids": [
+    "nyu_0766",
+    "nyu_0976"
+  ],
+  "coordinates": {
+    "source_x": [
+      70,
+      570
+    ],
+    "parent_support_minmax": [
+      74,
+      611
+    ],
+    "ramp_checks": 18,
+    "max_error": 0
+  },
+  "feature_grid": [
+    37,
+    43
+  ],
+  "unique_predictions": 34,
+  "all_alignment_checks_passed": true
+}

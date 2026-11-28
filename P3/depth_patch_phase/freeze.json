@@ -1,0 +1,45 @@
+{
+  "seed": 20261128,
+  "frame_sha256": "f87263caaf3c2b0738bf674e605922ed0435ef0325d8a0188396a00e312a3ddf",
+  "protocol_sha256": "eba02e9a89158996a90ead79488d50a4be779d1f115fbeadf022b7147f1ae99c",
+  "sources": {
+    "frames.csv": "c42dba48b09730f87f4081f6d039492f7c432154a3b7f397b4620df997eddc94",
+    "scenes.csv": "bd85c49c3e54e8faee3e6b53c4d0a0b922b9bc3facfea4e88b25fb9086e0883f"
+  },
+  "scenes": 95,
+  "selected": 32,
+  "prediction_table": [
+    {
+      "a": 11,
+      "b": 25,
+      "phase_a": -3,
+      "phase_b": -3,
+      "grid_prior": "opposite",
+      "position_prior": "opposite"
+    },
+    {
+      "a": 17,
+      "b": 31,
+      "phase_a": 3,
+      "phase_b": 3,
+      "grid_prior": "opposite",
+      "position_prior": "opposite"
+    },
+    {
+      "a": 11,
+      "b": 31,
+      "phase_a": -3,
+      "phase_b": 3,
+      "grid_prior": "same",
+      "position_prior": "opposite"
+    },
+    {
+      "a": 17,
+      "b": 25,
+      "phase_a": 3,
+      "phase_b": -3,
+      "grid_prior": "same",
+      "position_prior": "opposite"
+    }
+  ]
+}
