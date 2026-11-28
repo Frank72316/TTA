@@ -1,0 +1,15 @@
+{
+  "host": "ASUS4090x8",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "scene_count": 50,
+  "edge_count": 243818,
+  "bins_per_scale": 495,
+  "model_forwards": 0,
+  "max_previous_MAE_error_mm": 0.0,
+  "max_independent_assignment_error_mm": 0.0,
+  "max_scene_D_minus_V_S_mm": 2.1316282072803006e-14,
+  "bootstrap_seed": 2026,
+  "paired_cluster_draws": 10000,
+  "CPU_wall_seconds": 5.404585611075163
+}
