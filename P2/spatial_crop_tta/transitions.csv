@@ -1,0 +1,19 @@
+reference,before,after,n,ids
+global4,correct,correct,14,F003 F004 F017 F018 F019 F025 F029 F036 F041 F042 F045 F047 F049 F055
+global4,correct,reversed,6,F008 F013 F031 F032 F035 F038
+global4,correct,tie,0,
+global4,reversed,correct,30,F001 F002 F005 F006 F007 F010 F011 F012 F015 F016 F021 F024 F026 F028 F033 F034 F037 F040 F043 F044 F046 F048 F050 F052 F058 F060 F061 F062 F063 F064
+global4,reversed,reversed,6,F014 F022 F051 F053 F056 F059
+global4,reversed,tie,0,
+global4,tie,correct,8,F009 F020 F023 F027 F030 F039 F054 F057
+global4,tie,reversed,0,
+global4,tie,tie,0,
+original,correct,correct,23,F006 F007 F009 F010 F012 F017 F023 F024 F025 F030 F037 F039 F042 F043 F045 F046 F048 F050 F055 F060 F061 F062 F064
+original,correct,reversed,7,F008 F014 F031 F032 F035 F051 F056
+original,correct,tie,0,
+original,reversed,correct,29,F001 F002 F003 F004 F005 F011 F015 F016 F018 F019 F020 F021 F026 F027 F028 F029 F033 F034 F036 F040 F041 F044 F047 F049 F052 F054 F057 F058 F063
+original,reversed,reversed,5,F013 F022 F038 F053 F059
+original,reversed,tie,0,
+original,tie,correct,0,
+original,tie,reversed,0,
+original,tie,tie,0,

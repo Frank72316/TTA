@@ -1,0 +1,46 @@
+[
+  {
+    "pair_id": "F002",
+    "side": "A",
+    "full_tensor_sha256": "754f4743ecc2ab164fd1fee0763b8ebdd332ef5ae2133686ef87203db6704020",
+    "support_xywh": [
+      27,
+      0,
+      169,
+      224
+    ]
+  },
+  {
+    "pair_id": "F002",
+    "side": "B",
+    "full_tensor_sha256": "fe87437a1c55df14f34c9deab79bbe0dbf06ff8d860c35ee8b7e07808a2349a5",
+    "support_xywh": [
+      37,
+      0,
+      149,
+      224
+    ]
+  },
+  {
+    "pair_id": "F005",
+    "side": "A",
+    "full_tensor_sha256": "b304c90487083af9e327501fc88645df01a1d931dda084cc6c3bedfbafaf5c12",
+    "support_xywh": [
+      37,
+      0,
+      149,
+      224
+    ]
+  },
+  {
+    "pair_id": "F005",
+    "side": "B",
+    "full_tensor_sha256": "ffe4e45aaa90d1463178337782f6fb23339a136554986e980fb3b5d1bb61e764",
+    "support_xywh": [
+      37,
+      0,
+      149,
+      224
+    ]
+  }
+]

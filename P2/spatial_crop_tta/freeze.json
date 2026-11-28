@@ -1,0 +1,80 @@
+{
+  "noun_template": "A photo of the {}.",
+  "nouns": {
+    "apple": "A photo of the apple.",
+    "backpack": "A photo of the backpack.",
+    "banana": "A photo of the banana.",
+    "baseball bat": "A photo of the baseball bat.",
+    "baseball glove": "A photo of the baseball glove.",
+    "bed": "A photo of the bed.",
+    "bench": "A photo of the bench.",
+    "book": "A photo of the book.",
+    "bottle": "A photo of the bottle.",
+    "bowl": "A photo of the bowl.",
+    "bus": "A photo of the bus.",
+    "cake": "A photo of the cake.",
+    "car": "A photo of the car.",
+    "cell phone": "A photo of the cell phone.",
+    "chair": "A photo of the chair.",
+    "clock": "A photo of the clock.",
+    "couch": "A photo of the couch.",
+    "cup": "A photo of the cup.",
+    "dining table": "A photo of the dining table.",
+    "dog": "A photo of the dog.",
+    "fork": "A photo of the fork.",
+    "handbag": "A photo of the handbag.",
+    "hot dog": "A photo of the hot dog.",
+    "keyboard": "A photo of the keyboard.",
+    "knife": "A photo of the knife.",
+    "laptop": "A photo of the laptop.",
+    "microwave": "A photo of the microwave.",
+    "motorcycle": "A photo of the motorcycle.",
+    "orange": "A photo of the orange.",
+    "person": "A photo of the person.",
+    "pizza": "A photo of the pizza.",
+    "potted plant": "A photo of the potted plant.",
+    "refrigerator": "A photo of the refrigerator.",
+    "remote": "A photo of the remote.",
+    "sandwich": "A photo of the sandwich.",
+    "sink": "A photo of the sink.",
+    "spoon": "A photo of the spoon.",
+    "sports ball": "A photo of the sports ball.",
+    "stop sign": "A photo of the stop sign.",
+    "suitcase": "A photo of the suitcase.",
+    "teddy bear": "A photo of the teddy bear.",
+    "tie": "A photo of the tie.",
+    "toilet": "A photo of the toilet.",
+    "traffic light": "A photo of the traffic light.",
+    "truck": "A photo of the truck.",
+    "tv": "A photo of the TV.",
+    "umbrella": "A photo of the umbrella.",
+    "vase": "A photo of the vase.",
+    "wine glass": "A photo of the wine glass."
+  },
+  "smoke_pairs": [
+    "F002",
+    "F005"
+  ],
+  "source_hashes": {
+    "pairs.csv": "2d525630f11e1578b6e207dd4edec9108456cc4436ec02c65ac5bb56b583a172",
+    "images.csv": "4e9c512f84da7823df4d73439c8ff198e4aa6d6b9ca05f1edaaab1a5278d13d5"
+  },
+  "hashes": {
+    "strata.csv": "67e873075f65d900aa2858f68522f18206793ff04b65290a2024247f83146981",
+    "views.csv": "f0dcdd6fb5470d7a4b0c74718f7fc80a5b1d217fc5c3f766bcc129439b1a7535"
+  },
+  "cutoff": 0.75,
+  "pairs_by_clear_count": {
+    "0": 11,
+    "1": 28,
+    "2": 25
+  },
+  "clear_images": 78,
+  "bootstrap": {
+    "unit": "natural pair",
+    "replicates": 10000,
+    "seed": 42,
+    "interval": "percentile 95%"
+  },
+  "case_rule": "Smallest ID with both pictures permitting crop redistribution in each category; prefer a new pair for the second category."
+}

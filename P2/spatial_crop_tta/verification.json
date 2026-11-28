@@ -1,0 +1,10 @@
+{
+  "natural_pairs": 64,
+  "independent_exact_margins": 192,
+  "verified_scores": 512,
+  "full_reference_scores": 512,
+  "smoke_scores_reused": 16,
+  "noun_outcomes_checked": 78,
+  "cpu_replayed_tensor_hashes": 256,
+  "smoke_pngs_pixel_exact": 8
+}

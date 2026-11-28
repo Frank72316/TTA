@@ -1,0 +1,24 @@
+[
+  {
+    "end_utc": "2026-11-28T07:37:01.419228+00:00",
+    "smoke_only": true,
+    "records": 16,
+    "new_visual_forwards": 8,
+    "new_scores": 16,
+    "checkpoint_score_hits": 0,
+    "new_text_forwards": 4,
+    "image_scoring_seconds": 0.22489730082452297,
+    "wall_seconds": 18.145061957649887
+  },
+  {
+    "end_utc": "2026-11-28T07:38:18.324923+00:00",
+    "smoke_only": false,
+    "records": 512,
+    "new_visual_forwards": 248,
+    "new_scores": 496,
+    "checkpoint_score_hits": 16,
+    "new_text_forwards": 48,
+    "image_scoring_seconds": 4.566122675314546,
+    "wall_seconds": 24.514935176819563
+  }
+]

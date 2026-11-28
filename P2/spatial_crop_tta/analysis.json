@@ -1,0 +1,24 @@
+{
+  "pairs": 64,
+  "photos": 128,
+  "old_scores": 512,
+  "new_scores": 512,
+  "unique_new_tensors": 256,
+  "unique_noun_tokens": 49,
+  "clear_photos": 78,
+  "other_photos": 50,
+  "x_localized": 58,
+  "y_localized": 62,
+  "net_pairs": 32,
+  "diff_pp": 50.0,
+  "lo95_pp": 32.8125,
+  "hi95_pp": 65.625,
+  "bootstrap": {
+    "unit": "natural pair",
+    "replicates": 10000,
+    "seed": 42,
+    "interval": "percentile 95%"
+  },
+  "old_scores_sha": "dd787a0c5941f8b0d718b24043f0d555f77d782439b40a41060f5c42df43cfac",
+  "new_scores_sha": "4cb9c3e850270838e979bf58e5f21bf2a6b4e7bb3cb35cfa297d53b66b474abe"
+}

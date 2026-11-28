@@ -1,0 +1,5 @@
+localization,n,E_correct,E_reversed,E_tie
+both_correct,44,44,0,0
+one_correct,30,25,5,0
+both_wrong,2,0,2,0
+has_tie,2,2,0,0
