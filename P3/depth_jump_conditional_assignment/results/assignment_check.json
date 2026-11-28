@@ -1,0 +1,14 @@
+{
+  "scenes": 50,
+  "edges": 243818,
+  "worker_processes": 4,
+  "elapsed_s": 2.182766488753259,
+  "new_model_forwards": 0,
+  "repetitions": 100,
+  "scheme": "PCG64 SeedSequence([2026, frozen_scene_index, axis])",
+  "max_prefix_vs_independent_CDF_difference_mm": 6.821210263296962e-13,
+  "max_decomposition_residual_mm": 0.0,
+  "scene_method_comparisons": 100,
+  "new_vs_previous_A_checks": 200,
+  "all_shuffled_bin_counts_verified": true
+}

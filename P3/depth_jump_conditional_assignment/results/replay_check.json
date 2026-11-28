@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-11-28T15:36:34.170833+00:00",
+  "elapsed_s": 12.986924923956394,
+  "host": "ASUS4090x8",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "scene_methods": 100,
+  "legacy_MAE_comparisons": 200,
+  "max_old_MAE_difference_mm": 0.0,
+  "bootstrap_intervals_checked": 4,
+  "protocol_sha256": "be8a1cd3c6ca275fafd6673424e1238b88d5dbfbe0e857b56ad5aa8f878af92c",
+  "pinned_commit": "78a419dad2f272da083a0693611d57ef81c614a7",
+  "new_model_forwards": 0
+}

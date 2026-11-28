@@ -1,0 +1,10 @@
+{
+  "bin_rows_rebuilt": 495,
+  "conditional_and_primary_recalculations": 200,
+  "direct_rows_against_all_within_bin_suppliers_or_receivers": 18452,
+  "max_bin_replay_or_control_mean_difference_mm": 2.2737367544323206e-13,
+  "bootstrap_means_and_limits_checked": 60,
+  "max_bootstrap_difference_mm": 3.552713678800501e-15,
+  "scene_method_relabels_verified": 10000,
+  "seconds": 0.9167509768158197
+}

@@ -1,0 +1,3 @@
+batch,scenes,clusters,edges,horizontal,vertical,axes_nonempty,axes_with_duplicate_cuts,occupied_bins,empty_after_cut_dedup,min_occupied_size,median_occupied_size,max_occupied_size,singleton_bins,singleton_edges,singleton_edge_fraction
+2005-2006,27,17,55583,31339,24244,53,0,265,0,2,144.0,1699,0,0,0.0
+2014,23,23,188235,95634,92601,46,0,230,0,133,717.0,2732,0,0,0.0
