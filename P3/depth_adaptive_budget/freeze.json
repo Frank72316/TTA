@@ -1,0 +1,11 @@
+{
+  "seed": 20261128,
+  "split_frames": 654,
+  "excluded": 64,
+  "remaining": 590,
+  "sampled": 128,
+  "overlap": 0,
+  "frames_sha256": "c42dba48b09730f87f4081f6d039492f7c432154a3b7f397b4620df997eddc94",
+  "archive_sha256": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+  "old_moments_sha256": "f73d98e268971b07bd57ea4135f9f920488ca94a7dbf0fa6e0c6f9bd795a24c1"
+}

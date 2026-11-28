@@ -1,0 +1,18 @@
+[
+  {
+    "new_forwards": 512,
+    "checkpoint_hits": 0,
+    "wall_seconds": 19.653279660269618,
+    "schedule_sha": "02d2789c1615ceaeabab8ce4c3365d3425d0191fbc41dc399605b782e55a4edd",
+    "common_geometry": "x in [s,W-s), full height",
+    "matched_official_test_ids": 654,
+    "smoke_frames": [
+      "nyu_1180",
+      "nyu_0325"
+    ],
+    "coordinate_test_widths": [
+      100,
+      157
+    ]
+  }
+]

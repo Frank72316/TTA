@@ -1,0 +1,13 @@
+{
+  "frames": 128,
+  "predictions": 512,
+  "reproduced_selection": 64,
+  "max_abs_error_m2": {
+    "D": 0.0,
+    "MSE2": 8.203215884350357e-10,
+    "MSE3L": 3.8275871361292957e-10,
+    "MSE3R": 9.041798421094427e-10,
+    "MSE4": 5.558984383924326e-10
+  },
+  "method": "Average aligned float64 predictions, then subtract metric truth"
+}
