@@ -1,0 +1,40 @@
+{
+  "source_environment": {
+    "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+    "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+    "weights": {
+      "model.safetensors": "e990eb82fbf11b05b7813261196a2b841bdcf5a05f64396724a8987fa90504a3",
+      "config.json": "0b1d9fc591693d16b864249a9cfcf5264c8c00be999c1643fa1c64dc105d55f8",
+      "preprocessor_config.json": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+    },
+    "torch": "2.5.1+cu124",
+    "transformers": "4.46.0",
+    "numpy": "1.26.4",
+    "python": "3.10.20",
+    "gpu": "GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+    "host": "ASUS4090x8",
+    "precision": "float32, TF32 disabled",
+    "split_sha": "6e081404491a8bfba2f066beaa9713ef6046f9007aa5f799f2a350506a580cee",
+    "frames_sha": "c42dba48b09730f87f4081f6d039492f7c432154a3b7f397b4620df997eddc94",
+    "archive_sha": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f",
+    "script_sha": "42e08740e3943916f00ff167780e2301715b7402afcd87e3b3a8ae11439904a8",
+    "legacy_sources": {
+      "depth.py": "a9761284ee9a709356ad4144c6c217ca23594795635d8a0f11c0518facd189c9",
+      "score_gpu.py": "6843c3a29a543faa22cd2dbf9ba0ab0b7d344082f3a551894e76c9d322b65dc6"
+    },
+    "views_sha": "204da2f9e126a5ba8b7cf1b3be7310033a4bb80499ad9600f06900839540000b"
+  },
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "frame_results_sha": "9026305dff299b8288f6526f5232429da7830fe27303ba77f03acab8461acf25",
+  "protocol_sha": "e73d447e078ec6296ece21999fd90b18a501424e9478e497fd51026ccc7aa2ef",
+  "native_cache_hits": 512,
+  "forwards": 0,
+  "wall_seconds": 6.246934751980007,
+  "smoke": [
+    "nyu_1180",
+    "nyu_0325"
+  ],
+  "constant_offset_space_gain": 0.0,
+  "script_sha": "89cf657444b19ad5e8ef09c99797be7bf3624049ff2d289de92e3cc1e8817453"
+}
