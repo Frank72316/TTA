@@ -1,0 +1,27 @@
+{
+  "signature": {
+    "source": "3e0ea7c340a5bf27faf784b6e16a45a27571a7f0",
+    "old_environment": "353a2ed41f6db0611c7f967e855f7da704f535ae7dd51692d2954761cba36777",
+    "protocol": "cbce003a1d5377aaba38228be6261aa14c6d2c09eb386ba6ba1b1385f09e05eb",
+    "source_manifest": "3324d6adde2149abba83786e4a7f9a2f12a9b7c93ede0eee620ef828c829f56d",
+    "script": "bca9dada91da2292d9e1fed3f2f353267796a342a19f65643aea26827a87d0cf",
+    "archive": "860b5afa33b86fb74a7b65035338e8d443f10ef04419cd2f435947adbbb0aa7f"
+  },
+  "hashes": {
+    "smoke_windows.csv": "bb6023f574eac6244d3a05fa2b29d75927814f55cf57c2bfbb6e41115e4933ca",
+    "smoke_region_pairs.csv": "e8505e73e3bc7426b80b7dc9a224e8aaf461aadb2c742e39d3da6f104edda2c8"
+  },
+  "frames_newly_read": 2,
+  "source_arrays_hashed_this_run": 10,
+  "smoke_arrays_reused": 0,
+  "window_rows": 32,
+  "pair_rows": 240,
+  "max_identity_residual": 7.867513064641063e-16,
+  "smoke_pixel_first_recipe_checks": 1200,
+  "model_forwards": 0,
+  "device": "CPU",
+  "hostname": "ASUS4090x8",
+  "numpy": "1.26.4",
+  "python": "3.10.20",
+  "wall_seconds": 0.758285160176456
+}

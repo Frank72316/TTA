@@ -1,0 +1,9 @@
+{
+  "verified_region_pairs": 15360,
+  "verified_recipe_states": 76800,
+  "max_abs_prediction_or_squared_error_difference": 7.105427357601002e-14,
+  "main_directional_comparisons": 27526,
+  "main_strict_sign_crossings": 87,
+  "independent_scene_interval_comparisons": 4,
+  "max_abs_interval_endpoint_difference": 6.071532165918825e-16
+}

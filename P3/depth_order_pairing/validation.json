@@ -1,0 +1,37 @@
+{
+  "total_pairs": 15360,
+  "main_pairs": 13763,
+  "valid_windows": 2048,
+  "cases": [
+    {
+      "kind": "unchanged",
+      "eligible_directed_comparisons": 10888,
+      "eligible_distinct_pairs": 10722,
+      "first": {
+        "frame_id": "nyu_1180",
+        "A": 1,
+        "B": 2,
+        "before": "LL",
+        "after": "LR"
+      }
+    },
+    {
+      "kind": "corrected",
+      "eligible_directed_comparisons": 48,
+      "eligible_distinct_pairs": 48,
+      "first": {
+        "frame_id": "nyu_1052",
+        "A": 2,
+        "B": 3,
+        "before": "LL",
+        "after": "LR"
+      }
+    }
+  ],
+  "max_G_residual": 2.4456131564321026e-14,
+  "main_pairs_with_any_flip": 66,
+  "main_pairs_with_any_tie": 0,
+  "bootstrap_seed": 20261128,
+  "replicates": 10000,
+  "new_forwards": 0
+}

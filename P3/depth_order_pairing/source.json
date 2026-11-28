@@ -1,0 +1,9 @@
+{
+  "commit": "3e0ea7c340a5bf27faf784b6e16a45a27571a7f0",
+  "sha256": {
+    "metrics.py": "d923d00b2dbda2421da4f9094c7fcfaef32db89f84b4d0e4931768a18fbd8783",
+    "environment.json": "353a2ed41f6db0611c7f967e855f7da704f535ae7dd51692d2954761cba36777",
+    "frame_results.csv": "e8c052bac6d4bf5ea23eac70dbbf119eff94d16e57892331b73182bae9c93e56",
+    "view_audit.csv": "24234032f2d4d01468fdb5d59d6fc5ebc1fcdd27eee56bc114aa371b12e01abf"
+  }
+}
