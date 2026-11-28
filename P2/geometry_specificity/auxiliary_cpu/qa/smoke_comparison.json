@@ -1,0 +1,20 @@
+{
+  "rows": 132,
+  "matching_actual_tensor_hashes": 132,
+  "max_abs_score_diff": 2.384185791015625e-07,
+  "singleton_runs": [
+    {
+      "end_utc": "2026-11-28T05:30:00.215506+00:00",
+      "limit": 2,
+      "records": 132,
+      "new": 132,
+      "checkpoint_hits": 0,
+      "duplicate_hits": 0,
+      "external_hits": 0,
+      "wall_s": 235.96462836896535,
+      "image_inference_s": 181.7093679208774
+    }
+  ],
+  "formal_batch": 11,
+  "comparison": "CPU FP32; official singleton vs same weights and transform in batches of 11"
+}

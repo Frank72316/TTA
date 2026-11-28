@@ -1,0 +1,6 @@
+{
+  "device": "cuda",
+  "shards": 1,
+  "batch": 1,
+  "elapsed_s": 703.7445282163098
+}

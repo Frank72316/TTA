@@ -1,0 +1,24 @@
+[
+  {
+    "cohort": "old64",
+    "pairs": 64,
+    "scores": 4224,
+    "unique_tensors_within_image": 4224,
+    "unique_tensor_hashes": 4224,
+    "unique_tensor_token_pairs": 4224,
+    "duplicate_tensors": 0,
+    "integer_combination_decisions": 393216,
+    "decision_mismatches": 0
+  },
+  {
+    "cohort": "dev256",
+    "pairs": 256,
+    "scores": 16896,
+    "unique_tensors_within_image": 16896,
+    "unique_tensor_hashes": 16896,
+    "unique_tensor_token_pairs": 16896,
+    "duplicate_tensors": 0,
+    "integer_combination_decisions": 1572864,
+    "decision_mismatches": 0
+  }
+]

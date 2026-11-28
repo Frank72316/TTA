@@ -1,0 +1,24 @@
+[
+  {
+    "end_utc": "2026-11-28T06:36:11.812693+00:00",
+    "limit": 2,
+    "records": 132,
+    "new": 132,
+    "checkpoint_hits": 0,
+    "duplicate_hits": 0,
+    "external_hits": 0,
+    "wall_s": 36.01761338952929,
+    "image_inference_s": 3.12947953119874
+  },
+  {
+    "end_utc": "2026-11-28T06:38:34.152990+00:00",
+    "limit": 64,
+    "records": 4224,
+    "new": 4092,
+    "checkpoint_hits": 132,
+    "duplicate_hits": 0,
+    "external_hits": 0,
+    "wall_s": 141.50575902778655,
+    "image_inference_s": 74.52156998962164
+  }
+]

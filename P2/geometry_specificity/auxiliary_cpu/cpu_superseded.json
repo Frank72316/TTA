@@ -1,0 +1,18 @@
+{
+  "status": "Superseded by ASUS GPU before development was complete",
+  "completed": {
+    "old64": {
+      "checkpointed_pairs": 64,
+      "score_records": 4224,
+      "unique_forwarded_from_complete_pairs": 4224
+    },
+    "dev256": {
+      "checkpointed_pairs": 189,
+      "score_records": 12474,
+      "unique_forwarded_from_complete_pairs": 12474
+    }
+  },
+  "in_flight_workers": 4,
+  "additional_uncheckpointed_forward_count": "not instrumented; at most 4 x 66",
+  "separate_singleton_QA": 132
+}

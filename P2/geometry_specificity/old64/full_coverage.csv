@@ -1,0 +1,25 @@
+K,left,right,left_combos,right_combos,threshold,left_only,left_only_ids,right_only,right_only_ids,both,both_ids
+3,T,S,28,28,any,1,003,1,015,1,053
+3,T,S,28,28,quarter,1,003,0,,0,
+3,TS,T,64,28,any,1,015,0,,2,003 053
+3,TS,T,64,28,quarter,0,,1,003,0,
+3,TS,S,64,28,any,1,003,0,,2,015 053
+3,TS,S,64,28,quarter,0,,0,,0,
+3,B,C,28,28,any,0,,0,,0,
+3,B,C,28,28,quarter,0,,0,,0,
+5,T,S,70,70,any,1,003,2,015 053,0,
+5,T,S,70,70,quarter,1,003,0,,0,
+5,TS,T,784,70,any,2,015 053,0,,1,003
+5,TS,T,784,70,quarter,0,,1,003,0,
+5,TS,S,784,70,any,1,003,0,,2,015 053
+5,TS,S,784,70,quarter,0,,0,,0,
+5,B,C,70,70,any,0,,0,,0,
+5,B,C,70,70,quarter,0,,0,,0,
+9,T,S,1,1,any,0,,0,,0,
+9,T,S,1,1,quarter,0,,0,,0,
+9,TS,T,4900,1,any,3,003 015 053,0,,0,
+9,TS,T,4900,1,quarter,0,,0,,0,
+9,TS,S,4900,1,any,3,003 015 053,0,,0,
+9,TS,S,4900,1,quarter,0,,0,,0,
+9,B,C,1,1,any,0,,0,,0,
+9,B,C,1,1,quarter,0,,0,,0,
