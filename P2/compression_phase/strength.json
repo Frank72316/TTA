@@ -1,0 +1,12 @@
+{
+  "radius": 0.1,
+  "mean_abs_error": 0.002795797918213984,
+  "mean_abs_target": 0.0027944981890761587,
+  "matched": false,
+  "calibration_sha": "01500b8229de948ed8114b0f265df493231503f42347f16f01d3059ec7711087",
+  "old_pairs_sha": "060537656158094eda0c1cd63cd2d316eaec0f2a02b2e24e77dec82a313d383e",
+  "protocol_sha": "3951cc4b73d053f3384ebf75a9bd586fb573a0df61832fe7ce5cdfb692315307",
+  "pillow_jpeg": "6.2",
+  "libjpeg_turbo": "3.1.4.1",
+  "runtime_seconds": 47.118296354077756
+}
