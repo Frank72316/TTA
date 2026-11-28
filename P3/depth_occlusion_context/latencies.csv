@@ -1,0 +1,251 @@
+year,id,cluster,method,ms,peak_MiB,uuid,provenance,blend_timing
+2014,Bicycle1,2014/Bicycle1,B,99.8587803915143,260.14990234375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Bicycle1,2014/Bicycle1,T,356.5228059887886,727.7255859375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Bicycle1,2014/Bicycle1,T25,360.3876316919923,727.7255859375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Bicycle1,2014/Bicycle1,P,774.9908473342657,1200.748046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Bicycle1,2014/Bicycle1,R,570.212691091001,1200.748046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Playtable,2014/Playtable,B,144.3045800551772,260.14990234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Playtable,2014/Playtable,T,592.2731477767229,727.7255859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Playtable,2014/Playtable,T25,601.6445253044367,727.7255859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Playtable,2014/Playtable,P,756.5585030242801,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Playtable,2014/Playtable,R,620.2669693157077,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Cloth1,2006/Cloth,B,45.01466080546379,223.5029296875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth1,2006/Cloth,T,146.77290990948677,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth1,2006/Cloth,T25,147.05321192741394,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Cloth1,2006/Cloth,P,276.39339212328196,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth1,2006/Cloth,R,241.02658312767744,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Art,2005/Art,B,74.151910841465,234.74365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Art,2005/Art,T,246.0895273834467,625.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Art,2005/Art,T25,248.11518657952547,625.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2005,Art,2005/Art,P,360.4658283293247,1019.89794921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Art,2005/Art,R,314.01184760034084,1019.89794921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2014,Sticks,2014/Sticks,B,154.36068177223206,253.67626953125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Sticks,2014/Sticks,T,639.9984983727336,704.8115234375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Sticks,2014/Sticks,T25,644.4383887574077,704.8115234375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Sticks,2014/Sticks,P,789.7806623950601,1171.45703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Sticks,2014/Sticks,R,659.5075530931354,1171.45703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2006,Midd1,2006/Midd,B,45.94032187014818,237.54931640625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd1,2006/Midd,T,165.60326516628265,636.91357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd1,2006/Midd,T25,165.98074976354837,636.91357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Midd1,2006/Midd,P,320.9157669916749,1050.26953125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd1,2006/Midd,R,300.68129394203424,1050.26953125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby3,2006/Baby,B,44.2495821043849,228.39892578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Baby3,2006/Baby,T,147.5220238789916,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Baby3,2006/Baby,T25,148.71382899582386,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Baby3,2006/Baby,P,282.57061913609505,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Baby3,2006/Baby,R,250.0005355104804,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Baby1,2006/Baby,B,43.2265093550086,220.1259765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby1,2006/Baby,T,148.71723391115665,568.77197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby1,2006/Baby,T25,149.240855127573,568.77197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Baby1,2006/Baby,P,283.65056589245796,929.69189453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby1,2006/Baby,R,241.0533493384719,929.69189453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2014,Couch,2014/Couch,B,140.3226936236024,225.16357421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Couch,2014/Couch,T,531.0901897028089,591.42041015625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Couch,2014/Couch,T25,534.3931261450052,591.42041015625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Couch,2014/Couch,P,646.4942125603557,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Couch,2014/Couch,R,515.4081173241138,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Recycle,2014/Recycle,B,378.2145520672202,260.14990234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Recycle,2014/Recycle,T,704.3904643505812,728.7490234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Recycle,2014/Recycle,T25,703.3929126337171,728.7490234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Recycle,2014/Recycle,P,1042.067389935255,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Recycle,2014/Recycle,R,871.2903987616301,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Rocks1,2006/Rocks,B,41.86330549418926,225.951171875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks1,2006/Rocks,T,143.82015075534582,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks1,2006/Rocks,T25,144.31044925004244,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Rocks1,2006/Rocks,P,272.79281709343195,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks1,2006/Rocks,R,240.93658477067947,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Shopvac,2014/Shopvac,B,461.46765630692244,228.87744140625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Shopvac,2014/Shopvac,T,828.9956115186214,604.27197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Shopvac,2014/Shopvac,T25,825.5696417763829,604.27197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Shopvac,2014/Shopvac,P,974.8604455962777,989.82958984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Shopvac,2014/Shopvac,R,878.466259688139,989.82958984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Wood2,2006/Wood,B,34.08246301114559,228.39892578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood2,2006/Wood,T,146.35733794420958,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood2,2006/Wood,T25,146.8549221754074,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Wood2,2006/Wood,P,286.7997260764241,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood2,2006/Wood,R,241.63678102195263,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Flowers,2014/Flowers,B,136.55285257846117,258.48095703125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Flowers,2014/Flowers,T,599.3766002357006,718.6767578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Flowers,2014/Flowers,T25,603.4390423446894,718.6767578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Flowers,2014/Flowers,P,1108.4968745708466,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Flowers,2014/Flowers,R,646.7327289283276,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Bowling1,2006/Bowling,B,32.50984847545624,223.5029296875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling1,2006/Bowling,T,133.55586305260658,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling1,2006/Bowling,T25,133.84089339524508,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Bowling1,2006/Bowling,P,262.1742747724056,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling1,2006/Bowling,R,228.20063307881355,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Vintage,2014/Vintage,B,154.99606449157,263.11181640625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Vintage,2014/Vintage,T,577.2629156708717,738.54052734375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Vintage,2014/Vintage,T25,581.0013404116035,738.54052734375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Vintage,2014/Vintage,P,818.7496233731508,1230.96142578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Vintage,2014/Vintage,R,646.5512746945024,1230.96142578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Sword2,2014/Sword2,B,108.05319808423519,254.66796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Sword2,2014/Sword2,T,527.0470501855016,706.4873046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Sword2,2014/Sword2,T25,533.2097411155701,706.4873046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Sword2,2014/Sword2,P,760.2408798411489,1171.45703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Sword2,2014/Sword2,R,639.1840782016516,1171.45703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2005,Reindeer,2005/Reindeer,B,34.75033398717642,232.603515625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Reindeer,2005/Reindeer,T,145.71616798639297,616.77587890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Reindeer,2005/Reindeer,T25,146.3492615148425,616.77587890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2005,Reindeer,2005/Reindeer,P,287.21354622393847,1006.37939453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Reindeer,2005/Reindeer,R,249.8126793652773,1006.37939453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth2,2006/Cloth,B,34.91314686834812,225.951171875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth2,2006/Cloth,T,142.04478729516268,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth2,2006/Cloth,T25,142.55420677363873,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Cloth2,2006/Cloth,P,280.40422685444355,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth2,2006/Cloth,R,246.74395006150007,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Monopoly,2006/Monopoly,B,46.5766666457057,230.1787109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Monopoly,2006/Monopoly,T,152.16380544006824,603.63134765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Monopoly,2006/Monopoly,T25,152.7521926909685,603.63134765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Monopoly,2006/Monopoly,P,301.65630485862494,989.82958984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Monopoly,2006/Monopoly,R,261.10808830708265,989.82958984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2014,Umbrella,2014/Umbrella,B,483.7366258725524,258.48095703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Umbrella,2014/Umbrella,T,816.6254060342908,718.6767578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Umbrella,2014/Umbrella,T25,822.0489444211125,718.6767578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Umbrella,2014/Umbrella,P,1147.6622838526964,1185.6220703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Umbrella,2014/Umbrella,R,1034.7041226923466,1185.6220703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Cable,2014/Cable,B,316.8261554092169,252.0283203125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Cable,2014/Cable,T,626.5446441248059,696.134765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Cable,2014/Cable,T25,630.5352644994855,696.134765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Cable,2014/Cable,P,959.3585273250937,1141.2802734375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Cable,2014/Cable,R,884.30031016469,1141.2802734375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Wood1,2006/Wood,B,48.10813907533884,233.76806640625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood1,2006/Wood,T,160.37984937429428,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood1,2006/Wood,T25,160.70848517119884,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Wood1,2006/Wood,P,311.4171475172043,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Wood1,2006/Wood,R,268.1722855195403,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Motorcycle,2014/Motorcycle,B,150.87356138974428,259.72998046875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Motorcycle,2014/Motorcycle,T,610.8053829520941,727.7255859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Motorcycle,2014/Motorcycle,T25,614.974969998002,727.7255859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Motorcycle,2014/Motorcycle,P,976.9627079367638,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Motorcycle,2014/Motorcycle,R,851.0857429355383,1200.365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Mask,2014/Mask,B,510.1014142856002,250.8291015625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Mask,2014/Mask,T,941.3348473608494,685.9912109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Mask,2014/Mask,T25,947.9362098500133,685.9912109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Mask,2014/Mask,P,1125.7542800158262,1125.14453125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Mask,2014/Mask,R,1010.1298270747066,1125.14453125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2006,Midd2,2006/Midd,B,42.60611440986395,234.74365234375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd2,2006/Midd,T,156.29717893898487,625.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd2,2006/Midd,T25,156.817059032619,625.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Midd2,2006/Midd,P,300.846160389483,1019.89794921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Midd2,2006/Midd,R,260.89392974972725,1019.89794921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Plastic,2006/Plastic,B,45.56478559970856,223.5029296875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Plastic,2006/Plastic,T,186.8428522720933,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Plastic,2006/Plastic,T25,187.45692167431116,580.08837890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Plastic,2006/Plastic,P,398.0404445901513,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Plastic,2006/Plastic,R,348.97652454674244,944.72607421875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth3,2006/Cloth,B,43.90107188373804,222.7109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth3,2006/Cloth,T,142.3158822581172,581.66357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth3,2006/Cloth,T25,142.57640950381756,581.66357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Cloth3,2006/Cloth,P,277.87949331104755,944.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth3,2006/Cloth,R,239.71350118517876,944.72607421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Flowerpots,2006/Flowerpots,B,49.14713557809591,228.39892578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Flowerpots,2006/Flowerpots,T,205.7187631726265,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Flowerpots,2006/Flowerpots,T25,206.48787636309862,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Flowerpots,2006/Flowerpots,P,430.02793472260237,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Flowerpots,2006/Flowerpots,R,366.7998341843486,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Pipes,2014/Pipes,B,152.73921471089125,265.22705078125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Pipes,2014/Pipes,T,594.5774624124169,749.89306640625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Pipes,2014/Pipes,T25,597.339877858758,749.89306640625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Pipes,2014/Pipes,P,806.8446340039372,1245.41357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Pipes,2014/Pipes,R,639.6916108205914,1245.41357421875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Shelves,2014/Shelves,B,142.10686832666397,259.13720703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Shelves,2014/Shelves,T,562.8896616399288,727.271484375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Shelves,2014/Shelves,T25,567.0227743685246,727.271484375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Shelves,2014/Shelves,P,869.9217811226845,1200.748046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Shelves,2014/Shelves,R,648.0475123971701,1200.748046875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Sword1,2014/Sword1,B,480.53406178951263,254.66796875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Sword1,2014/Sword1,T,951.4478957280517,706.9755859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Sword1,2014/Sword1,T25,950.7839428260922,706.9755859375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Sword1,2014/Sword1,P,1142.3567738384008,1170.24169921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Sword1,2014/Sword1,R,975.1451443880796,1170.24169921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2005,Dolls,2005/Dolls,B,37.821016274392605,233.76806640625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Dolls,2005/Dolls,T,158.67775585502386,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Dolls,2005/Dolls,T25,159.49837770313025,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2005,Dolls,2005/Dolls,P,301.9843576475978,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Dolls,2005/Dolls,R,260.8688110485673,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Classroom1,2014/Classroom1,B,405.38295172154903,269.1748046875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Classroom1,2014/Classroom1,T,769.5850934833288,763.2333984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Classroom1,2014/Classroom1,T25,773.6281035467982,763.2333984375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Classroom1,2014/Classroom1,P,1383.5377525538206,1262.28955078125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Classroom1,2014/Classroom1,R,972.7754378691316,1262.28955078125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Rocks2,2006/Rocks,B,34.75655522197485,225.951171875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks2,2006/Rocks,T,144.09773889929056,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks2,2006/Rocks,T25,144.3284321576357,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Rocks2,2006/Rocks,P,278.4866373986006,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Rocks2,2006/Rocks,R,256.9769062101841,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Laundry,2005/Laundry,B,38.32306433469057,232.603515625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Laundry,2005/Laundry,T,155.18253948539495,616.77587890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Laundry,2005/Laundry,T25,155.85416182875633,616.77587890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2005,Laundry,2005/Laundry,P,307.7664552256465,1006.37939453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Laundry,2005/Laundry,R,266.9263631105423,1006.37939453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2005,Books,2005/Books,B,36.35482117533684,233.76806640625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Books,2005/Books,T,146.62790577858686,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Books,2005/Books,T25,147.27463200688362,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2005,Books,2005/Books,P,304.113844409585,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Books,2005/Books,R,256.94973208010197,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Lampshade2,2006/Lampshade,B,71.32368721067905,225.51318359375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Lampshade2,2006/Lampshade,T,226.23548936098814,591.67919921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Lampshade2,2006/Lampshade,T25,226.61883383989334,591.67919921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Lampshade2,2006/Lampshade,P,445.1350560411811,960.662109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Lampshade2,2006/Lampshade,R,369.4991320371628,960.662109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Lampshade1,2006/Lampshade,B,33.40847883373499,225.951171875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Lampshade1,2006/Lampshade,T,135.24002581834793,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Lampshade1,2006/Lampshade,T25,135.66877786070108,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Lampshade1,2006/Lampshade,P,275.49329306930304,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Lampshade1,2006/Lampshade,R,239.64915331453085,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Cloth4,2006/Cloth,B,50.2057708799839,225.51318359375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth4,2006/Cloth,T,203.42147629708052,591.67919921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth4,2006/Cloth,T25,203.9951914921403,591.67919921875,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Cloth4,2006/Cloth,P,286.57550923526287,960.662109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Cloth4,2006/Cloth,R,306.6977234557271,960.662109375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2014,Adirondack,2014/Adirondack,B,153.0834101140499,256.37890625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Adirondack,2014/Adirondack,T,594.7187943384051,715.9580078125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Adirondack,2014/Adirondack,T25,596.479550935328,715.9580078125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Adirondack,2014/Adirondack,P,785.0862629711628,1185.6220703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Adirondack,2014/Adirondack,R,666.3277465850115,1185.6220703125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Backpack,2014/Backpack,B,137.24968489259481,256.47802734375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Backpack,2014/Backpack,T,550.6412256509066,715.9580078125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Backpack,2014/Backpack,T25,554.2802652344108,715.9580078125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Backpack,2014/Backpack,P,778.2244877889752,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Backpack,2014/Backpack,R,613.5716121643782,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2005,Moebius,2005/Moebius,B,36.45523265004158,233.76806640625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Moebius,2005/Moebius,T,149.58489872515202,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Moebius,2005/Moebius,T25,150.13793855905533,625.37548828125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2005,Moebius,2005/Moebius,P,289.6744403988123,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2005,Moebius,2005/Moebius,R,267.2874806448817,1020.22216796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Jadeplant,2014/Jadeplant,B,135.78166626393795,242.3251953125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Jadeplant,2014/Jadeplant,T,523.8987365737557,659.7724609375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Jadeplant,2014/Jadeplant,T25,527.3000206798315,659.7724609375,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Jadeplant,2014/Jadeplant,P,665.920652449131,1080.03564453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Jadeplant,2014/Jadeplant,R,532.877434976399,1080.03564453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Storage,2014/Storage,B,136.3838268443942,251.45166015625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Storage,2014/Storage,T,556.0216018930078,695.4140625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old native B/T,measured
+2014,Storage,2014/Storage,T25,560.685757547617,695.4140625,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,component estimate
+2014,Storage,2014/Storage,P,745.9514560177922,1140.1787109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Storage,2014/Storage,R,628.1088944524527,1140.1787109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,old B plus paired new stage,measured
+2014,Piano,2014/Piano,B,106.57526273280382,258.48095703125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Piano,2014/Piano,T,507.15612806379795,718.6767578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Piano,2014/Piano,T25,509.8604392260313,718.6767578125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Piano,2014/Piano,P,684.9325904622674,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Piano,2014/Piano,R,550.2827819436789,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2006,Aloe,2006/Aloe,B,34.21207517385483,225.951171875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Aloe,2006/Aloe,T,137.86251842975616,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Aloe,2006/Aloe,T25,138.25128879398108,591.64794921875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Aloe,2006/Aloe,P,267.50085037201643,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Aloe,2006/Aloe,R,229.52266782522202,961.5341796875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Baby2,2006/Baby,B,34.75584276020527,220.1259765625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby2,2006/Baby,T,134.61746368557215,568.77197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby2,2006/Baby,T25,135.0664785131812,568.77197265625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,component estimate
+2006,Baby2,2006/Baby,P,258.43607913702726,929.69189453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Baby2,2006/Baby,R,226.66422370821238,929.69189453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,new shared baseline and stage,measured
+2006,Bowling2,2006/Bowling,B,34.06294994056225,228.39892578125,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling2,2006/Bowling,T,136.763128452003,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling2,2006/Bowling,T25,137.23255321383476,602.96435546875,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,component estimate
+2006,Bowling2,2006/Bowling,P,280.4080508649349,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2006,Bowling2,2006/Bowling,R,240.29837921261787,990.53662109375,GPU-f7738e57-b66d-e630-5ab4-ae0afd8e84d3,new shared baseline and stage,measured
+2014,Playroom,2014/Playroom,B,129.52466495335102,258.48095703125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Playroom,2014/Playroom,T,490.6636206433177,717.1064453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old native B/T,measured
+2014,Playroom,2014/Playroom,T25,492.94191505759954,717.1064453125,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,component estimate
+2014,Playroom,2014/Playroom,P,686.4890865981579,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured
+2014,Playroom,2014/Playroom,R,557.2379073128104,1185.71337890625,GPU-d329c8d0-f276-5f23-03a9-df221a2021ed,old B plus paired new stage,measured

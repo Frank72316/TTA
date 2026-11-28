@@ -1,0 +1,105 @@
+{
+  "uuid": "GPU-d329c8d0-f276-5f23-03a9-df221a2021ed",
+  "rows": [
+    {
+      "rep": 0,
+      "method": "T25",
+      "ms": 651.7448499798775,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": true,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 0,
+      "method": "C",
+      "ms": 161.8354134261608,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": true,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 1,
+      "method": "T25",
+      "ms": 150.0728726387024,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 1,
+      "method": "C",
+      "ms": 155.2636856213212,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 2,
+      "method": "T25",
+      "ms": 148.04267324507236,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 2,
+      "method": "C",
+      "ms": 150.8517460897565,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 3,
+      "method": "T25",
+      "ms": 150.63126664608717,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 3,
+      "method": "C",
+      "ms": 148.0012610554695,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 4,
+      "method": "T25",
+      "ms": 164.26832601428032,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    },
+    {
+      "rep": 4,
+      "method": "C",
+      "ms": 152.50502061098814,
+      "peak_MiB": 616.77587890625,
+      "forwards": 5,
+      "warmup": false,
+      "source_w": 1340,
+      "source_h": 1110
+    }
+  ]
+}

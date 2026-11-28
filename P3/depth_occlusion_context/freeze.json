@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-28T14:29:36.411047+00:00",
+  "base_commit": "aba9d08bc57f5424c73b499d616ff33ccee40844",
+  "protocol_sha256": "727f6b54b524b09541653977a93f84a342170b9a17d33e90bd62d5ed1f1625aa",
+  "scenes_sha256": "521222547e32e8509df46f630e7b52781a9cf41cd6a555f99bd232ccc8b2c505",
+  "duplicate_check": "898ba509570ff8a1afa7a3c418933e47d669374e145d1c671a80ebce6e5390ce",
+  "registered_plan": {
+    "2014": 23,
+    "2005": 6,
+    "2006": 21
+  },
+  "seed": 2026,
+  "draws": 10000,
+  "legacy_files": {
+    "io_data.py": "ea07fdfa4803376e97fc9125013720a0261a44a700bd814485b28f7608b08daf",
+    "predict.py": "9337e7095504267237f3245eb70d03b573667a83dec6476304c1cbfdf1c3b152",
+    "edges.py": "0861cb326cc16724c3e4b98c38514b12088d0ef30cf4f2827ab7d4ffc82d53af",
+    "evaluate.py": "10813eb14ec051c26934433dfa55b63bd5145dbc7aa40cadc9302b85d210bb5a",
+    "per_image.csv": "18ef2a3f6990c5aa0626f96fe4acbb480aceb9af6d2acb7477c7830420633c1b",
+    "cache_index.csv": "33122b232cf2032bae3afacb6f886bbf4c54f56fe1a28cf1a669f70470978633",
+    "calibration.json": "1e74c698291f63acc00e89d3032614c15b8e0d2f115b292ba8b8b11a50f418bb"
+  }
+}

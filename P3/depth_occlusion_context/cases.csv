@@ -1,0 +1,3 @@
+year,id,category,near_gain_mm,x,y,axis,corner,near_direction,gt_jump_m
+2006,Midd1,improved,37.568943303095125,763,525,horizontal,1,-1,0.2507297992706299
+2006,Cloth1,not improved,-23.038747040092456,613,162,vertical,0,1,0.16247284412384033

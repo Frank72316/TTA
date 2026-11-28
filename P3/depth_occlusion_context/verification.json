@@ -1,0 +1,20 @@
+{
+  "images": 50,
+  "per_method_metrics_checked": 2000,
+  "max_pixelwise_reconstruction_error_m": 6.1678697704792285e-09,
+  "paired_statistics": 28,
+  "maximum_CI_or_mean_difference_mm": 1.4485977892775281e-06,
+  "legacy_near_worsened": 22,
+  "legacy_far_improved": 20,
+  "formal_new": 535,
+  "legacy_predictions_reused": 115,
+  "synthetic_forwards": 260,
+  "formal_cache_resume_hits": 0,
+  "groups": {
+    "2014": 23,
+    "2005+2006": 17,
+    "2005": 6,
+    "2006": 11
+  },
+  "nonfinite_method_failures": 0
+}
