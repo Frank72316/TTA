@@ -1,0 +1,34 @@
+[
+  {
+    "case": "brightness_only_rescue",
+    "pair_id": "T064",
+    "original": "wrong",
+    "strategy": "OCB",
+    "c1": "C090",
+    "third": "B090",
+    "m_O": -0.0009765625,
+    "m_C1": 0.0,
+    "m_third": 0.0010986328125,
+    "stop_sum": -0.0009765625,
+    "three_sum": 0.0001220703125,
+    "stop": "wrong",
+    "final": "correct",
+    "strict_cross": 1
+  },
+  {
+    "case": "brightness_introduces_error",
+    "pair_id": "T017",
+    "original": "correct",
+    "strategy": "OCB",
+    "c1": "C095",
+    "third": "B110",
+    "m_O": 0.001220703125,
+    "m_C1": 0.0009765625,
+    "m_third": -0.00244140625,
+    "stop_sum": 0.002197265625,
+    "three_sum": -0.000244140625,
+    "stop": "correct",
+    "final": "wrong",
+    "strict_cross": 1
+  }
+]

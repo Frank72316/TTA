@@ -1,0 +1,6 @@
+{
+  "n": 256,
+  "sd_per_prompt": 0.03005429210797552,
+  "approx_halfwidth_at_400_pp": 0.2945320626581601,
+  "n_for_halfwidth_0_5pp": 139
+}

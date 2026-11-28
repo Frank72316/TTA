@@ -1,0 +1,16 @@
+[
+  {
+    "pairs": 2,
+    "new_scores": 36,
+    "cache_hits": 0,
+    "qa_image_encodings": 4,
+    "wall_seconds": 22.064795267768204
+  },
+  {
+    "pairs": 400,
+    "new_scores": 7164,
+    "cache_hits": 36,
+    "qa_image_encodings": 0,
+    "wall_seconds": 206.0699904616922
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "pairs": 400,
+  "unique_scores": 7200,
+  "unique_images": 800,
+  "expected_recipes": {
+    "O": 1,
+    "OC": 4,
+    "OCB": 16,
+    "OCC": 12,
+    "OBB": 6
+  },
+  "aggregate_sign_disagreements": 0,
+  "crossing_formula_checks": 11200,
+  "shared_c1_replacement_draws": 19200,
+  "baseline": {
+    "correct": 276,
+    "wrong": 124
+  },
+  "pure_B_missed_by_C": [
+    "T064",
+    "T361"
+  ],
+  "reachable_original_errors": {
+    "neither": 120,
+    "both": 2,
+    "brightness_only": 2
+  },
+  "strict_rescue_original_errors": {
+    "neither": 121,
+    "brightness_only": 3
+  }
+}

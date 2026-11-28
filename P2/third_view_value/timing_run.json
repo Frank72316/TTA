@@ -1,0 +1,7 @@
+{
+  "warmup_pairs": 2,
+  "measured_pairs": 64,
+  "extra_image_encodings": 792,
+  "extra_text_encodings": 198,
+  "wall_seconds": 42.07411473058164
+}

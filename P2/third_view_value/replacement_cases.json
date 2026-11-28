@@ -1,0 +1,56 @@
+[
+  {
+    "event": "stopped_wrong_B_repairs_C_strict_wrong",
+    "affected_ids": [
+      "T017",
+      "T064",
+      "T188",
+      "T190",
+      "T358",
+      "T361"
+    ],
+    "count_by_pair_out_of_48": {
+      "T017": 1,
+      "T064": 3,
+      "T188": 2,
+      "T190": 3,
+      "T358": 4,
+      "T361": 18
+    },
+    "expected_pairs": 0.6458333333333334
+  },
+  {
+    "event": "stopped_wrong_B_repairs_C_ties",
+    "affected_ids": [],
+    "count_by_pair_out_of_48": {},
+    "expected_pairs": 0.0
+  },
+  {
+    "event": "stopped_correct_B_breaks_C_keeps",
+    "affected_ids": [
+      "T017",
+      "T188",
+      "T190",
+      "T270",
+      "T363"
+    ],
+    "count_by_pair_out_of_48": {
+      "T017": 7,
+      "T188": 4,
+      "T190": 4,
+      "T270": 12,
+      "T363": 4
+    },
+    "expected_pairs": 0.6458333333333334
+  },
+  {
+    "event": "stopped_correct_B_breaks_C_ties",
+    "affected_ids": [
+      "T363"
+    ],
+    "count_by_pair_out_of_48": {
+      "T363": 2
+    },
+    "expected_pairs": 0.041666666666666664
+  }
+]

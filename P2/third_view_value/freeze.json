@@ -1,0 +1,36 @@
+{
+  "revision": "c493721e19e296eb615420036f2a2eed08412bb4",
+  "split": "test",
+  "seed": 20261128,
+  "metadata_sha256": "318b071eb7a53565138ccc215d6cfeaf513b31ee7c03bda89efb590b2b7cd072",
+  "official_rows": 2720,
+  "raw_prompt_ids": 466,
+  "raw_normalized": 463,
+  "eligible_normalized": 461,
+  "samples": 400,
+  "protocol_sha256_lf": "3948327163e745564325989d3d2b2d990a689480c5bd310747c07e37a655cc24",
+  "pairs_sha256_lf": "9e31f1ac0fbad4b7e9435eba0ba4138051d8d0a36a7e35262328be84a7021a08",
+  "historical_overlaps": [
+    {
+      "history_n": 64,
+      "sha256_lf": "4e8f26bcbc76bb4bff614edf7b03a944893495b990daa586bcf9b21960b25ac7",
+      "prompt_id": 0,
+      "normalized_text": 0,
+      "image_uuid": 0
+    },
+    {
+      "history_n": 256,
+      "sha256_lf": "6f0099061b3bfdd28cc2a7fc16a9ca5bc29498cc3aa8abb257781861dfb22529",
+      "prompt_id": 0,
+      "normalized_text": 0,
+      "image_uuid": 0
+    },
+    {
+      "history_n": 88,
+      "sha256_lf": "f50a597400efaf109429369a358fe486e52417aae95cb2fdf53bc4e67f2796b5",
+      "prompt_id": 0,
+      "normalized_text": 0,
+      "image_uuid": 0
+    }
+  ]
+}
