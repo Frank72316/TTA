@@ -1,0 +1,14 @@
+{
+  "commit": "3cafdb28e17aa7d51197c520885423f010783746",
+  "sha256": {
+    "part_conditioned_tta/pairs.csv": "40e08a81833c70c80ef27aa73e3d86bd3bff12db8d3b005fafcaeae8b616a4f9",
+    "part_conditioned_tta/inputs.csv": "396194098d8013c693b12eb2b85d895384defcca200ed8474b02e91f23754556",
+    "part_conditioned_tta/scores.csv": "37526f73ffa876a76cf055db0c0b33c610c3a3d2b0fda151c3ed35914be4cf91",
+    "part_conditioned_tta/infer.py": "68c1f97d0cc7ec5f5b7b39412b7cd0d2bd05bf497071cac0db5fd089f9c27cdc",
+    "part_conditioned_tta/prepare.py": "36ca2fe9c1d4011287418a323e9a3913004fb36e957a4f672a10fe02f487ac41",
+    "part_conditioned_tta/environment.json": "81999f4cca07c6a85828e9ac88e6f547223840982fa155631a42594ef82347d5",
+    "part_conditioned_tta/results/pair_results.csv": "5a9db4df3d462447a78215c1344a37b84d598b4732c087c7e41adf0978745633",
+    "within_image_partition/score_views.py": "d8e69a831107bd8da277712c87798673b57d2317b645dfb72a91ee6a57c3b80f",
+    "geometry_specificity/score.py": "2e3a76699b65875106bc7960242f3b29eac93c321d31468cd442949d6ccca343"
+  }
+}

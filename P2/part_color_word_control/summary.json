@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "mean": 0.0033013025919596353,
+    "ci95": [
+      0.000659168171432783,
+      0.006428943199365317
+    ],
+    "clusters": 76,
+    "replicates": 10000,
+    "seed": 20261128
+  },
+  "question_means": {
+    "both": 0.0033013025919596353,
+    "crown": 0.0032291412353515625,
+    "wing": 0.0033734639485677085
+  },
+  "extrema": {
+    "max": "C063",
+    "min": "C008"
+  },
+  "pairs": 96,
+  "questions": 192,
+  "algebraic_checks": 192,
+  "max_abs_tta_residual": 0.0,
+  "true_scores_read": 1152,
+  "neutral_scores_read": 1152,
+  "distinct_matched_input_hashes": 576,
+  "matched_legacy_tta_margins": 384,
+  "neutral_sha256": "c7e126e510cbdc37f5276372006da409a4412ca063d07537bb2357cc6f25f07a"
+}

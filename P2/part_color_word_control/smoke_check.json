@@ -1,0 +1,58 @@
+{
+  "signature": "95747c8f611d56c5f6f102a4c21f4634a287517d48dac597d4672a3fbcfb5cf2",
+  "verified_tensors": 12,
+  "directions": [
+    {
+      "pair_id": "C001",
+      "query": "crown",
+      "gold": "B",
+      "image_A": "10327",
+      "image_B": "10361",
+      "color_original": 0.0081787109375,
+      "color_crown": 0.0594482421875,
+      "color_wing": 0.03369140625,
+      "neutral_original": 0.00048828125,
+      "neutral_crown": 0.0465087890625,
+      "neutral_wing": 0.025146484375
+    },
+    {
+      "pair_id": "C001",
+      "query": "wing",
+      "gold": "A",
+      "image_A": "10327",
+      "image_B": "10361",
+      "color_original": -0.025146484375,
+      "color_crown": -0.0626220703125,
+      "color_wing": -0.0360107421875,
+      "neutral_original": -0.0167236328125,
+      "neutral_crown": -0.053466796875,
+      "neutral_wing": -0.031005859375
+    },
+    {
+      "pair_id": "C002",
+      "query": "crown",
+      "gold": "B",
+      "image_A": "5165",
+      "image_B": "5197",
+      "color_original": 0.0009765625,
+      "color_crown": 0.012939453125,
+      "color_wing": 0.031982421875,
+      "neutral_original": -0.0032958984375,
+      "neutral_crown": -0.0003662109375,
+      "neutral_wing": 0.02294921875
+    },
+    {
+      "pair_id": "C002",
+      "query": "wing",
+      "gold": "A",
+      "image_A": "5165",
+      "image_B": "5197",
+      "color_original": 0.0079345703125,
+      "color_crown": -0.0159912109375,
+      "color_wing": -0.0352783203125,
+      "neutral_original": 0.0084228515625,
+      "neutral_crown": -0.005859375,
+      "neutral_wing": -0.0291748046875
+    }
+  ]
+}
