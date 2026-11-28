@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "smoke",
+    "photos": 2,
+    "visual_forwards": 12,
+    "new_scores": 48,
+    "text_forwards": 7,
+    "checkpoint_score_hits": 0,
+    "wall_seconds": 20.19033731520176
+  },
+  {
+    "stage": "full",
+    "photos": 128,
+    "visual_forwards": 756,
+    "new_scores": 3024,
+    "text_forwards": 49,
+    "checkpoint_score_hits": 48,
+    "wall_seconds": 34.18576414231211
+  }
+]

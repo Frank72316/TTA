@@ -1,0 +1,177 @@
+{
+  "photo_ids": [
+    "199771",
+    "294350"
+  ],
+  "unchanged_rois": [
+    {
+      "image_id": "199771",
+      "line": 25,
+      "kept": "right",
+      "role": "x",
+      "input_box": [
+        196.1855,
+        53.3304,
+        210.45499999999998,
+        61.24668235294118
+      ],
+      "roi_pixels": 112,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "199771",
+      "line": 25,
+      "kept": "right",
+      "role": "y",
+      "input_box": [
+        67.0075,
+        139.99581176470588,
+        106.918,
+        174.1992
+      ],
+      "roi_pixels": 1360,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "199771",
+      "line": 50,
+      "kept": "left",
+      "role": "y",
+      "input_box": [
+        67.0075,
+        139.99581176470588,
+        106.918,
+        174.1992
+      ],
+      "roi_pixels": 1360,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "199771",
+      "line": 50,
+      "kept": "right",
+      "role": "x",
+      "input_box": [
+        196.1855,
+        53.3304,
+        210.45499999999998,
+        61.24668235294118
+      ],
+      "roi_pixels": 112,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "199771",
+      "line": 75,
+      "kept": "left",
+      "role": "y",
+      "input_box": [
+        67.0075,
+        139.99581176470588,
+        106.918,
+        174.1992
+      ],
+      "roi_pixels": 1360,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "199771",
+      "line": 75,
+      "kept": "right",
+      "role": "x",
+      "input_box": [
+        196.1855,
+        53.3304,
+        210.45499999999998,
+        61.24668235294118
+      ],
+      "roi_pixels": 112,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 25,
+      "kept": "left",
+      "role": "x",
+      "input_box": [
+        0.0,
+        37.0,
+        33.3025,
+        90.8188
+      ],
+      "roi_pixels": 1782,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 25,
+      "kept": "right",
+      "role": "y",
+      "input_box": [
+        83.265,
+        155.06409411764707,
+        100.128,
+        181.6982823529412
+      ],
+      "roi_pixels": 459,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 50,
+      "kept": "left",
+      "role": "x",
+      "input_box": [
+        0.0,
+        37.0,
+        33.3025,
+        90.8188
+      ],
+      "roi_pixels": 1782,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 50,
+      "kept": "left",
+      "role": "y",
+      "input_box": [
+        83.265,
+        155.06409411764707,
+        100.128,
+        181.6982823529412
+      ],
+      "roi_pixels": 459,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 75,
+      "kept": "left",
+      "role": "x",
+      "input_box": [
+        0.0,
+        37.0,
+        33.3025,
+        90.8188
+      ],
+      "roi_pixels": 1782,
+      "max_tensor_error": 0.0
+    },
+    {
+      "image_id": "294350",
+      "line": 75,
+      "kept": "left",
+      "role": "y",
+      "input_box": [
+        83.265,
+        155.06409411764707,
+        100.128,
+        181.6982823529412
+      ],
+      "roi_pixels": 459,
+      "max_tensor_error": 0.0
+    }
+  ],
+  "actual_input_pixels": 224
+}

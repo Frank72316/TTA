@@ -1,0 +1,10 @@
+{
+  "unique_scores": 3072,
+  "image_line_conditions": 384,
+  "checked_signed_evidence": 768,
+  "checked_photo_interactions": 64,
+  "primary_exact_mean": "9521/262144",
+  "midline_assignments_checked": 128,
+  "gpu": "3, GPU-15f75a68-cf82-1b07-45c5-8c805812b8b4, NVIDIA GeForce RTX 4090, 580.159.04",
+  "protocol_precedes_inference": true
+}

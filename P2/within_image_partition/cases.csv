@@ -1,0 +1,3 @@
+example,pair_id,side,image_id,x,y,alt_x,alt_y,split_line,same_line,sign,same_true,split_true,same_alt,split_alt,delta_true,delta_alt,interaction
+improved,F001,A,199771,book,bowl,sink,potted plant,75,25,-1,-0.0045166015625,0.02685546875,0.01513671875,-0.0089111328125,0.0313720703125,-0.0240478515625,0.055419921875
+worsened,F002,A,294350,bowl,banana,umbrella,cup,25,75,1,0.010498046875,0.0081787109375,-0.0145263671875,-0.009521484375,-0.0023193359375,0.0050048828125,-0.00732421875

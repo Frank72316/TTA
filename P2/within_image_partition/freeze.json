@@ -1,0 +1,30 @@
+{
+  "source_pairs_sha": "2d525630f11e1578b6e207dd4edec9108456cc4436ec02c65ac5bb56b583a172",
+  "source_images_sha": "4e9c512f84da7823df4d73439c8ff198e4aa6d6b9ca05f1edaaab1a5278d13d5",
+  "mapping_sha": "22cafb68fe92a51db291233206a282c7c171ae5a0272af31869b21fba63673ee",
+  "hashes": {
+    "protocol.md": "1516868552a2f9cadab4efdd9909b296aaaa73db7c2980266b69fc225926632e",
+    "groups.csv": "1b5af1104e008330da4318dc0596f03b6ebcb8b046619f101ecc3a39b44202cf",
+    "photos.csv": "69e52cd856c9e8baa1de1978f7055220eeb578ffbdffbfec9399ad84264b9140",
+    "design.py": "4cf71e4093bf30c00231eee70b8f4decbfb1816bba1d9b443aec11f7fe4ceaf5"
+  },
+  "main_images": 64,
+  "main_pairs": 48,
+  "split_counts": {
+    "75": 36,
+    "25": 28
+  },
+  "raster_group_differences": [],
+  "smoke_ids": [
+    "199771",
+    "294350"
+  ],
+  "gray": 128,
+  "lines": [
+    25,
+    50,
+    75
+  ],
+  "bootstrap_seed": 42,
+  "bootstrap_replicates": 10000
+}
