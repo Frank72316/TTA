@@ -1,0 +1,8 @@
+{
+  "visual_forwards": 256,
+  "smoke_old_score_checks": 16,
+  "main_new_similarities": 512,
+  "additional_unique_sensitivity_similarities": 820,
+  "old_score_rows": 512,
+  "wall_seconds": 27.36818973440677
+}

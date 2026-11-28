@@ -1,0 +1,464 @@
+{
+  "42": {
+    "n": 64,
+    "counts": {
+      "true": [
+        52,
+        12,
+        0
+      ],
+      "true_x": [
+        42,
+        22,
+        0
+      ],
+      "true_y": [
+        50,
+        14,
+        0
+      ],
+      "both_alt": [
+        29,
+        35,
+        0
+      ]
+    },
+    "strata": {
+      "0": {
+        "true": [
+          6,
+          5,
+          0
+        ],
+        "true_x": [
+          5,
+          6,
+          0
+        ],
+        "true_y": [
+          3,
+          8,
+          0
+        ],
+        "both_alt": [
+          4,
+          7,
+          0
+        ]
+      },
+      "1": {
+        "true": [
+          21,
+          7,
+          0
+        ],
+        "true_x": [
+          17,
+          11,
+          0
+        ],
+        "true_y": [
+          26,
+          2,
+          0
+        ],
+        "both_alt": [
+          17,
+          11,
+          0
+        ]
+      },
+      "2": {
+        "true": [
+          25,
+          0,
+          0
+        ],
+        "true_x": [
+          20,
+          5,
+          0
+        ],
+        "true_y": [
+          21,
+          4,
+          0
+        ],
+        "both_alt": [
+          8,
+          17,
+          0
+        ]
+      }
+    },
+    "true_minus_alt_pp": [
+      35.9375,
+      20.3125,
+      51.5625
+    ],
+    "margin_true_minus_alt": [
+      -0.04345703125,
+      0.00836181640625,
+      0.04205322265625,
+      0.0709686279296875,
+      0.16864013671875
+    ],
+    "transitions": {
+      "true_x": {
+        "correct_to_correct": 39.0,
+        "correct_to_wrong": 13.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 3.0,
+        "wrong_to_wrong": 9.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "true_y": {
+        "correct_to_correct": 45.0,
+        "correct_to_wrong": 7.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 5.0,
+        "wrong_to_wrong": 7.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "both_alt": {
+        "correct_to_correct": 23.0,
+        "correct_to_wrong": 29.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 6.0,
+        "wrong_to_wrong": 6.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      }
+    },
+    "examples": {
+      "correction": {
+        "pair_id": "F002",
+        "combination": 0,
+        "old": -0.032958984375,
+        "new": 0.078369140625
+      },
+      "loss": {
+        "pair_id": "F008",
+        "combination": 0,
+        "old": 0.0054931640625,
+        "new": -0.0137939453125
+      }
+    }
+  },
+  "43": {
+    "n": 64,
+    "counts": {
+      "true": [
+        52,
+        12,
+        0
+      ],
+      "true_x": [
+        42,
+        22,
+        0
+      ],
+      "true_y": [
+        54,
+        10,
+        0
+      ],
+      "both_alt": [
+        34,
+        30,
+        0
+      ]
+    },
+    "strata": {
+      "0": {
+        "true": [
+          6,
+          5,
+          0
+        ],
+        "true_x": [
+          4,
+          7,
+          0
+        ],
+        "true_y": [
+          6,
+          5,
+          0
+        ],
+        "both_alt": [
+          3,
+          8,
+          0
+        ]
+      },
+      "1": {
+        "true": [
+          21,
+          7,
+          0
+        ],
+        "true_x": [
+          17,
+          11,
+          0
+        ],
+        "true_y": [
+          24,
+          4,
+          0
+        ],
+        "both_alt": [
+          16,
+          12,
+          0
+        ]
+      },
+      "2": {
+        "true": [
+          25,
+          0,
+          0
+        ],
+        "true_x": [
+          21,
+          4,
+          0
+        ],
+        "true_y": [
+          24,
+          1,
+          0
+        ],
+        "both_alt": [
+          15,
+          10,
+          0
+        ]
+      }
+    },
+    "true_minus_alt_pp": [
+      28.125,
+      12.5,
+      43.75
+    ],
+    "margin_true_minus_alt": [
+      -0.082763671875,
+      0.01068115234375,
+      0.0360107421875,
+      0.06573486328125,
+      0.18975830078125
+    ],
+    "transitions": {
+      "true_x": {
+        "correct_to_correct": 40.0,
+        "correct_to_wrong": 12.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 2.0,
+        "wrong_to_wrong": 10.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "true_y": {
+        "correct_to_correct": 49.0,
+        "correct_to_wrong": 3.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 5.0,
+        "wrong_to_wrong": 7.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "both_alt": {
+        "correct_to_correct": 27.0,
+        "correct_to_wrong": 25.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 7.0,
+        "wrong_to_wrong": 5.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      }
+    },
+    "examples": {
+      "correction": {
+        "pair_id": "F002",
+        "combination": 0,
+        "old": -0.022216796875,
+        "new": 0.078369140625
+      },
+      "loss": {
+        "pair_id": "F013",
+        "combination": 0,
+        "old": 0.0128173828125,
+        "new": -0.036865234375
+      }
+    }
+  },
+  "44": {
+    "n": 64,
+    "counts": {
+      "true": [
+        52,
+        12,
+        0
+      ],
+      "true_x": [
+        39,
+        25,
+        0
+      ],
+      "true_y": [
+        51,
+        13,
+        0
+      ],
+      "both_alt": [
+        25,
+        39,
+        0
+      ]
+    },
+    "strata": {
+      "0": {
+        "true": [
+          6,
+          5,
+          0
+        ],
+        "true_x": [
+          4,
+          7,
+          0
+        ],
+        "true_y": [
+          5,
+          6,
+          0
+        ],
+        "both_alt": [
+          5,
+          6,
+          0
+        ]
+      },
+      "1": {
+        "true": [
+          21,
+          7,
+          0
+        ],
+        "true_x": [
+          17,
+          11,
+          0
+        ],
+        "true_y": [
+          24,
+          4,
+          0
+        ],
+        "both_alt": [
+          12,
+          16,
+          0
+        ]
+      },
+      "2": {
+        "true": [
+          25,
+          0,
+          0
+        ],
+        "true_x": [
+          18,
+          7,
+          0
+        ],
+        "true_y": [
+          22,
+          3,
+          0
+        ],
+        "both_alt": [
+          8,
+          17,
+          0
+        ]
+      }
+    },
+    "true_minus_alt_pp": [
+      42.1875,
+      26.5625,
+      57.8125
+    ],
+    "margin_true_minus_alt": [
+      -0.0433349609375,
+      0.013824462890625,
+      0.04443359375,
+      0.070953369140625,
+      0.1767578125
+    ],
+    "transitions": {
+      "true_x": {
+        "correct_to_correct": 35.0,
+        "correct_to_wrong": 17.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 4.0,
+        "wrong_to_wrong": 8.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "true_y": {
+        "correct_to_correct": 47.0,
+        "correct_to_wrong": 5.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 4.0,
+        "wrong_to_wrong": 8.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      },
+      "both_alt": {
+        "correct_to_correct": 19.0,
+        "correct_to_wrong": 33.0,
+        "correct_to_tie": 0,
+        "wrong_to_correct": 6.0,
+        "wrong_to_wrong": 6.0,
+        "wrong_to_tie": 0,
+        "tie_to_correct": 0,
+        "tie_to_wrong": 0,
+        "tie_to_tie": 0
+      }
+    },
+    "examples": {
+      "correction": {
+        "pair_id": "F001",
+        "combination": 0,
+        "old": -0.01171875,
+        "new": 0.0421142578125
+      },
+      "loss": {
+        "pair_id": "F013",
+        "combination": 0,
+        "old": 0.00128173828125,
+        "new": -0.036865234375
+      }
+    }
+  }
+}

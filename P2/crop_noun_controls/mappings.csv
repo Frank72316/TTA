@@ -1,0 +1,193 @@
+seed,pair_id,donor,x,y,alt_x,alt_y,eligible_donors,excluded
+42,F001,F042,book,bowl,sink,potted plant,30,book|bottle|bowl|carrot|clock|cup|dining table|knife|oven|person|sandwich
+42,F002,F048,bowl,banana,umbrella,cup,48,banana|bottle|bowl|oven|person
+42,F003,F043,dining table,refrigerator,person,toilet,33,apple|bed|book|bottle|bowl|cell phone|chair|couch|dining table|microwave|oven|potted plant|refrigerator|sink|tv
+42,F004,F028,teddy bear,microwave,stop sign,person,42,bottle|bowl|clock|microwave|oven|potted plant|refrigerator|sink|teddy bear
+42,F005,F013,couch,cup,fork,hot dog,26,bottle|bowl|chair|couch|cup|laptop|person|potted plant|refrigerator|vase
+42,F006,F063,laptop,clock,knife,person,35,banana|book|bowl|chair|clock|couch|dining table|laptop|remote|tv
+42,F007,F046,dining table,knife,handbag,potted plant,39,bottle|cake|dining table|fork|knife|person|spoon
+42,F008,F051,chair,backpack,cup,remote,47,backpack|bench|chair|elephant|person
+42,F009,F001,potted plant,teddy bear,book,bowl,45,dog|person|potted plant|teddy bear|tv
+42,F010,F022,tie,traffic light,toilet,bottle,36,backpack|bench|bicycle|car|chair|dining table|laptop|person|tie|traffic light|train|truck
+42,F011,F019,motorcycle,person,chair,dog,51,bicycle|bus|car|motorcycle|person
+42,F012,F024,bus,car,bowl,wine glass,47,bus|car|clock|person|traffic light
+42,F013,F037,fork,hot dog,person,book,48,dining table|fork|hot dog|knife|sandwich|spoon|wine glass
+42,F014,F003,sports ball,laptop,dining table,refrigerator,23,backpack|book|bottle|chair|cup|handbag|keyboard|laptop|mouse|person|potted plant|sports ball|tennis racket|tv|vase
+42,F015,F006,cup,dining table,laptop,clock,23,book|bottle|cake|chair|couch|cup|dining table|microwave|person|potted plant|refrigerator|remote|sink|vase|wine glass
+42,F016,F049,fork,knife,chair,bottle,34,bowl|cake|carrot|cup|dining table|fork|knife|person|pizza
+42,F017,F025,remote,person,motorcycle,umbrella,34,bed|book|bottle|chair|cup|keyboard|laptop|person|remote
+42,F018,F057,tv,bed,cell phone,dining table,50,bed|cat|dog|person|sink|tv
+42,F019,F010,chair,dog,tie,traffic light,40,bed|book|chair|dining table|dog|laptop|person
+42,F020,F055,cell phone,cup,dog,handbag,31,book|bottle|bowl|cat|cell phone|couch|cup|laptop|person|potted plant
+42,F021,F015,keyboard,tv,cup,dining table,36,chair|clock|couch|keyboard|laptop|mouse|person|remote|tv
+42,F022,F005,toilet,bottle,couch,cup,54,bottle|bowl|sink|toilet
+42,F023,F009,orange,knife,potted plant,teddy bear,30,apple|banana|bowl|chair|cup|dining table|fork|knife|orange|person|sandwich
+42,F024,F035,bowl,wine glass,bus,backpack,29,book|bowl|cell phone|chair|dining table|fork|knife|laptop|mouse|person|pizza|sandwich|wine glass
+42,F025,F054,motorcycle,umbrella,clock,fork,39,apple|backpack|banana|bicycle|car|chair|dog|handbag|motorcycle|person|umbrella
+42,F026,F036,cup,pizza,car,bench,40,bowl|cup|dining table|person|pizza
+42,F027,F044,bowl,tv,bench,clock,25,apple|book|bowl|cell phone|chair|couch|cup|dining table|person|potted plant|remote|tv|vase
+42,F028,F060,stop sign,person,spoon,cake,48,backpack|bicycle|car|horse|person|stop sign|traffic light
+42,F029,F039,microwave,remote,baseball bat,baseball glove,23,banana|bottle|bowl|chair|cup|dining table|microwave|oven|person|pizza|potted plant|remote|sink|spoon|wine glass
+42,F030,F034,sports ball,baseball bat,chair,suitcase,52,baseball bat|baseball glove|person|sports ball
+42,F031,F053,bottle,couch,pizza,cake,33,backpack|book|bottle|chair|couch|laptop|person|potted plant|remote|wine glass
+42,F032,F040,apple,refrigerator,chair,baseball bat,38,apple|banana|bottle|bowl|carrot|cup|knife|microwave|orange|oven|refrigerator|sink|spoon
+42,F033,F052,clock,car,person,sandwich,57,bench|bird|car|clock
+42,F034,F061,chair,suitcase,vase,person,50,bed|chair|couch|remote|suitcase|tv
+42,F035,F026,bus,backpack,cup,pizza,45,backpack|bicycle|bus|car|handbag|person|stop sign|truck|umbrella
+42,F036,F038,car,bench,clock,dining table,49,bench|bird|car|handbag|horse|person
+42,F037,F064,person,book,potted plant,couch,41,bed|book|bottle|cake|cup|person
+42,F038,F041,clock,dining table,cup,knife,30,bottle|cell phone|chair|clock|dining table|laptop|person|potted plant|vase
+42,F039,F012,baseball bat,baseball glove,bus,car,51,baseball bat|baseball glove|person|umbrella
+42,F040,F062,chair,baseball bat,laptop,wine glass,41,baseball bat|bench|book|bus|car|chair|person|tie|truck
+42,F041,F045,cup,knife,backpack,truck,33,apple|bowl|cake|cup|fork|knife|orange|person|spoon|tie|vase
+42,F042,F018,sink,potted plant,tv,bed,32,banana|bottle|bowl|chair|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|surfboard
+42,F043,F032,person,toilet,apple,refrigerator,44,backpack|bed|bottle|laptop|person|sink|toilet
+42,F044,F027,bench,clock,bowl,tv,47,bench|clock|handbag|person|train
+42,F045,F029,backpack,truck,microwave,remote,48,backpack|bicycle|bus|handbag|orange|person|truck
+42,F046,F023,handbag,potted plant,orange,knife,25,bottle|car|chair|cup|dining table|fire hydrant|handbag|motorcycle|person|potted plant|stop sign|vase
+42,F047,F008,knife,sandwich,chair,backpack,32,bottle|bowl|cup|dining table|donut|fork|knife|person|sandwich
+42,F048,F033,umbrella,cup,clock,car,28,bottle|chair|cup|dining table|handbag|person|teddy bear|traffic light|umbrella|vase
+42,F049,F056,chair,bottle,vase,potted plant,24,book|bottle|bowl|cell phone|chair|clock|cup|dining table|keyboard|mouse|person|remote|spoon|tv
+42,F050,F030,cell phone,vase,sports ball,baseball bat,21,backpack|bottle|cell phone|chair|clock|cup|dining table|fork|handbag|knife|person|sandwich|spoon|vase
+42,F051,F002,cup,remote,bowl,banana,33,bicycle|cat|cell phone|chair|couch|cup|laptop|mouse|potted plant|refrigerator|remote|tv
+42,F052,F014,person,sandwich,sports ball,laptop,45,bottle|car|hot dog|oven|person|sandwich|spoon|traffic light
+42,F053,F058,pizza,cake,refrigerator,bottle,35,cake|chair|cup|dining table|fork|person|pizza
+42,F054,F047,clock,fork,knife,sandwich,19,book|bottle|cake|cat|chair|clock|couch|cup|dining table|fork|handbag|person|tv|vase
+42,F055,F007,dog,handbag,dining table,knife,50,bench|dog|handbag|person|sheep
+42,F056,F017,vase,potted plant,remote,person,31,apple|banana|bowl|chair|couch|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|vase
+42,F057,F021,cell phone,dining table,keyboard,tv,23,bowl|cell phone|chair|cup|dining table|knife|laptop|person|potted plant|spoon
+42,F058,F011,refrigerator,bottle,motorcycle,person,43,bottle|cup|knife|microwave|oven|refrigerator|sink
+42,F059,F004,handbag,stop sign,teddy bear,microwave,44,backpack|bicycle|car|handbag|person|stop sign|traffic light|umbrella
+42,F060,F031,spoon,cake,bottle,couch,43,cake|cup|dining table|person|spoon
+42,F061,F020,vase,person,cell phone,cup,41,chair|couch|person|potted plant|remote|vase
+42,F062,F059,laptop,wine glass,handbag,stop sign,47,chair|laptop|person|wine glass
+42,F063,F050,knife,person,cell phone,vase,22,bottle|bowl|cake|cup|dining table|fork|knife|person|potted plant|tv|wine glass
+42,F064,F016,potted plant,couch,fork,knife,32,book|chair|couch|cup|person|potted plant|remote|tv|vase
+43,F001,F056,book,bowl,vase,potted plant,30,book|bottle|bowl|carrot|clock|cup|dining table|knife|oven|person|sandwich
+43,F002,F040,bowl,banana,chair,baseball bat,48,banana|bottle|bowl|oven|person
+43,F003,F012,dining table,refrigerator,bus,car,33,apple|bed|book|bottle|bowl|cell phone|chair|couch|dining table|microwave|oven|potted plant|refrigerator|sink|tv
+43,F004,F011,teddy bear,microwave,motorcycle,person,42,bottle|bowl|clock|microwave|oven|potted plant|refrigerator|sink|teddy bear
+43,F005,F030,couch,cup,sports ball,baseball bat,26,bottle|bowl|chair|couch|cup|laptop|person|potted plant|refrigerator|vase
+43,F006,F052,laptop,clock,person,sandwich,35,banana|book|bowl|chair|clock|couch|dining table|laptop|remote|tv
+43,F007,F008,dining table,knife,chair,backpack,39,bottle|cake|dining table|fork|knife|person|spoon
+43,F008,F048,chair,backpack,umbrella,cup,47,backpack|bench|chair|elephant|person
+43,F009,F013,potted plant,teddy bear,fork,hot dog,45,dog|person|potted plant|teddy bear|tv
+43,F010,F020,tie,traffic light,cell phone,cup,36,backpack|bench|bicycle|car|chair|dining table|laptop|person|tie|traffic light|train|truck
+43,F011,F003,motorcycle,person,dining table,refrigerator,51,bicycle|bus|car|motorcycle|person
+43,F012,F046,bus,car,handbag,potted plant,47,bus|car|clock|person|traffic light
+43,F013,F043,fork,hot dog,person,toilet,48,dining table|fork|hot dog|knife|sandwich|spoon|wine glass
+43,F014,F029,sports ball,laptop,microwave,remote,23,backpack|book|bottle|chair|cup|handbag|keyboard|laptop|mouse|person|potted plant|sports ball|tennis racket|tv|vase
+43,F015,F033,cup,dining table,clock,car,23,book|bottle|cake|chair|couch|cup|dining table|microwave|person|potted plant|refrigerator|remote|sink|vase|wine glass
+43,F016,F032,fork,knife,apple,refrigerator,34,bowl|cake|carrot|cup|dining table|fork|knife|person|pizza
+43,F017,F027,remote,person,bowl,tv,34,bed|book|bottle|chair|cup|keyboard|laptop|person|remote
+43,F018,F041,tv,bed,cup,knife,50,bed|cat|dog|person|sink|tv
+43,F019,F051,chair,dog,cup,remote,40,bed|book|chair|dining table|dog|laptop|person
+43,F020,F034,cell phone,cup,chair,suitcase,31,book|bottle|bowl|cat|cell phone|couch|cup|laptop|person|potted plant
+43,F021,F059,keyboard,tv,handbag,stop sign,36,chair|clock|couch|keyboard|laptop|mouse|person|remote|tv
+43,F022,F017,toilet,bottle,remote,person,54,bottle|bowl|sink|toilet
+43,F023,F014,orange,knife,sports ball,laptop,30,apple|banana|bowl|chair|cup|dining table|fork|knife|orange|person|sandwich
+43,F024,F025,bowl,wine glass,motorcycle,umbrella,29,book|bowl|cell phone|chair|dining table|fork|knife|laptop|mouse|person|pizza|sandwich|wine glass
+43,F025,F057,motorcycle,umbrella,cell phone,dining table,39,apple|backpack|banana|bicycle|car|chair|dog|handbag|motorcycle|person|umbrella
+43,F026,F019,cup,pizza,chair,dog,40,bowl|cup|dining table|person|pizza
+43,F027,F054,bowl,tv,clock,fork,25,apple|book|bowl|cell phone|chair|couch|cup|dining table|person|potted plant|remote|tv|vase
+43,F028,F064,stop sign,person,potted plant,couch,48,backpack|bicycle|car|horse|person|stop sign|traffic light
+43,F029,F018,microwave,remote,tv,bed,23,banana|bottle|bowl|chair|cup|dining table|microwave|oven|person|pizza|potted plant|remote|sink|spoon|wine glass
+43,F030,F015,sports ball,baseball bat,cup,dining table,52,baseball bat|baseball glove|person|sports ball
+43,F031,F053,bottle,couch,pizza,cake,33,backpack|book|bottle|chair|couch|laptop|person|potted plant|remote|wine glass
+43,F032,F006,apple,refrigerator,laptop,clock,38,apple|banana|bottle|bowl|carrot|cup|knife|microwave|orange|oven|refrigerator|sink|spoon
+43,F033,F049,clock,car,chair,bottle,57,bench|bird|car|clock
+43,F034,F063,chair,suitcase,knife,person,50,bed|chair|couch|remote|suitcase|tv
+43,F035,F038,bus,backpack,clock,dining table,45,backpack|bicycle|bus|car|handbag|person|stop sign|truck|umbrella
+43,F036,F005,car,bench,couch,cup,49,bench|bird|car|handbag|horse|person
+43,F037,F023,person,book,orange,knife,41,bed|book|bottle|cake|cup|person
+43,F038,F026,clock,dining table,cup,pizza,30,bottle|cell phone|chair|clock|dining table|laptop|person|potted plant|vase
+43,F039,F036,baseball bat,baseball glove,car,bench,51,baseball bat|baseball glove|person|umbrella
+43,F040,F007,chair,baseball bat,dining table,knife,41,baseball bat|bench|book|bus|car|chair|person|tie|truck
+43,F041,F042,cup,knife,sink,potted plant,33,apple|bowl|cake|cup|fork|knife|orange|person|spoon|tie|vase
+43,F042,F061,sink,potted plant,vase,person,32,banana|bottle|bowl|chair|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|surfboard
+43,F043,F002,person,toilet,bowl,banana,44,backpack|bed|bottle|laptop|person|sink|toilet
+43,F044,F022,bench,clock,toilet,bottle,47,bench|clock|handbag|person|train
+43,F045,F031,backpack,truck,bottle,couch,48,backpack|bicycle|bus|handbag|orange|person|truck
+43,F046,F001,handbag,potted plant,book,bowl,25,bottle|car|chair|cup|dining table|fire hydrant|handbag|motorcycle|person|potted plant|stop sign|vase
+43,F047,F060,knife,sandwich,spoon,cake,32,bottle|bowl|cup|dining table|donut|fork|knife|person|sandwich
+43,F048,F016,umbrella,cup,fork,knife,28,bottle|chair|cup|dining table|handbag|person|teddy bear|traffic light|umbrella|vase
+43,F049,F047,chair,bottle,knife,sandwich,24,book|bottle|bowl|cell phone|chair|clock|cup|dining table|keyboard|mouse|person|remote|spoon|tv
+43,F050,F039,cell phone,vase,baseball bat,baseball glove,21,backpack|bottle|cell phone|chair|clock|cup|dining table|fork|handbag|knife|person|sandwich|spoon|vase
+43,F051,F028,cup,remote,stop sign,person,33,bicycle|cat|cell phone|chair|couch|cup|laptop|mouse|potted plant|refrigerator|remote|tv
+43,F052,F009,person,sandwich,potted plant,teddy bear,45,bottle|car|hot dog|oven|person|sandwich|spoon|traffic light
+43,F053,F024,pizza,cake,bowl,wine glass,35,cake|chair|cup|dining table|fork|person|pizza
+43,F054,F010,clock,fork,tie,traffic light,19,book|bottle|cake|cat|chair|clock|couch|cup|dining table|fork|handbag|person|tv|vase
+43,F055,F062,dog,handbag,laptop,wine glass,50,bench|dog|handbag|person|sheep
+43,F056,F037,vase,potted plant,person,book,31,apple|banana|bowl|chair|couch|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|vase
+43,F057,F021,cell phone,dining table,keyboard,tv,23,bowl|cell phone|chair|cup|dining table|knife|laptop|person|potted plant|spoon
+43,F058,F055,refrigerator,bottle,dog,handbag,43,bottle|cup|knife|microwave|oven|refrigerator|sink
+43,F059,F004,handbag,stop sign,teddy bear,microwave,44,backpack|bicycle|car|handbag|person|stop sign|traffic light|umbrella
+43,F060,F050,spoon,cake,cell phone,vase,43,cake|cup|dining table|person|spoon
+43,F061,F058,vase,person,refrigerator,bottle,41,chair|couch|person|potted plant|remote|vase
+43,F062,F044,laptop,wine glass,bench,clock,47,chair|laptop|person|wine glass
+43,F063,F035,knife,person,bus,backpack,22,bottle|bowl|cake|cup|dining table|fork|knife|person|potted plant|tv|wine glass
+43,F064,F045,potted plant,couch,backpack,truck,32,book|chair|couch|cup|person|potted plant|remote|tv|vase
+44,F001,F008,book,bowl,chair,backpack,30,book|bottle|bowl|carrot|clock|cup|dining table|knife|oven|person|sandwich
+44,F002,F042,bowl,banana,sink,potted plant,48,banana|bottle|bowl|oven|person
+44,F003,F011,dining table,refrigerator,motorcycle,person,33,apple|bed|book|bottle|bowl|cell phone|chair|couch|dining table|microwave|oven|potted plant|refrigerator|sink|tv
+44,F004,F063,teddy bear,microwave,knife,person,42,bottle|bowl|clock|microwave|oven|potted plant|refrigerator|sink|teddy bear
+44,F005,F033,couch,cup,clock,car,26,bottle|bowl|chair|couch|cup|laptop|person|potted plant|refrigerator|vase
+44,F006,F028,laptop,clock,stop sign,person,35,banana|book|bowl|chair|clock|couch|dining table|laptop|remote|tv
+44,F007,F034,dining table,knife,chair,suitcase,39,bottle|cake|dining table|fork|knife|person|spoon
+44,F008,F058,chair,backpack,refrigerator,bottle,47,backpack|bench|chair|elephant|person
+44,F009,F048,potted plant,teddy bear,umbrella,cup,45,dog|person|potted plant|teddy bear|tv
+44,F010,F022,tie,traffic light,toilet,bottle,36,backpack|bench|bicycle|car|chair|dining table|laptop|person|tie|traffic light|train|truck
+44,F011,F044,motorcycle,person,bench,clock,51,bicycle|bus|car|motorcycle|person
+44,F012,F003,bus,car,dining table,refrigerator,47,bus|car|clock|person|traffic light
+44,F013,F055,fork,hot dog,dog,handbag,48,dining table|fork|hot dog|knife|sandwich|spoon|wine glass
+44,F014,F053,sports ball,laptop,pizza,cake,23,backpack|book|bottle|chair|cup|handbag|keyboard|laptop|mouse|person|potted plant|sports ball|tennis racket|tv|vase
+44,F015,F016,cup,dining table,fork,knife,23,book|bottle|cake|chair|couch|cup|dining table|microwave|person|potted plant|refrigerator|remote|sink|vase|wine glass
+44,F016,F021,fork,knife,keyboard,tv,34,bowl|cake|carrot|cup|dining table|fork|knife|person|pizza
+44,F017,F056,remote,person,vase,potted plant,34,bed|book|bottle|chair|cup|keyboard|laptop|person|remote
+44,F018,F014,tv,bed,sports ball,laptop,50,bed|cat|dog|person|sink|tv
+44,F019,F045,chair,dog,backpack,truck,40,bed|book|chair|dining table|dog|laptop|person
+44,F020,F019,cell phone,cup,chair,dog,31,book|bottle|bowl|cat|cell phone|couch|cup|laptop|person|potted plant
+44,F021,F004,keyboard,tv,teddy bear,microwave,36,chair|clock|couch|keyboard|laptop|mouse|person|remote|tv
+44,F022,F061,toilet,bottle,vase,person,54,bottle|bowl|sink|toilet
+44,F023,F018,orange,knife,tv,bed,30,apple|banana|bowl|chair|cup|dining table|fork|knife|orange|person|sandwich
+44,F024,F051,bowl,wine glass,cup,remote,29,book|bowl|cell phone|chair|dining table|fork|knife|laptop|mouse|person|pizza|sandwich|wine glass
+44,F025,F064,motorcycle,umbrella,potted plant,couch,39,apple|backpack|banana|bicycle|car|chair|dog|handbag|motorcycle|person|umbrella
+44,F026,F036,cup,pizza,car,bench,40,bowl|cup|dining table|person|pizza
+44,F027,F023,bowl,tv,orange,knife,25,apple|book|bowl|cell phone|chair|couch|cup|dining table|person|potted plant|remote|tv|vase
+44,F028,F041,stop sign,person,cup,knife,48,backpack|bicycle|car|horse|person|stop sign|traffic light
+44,F029,F050,microwave,remote,cell phone,vase,23,banana|bottle|bowl|chair|cup|dining table|microwave|oven|person|pizza|potted plant|remote|sink|spoon|wine glass
+44,F030,F038,sports ball,baseball bat,clock,dining table,52,baseball bat|baseball glove|person|sports ball
+44,F031,F026,bottle,couch,cup,pizza,33,backpack|book|bottle|chair|couch|laptop|person|potted plant|remote|wine glass
+44,F032,F040,apple,refrigerator,chair,baseball bat,38,apple|banana|bottle|bowl|carrot|cup|knife|microwave|orange|oven|refrigerator|sink|spoon
+44,F033,F043,clock,car,person,toilet,57,bench|bird|car|clock
+44,F034,F010,chair,suitcase,tie,traffic light,50,bed|chair|couch|remote|suitcase|tv
+44,F035,F062,bus,backpack,laptop,wine glass,45,backpack|bicycle|bus|car|handbag|person|stop sign|truck|umbrella
+44,F036,F015,car,bench,cup,dining table,49,bench|bird|car|handbag|horse|person
+44,F037,F012,person,book,bus,car,41,bed|book|bottle|cake|cup|person
+44,F038,F029,clock,dining table,microwave,remote,30,bottle|cell phone|chair|clock|dining table|laptop|person|potted plant|vase
+44,F039,F032,baseball bat,baseball glove,apple,refrigerator,51,baseball bat|baseball glove|person|umbrella
+44,F040,F007,chair,baseball bat,dining table,knife,41,baseball bat|bench|book|bus|car|chair|person|tie|truck
+44,F041,F049,cup,knife,chair,bottle,33,apple|bowl|cake|cup|fork|knife|orange|person|spoon|tie|vase
+44,F042,F017,sink,potted plant,remote,person,32,banana|bottle|bowl|chair|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|surfboard
+44,F043,F039,person,toilet,baseball bat,baseball glove,44,backpack|bed|bottle|laptop|person|sink|toilet
+44,F044,F057,bench,clock,cell phone,dining table,47,bench|clock|handbag|person|train
+44,F045,F006,backpack,truck,laptop,clock,48,backpack|bicycle|bus|handbag|orange|person|truck
+44,F046,F001,handbag,potted plant,book,bowl,25,bottle|car|chair|cup|dining table|fire hydrant|handbag|motorcycle|person|potted plant|stop sign|vase
+44,F047,F060,knife,sandwich,spoon,cake,32,bottle|bowl|cup|dining table|donut|fork|knife|person|sandwich
+44,F048,F027,umbrella,cup,bowl,tv,28,bottle|chair|cup|dining table|handbag|person|teddy bear|traffic light|umbrella|vase
+44,F049,F047,chair,bottle,knife,sandwich,24,book|bottle|bowl|cell phone|chair|clock|cup|dining table|keyboard|mouse|person|remote|spoon|tv
+44,F050,F009,cell phone,vase,potted plant,teddy bear,21,backpack|bottle|cell phone|chair|clock|cup|dining table|fork|handbag|knife|person|sandwich|spoon|vase
+44,F051,F013,cup,remote,fork,hot dog,33,bicycle|cat|cell phone|chair|couch|cup|laptop|mouse|potted plant|refrigerator|remote|tv
+44,F052,F046,person,sandwich,handbag,potted plant,45,bottle|car|hot dog|oven|person|sandwich|spoon|traffic light
+44,F053,F024,pizza,cake,bowl,wine glass,35,cake|chair|cup|dining table|fork|person|pizza
+44,F054,F030,clock,fork,sports ball,baseball bat,19,book|bottle|cake|cat|chair|clock|couch|cup|dining table|fork|handbag|person|tv|vase
+44,F055,F031,dog,handbag,bottle,couch,50,bench|dog|handbag|person|sheep
+44,F056,F052,vase,potted plant,person,sandwich,31,apple|banana|bowl|chair|couch|cup|dining table|microwave|orange|oven|potted plant|refrigerator|sink|vase
+44,F057,F025,cell phone,dining table,motorcycle,umbrella,23,bowl|cell phone|chair|cup|dining table|knife|laptop|person|potted plant|spoon
+44,F058,F037,refrigerator,bottle,person,book,43,bottle|cup|knife|microwave|oven|refrigerator|sink
+44,F059,F020,handbag,stop sign,cell phone,cup,44,backpack|bicycle|car|handbag|person|stop sign|traffic light|umbrella
+44,F060,F035,spoon,cake,bus,backpack,43,cake|cup|dining table|person|spoon
+44,F061,F002,vase,person,bowl,banana,41,chair|couch|person|potted plant|remote|vase
+44,F062,F005,laptop,wine glass,couch,cup,47,chair|laptop|person|wine glass
+44,F063,F059,knife,person,handbag,stop sign,22,bottle|bowl|cake|cup|dining table|fork|knife|person|potted plant|tv|wine glass
+44,F064,F054,potted plant,couch,clock,fork,32,book|chair|couch|cup|person|potted plant|remote|tv|vase
