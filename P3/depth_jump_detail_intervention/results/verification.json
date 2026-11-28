@@ -1,0 +1,7 @@
+{
+  "independent_scene_values": 800,
+  "max_scene_error_mm": 1.0027834576931127e-05,
+  "independently_checked_L_scales": 200,
+  "bootstrap_checks": 24,
+  "max_paired_stats_error_mm": 1.3691156937056803e-06
+}

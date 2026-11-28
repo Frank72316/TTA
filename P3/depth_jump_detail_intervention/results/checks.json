@@ -1,0 +1,19 @@
+{
+  "scenes": 50,
+  "scene_scale_rows": 100,
+  "edges": 243818,
+  "groups": 495,
+  "all_native_input_hashes_verified": true,
+  "total_outer_changed": 0,
+  "max_H_direct_vs_cov_m2": 6.106226635438361e-16,
+  "max_L_direct_vs_cov_m2": 1.1136924715771102e-15,
+  "max_delta_identity_m2": 9.71445146547012e-16,
+  "max_moment_residual_m2": 8.881784197001252e-16,
+  "evaluated_ordered_pairs_all_scales_conditions": 1013585592,
+  "historical_B_reused": 50,
+  "historical_H_windows_reused": 200,
+  "new_L_forwards": 200,
+  "resumed_L_hits": 0,
+  "gpu_batches": 50,
+  "CPU_analysis_s": 6.670781461521983
+}

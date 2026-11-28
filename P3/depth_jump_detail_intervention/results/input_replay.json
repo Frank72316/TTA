@@ -1,0 +1,7 @@
+{
+  "windows": 200,
+  "matched_native_tensors": 200,
+  "matched_low_tensors": 200,
+  "cpu_threads": 2,
+  "additional_visual_forwards": 0
+}
